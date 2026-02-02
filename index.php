@@ -718,7 +718,7 @@
                                         </div>
                                         <div class="p-35px border-start border-color-extra-medium-gray d-flex justify-content-center md-p-30px xs-p-25px">
                                             <div>
-                                                <p class="mb-15px w-95 xl-w-100">A reliable NGO making a real difference, Paarvedan Foundation connects compassion with action to support education, healthcare, and community development.</p>
+                                                <p class="mb-15px w-95 xl-w-100">A reliable NGO making a real difference, Paarvedan Foundation connects compassion with action to support education, healthcare, and community development.git push origin main --force</p>
                                                 <div class="bg-golden-yellow text-white d-inline-block fs-13 lh-32 border-radius-100px ps-15px pe-15px">
                                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                                 </div>
