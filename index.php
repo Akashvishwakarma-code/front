@@ -571,7 +571,7 @@
                                         </div>
                                         <div class="p-35px border-start border-color-extra-medium-gray d-flex justify-content-center md-p-30px xs-p-25px">
                                             <div>
-                                                <p class="mb-15px w-95 xl-w-100">Analytics has excellent up-time and remains fast and responsive, even with 2 million records in the database.</p>
+                                                <p class="mb-15px w-95 xl-w-100">Paarvedan Foundation truly changes lives through education, healthcare, and empowerment. A genuine NGO creating real impact with compassion, transparency, and dedication to humanity.</p>
                                                 <div class="bg-golden-yellow text-white d-inline-block fs-13 lh-32 border-radius-100px ps-15px pe-15px">
                                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                                 </div>
@@ -592,7 +592,7 @@
                                         </div>
                                         <div class="p-35px border-start border-color-extra-medium-gray d-flex justify-content-center md-p-30px xs-p-25px">
                                             <div>
-                                                <p class="mb-15px w-95 xl-w-100">We implemented all our dashboards using this smart and amazing software. Analytics has changed my business!</p>
+                                                <p class="mb-15px w-95 xl-w-100">An inspiring NGO dedicated to social upliftment, Paarvedan Foundation consistently delivers meaningful change through education, healthcare, and community empowerment initiatives.</p>
                                                 <div class="bg-golden-yellow text-white d-inline-block fs-13 lh-32 border-radius-100px ps-15px pe-15px">
                                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                                 </div>
@@ -608,12 +608,12 @@
                                     <div class="border border-color-extra-medium-gray border-radius-4px d-flex">
                                         <div class="p-15px">
                                             <div class="vertical-title-center align-items-center">
-                                                <div class="title fs-15 text-dark-gray fw-700 text-uppercase ls-1px">Sujal Yadav</div>
+                                                <div class="title fs-15 text-dark-gray fw-700 text-uppercase ls-1px">Sujal Chaurasiya</div>
                                             </div>
                                         </div>
                                         <div class="p-35px border-start border-color-extra-medium-gray d-flex justify-content-center md-p-30px xs-p-25px">
                                             <div>
-                                                <p class="mb-15px w-95 xl-w-100">I chose this because of the interface and the robust features to handle our volumes of data quickly and efficiently.</p>
+                                                <p class="mb-15px w-95 xl-w-100">Paarvedan Foundation is a platform where compassion turns into action. A trustworthy NGO making measurable impact while empowering communities and inspiring volunteers.</p>
                                                 <div class="bg-golden-yellow text-white d-inline-block fs-13 lh-32 border-radius-100px ps-15px pe-15px">
                                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                                 </div>
@@ -634,7 +634,7 @@
                                         </div>
                                         <div class="p-35px border-start border-color-extra-medium-gray d-flex justify-content-center md-p-30px xs-p-25px">
                                             <div>
-                                                <p class="mb-15px w-95 xl-w-100">this analytics offers a free web-based reporting solution that usually only big-budget sites can afford.</p>
+                                                <p class="mb-15px w-95 xl-w-100">A transparent and impactful NGO, Paarvedan Foundation transforms donations into real hope through education, healthcare, and sustainable community development.</p>
                                                 <div class="bg-golden-yellow text-white d-inline-block fs-13 lh-32 border-radius-100px ps-15px pe-15px">
                                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                                 </div>
@@ -655,7 +655,7 @@
                                         </div>
                                         <div class="p-35px border-start border-color-extra-medium-gray d-flex justify-content-center md-p-30px xs-p-25px">
                                             <div>
-                                                <p class="mb-15px w-95 xl-w-100">this analytics makes it a lot easier to have access to data tables, create pivot charts and reports.</p>
+                                                <p class="mb-15px w-95 xl-w-100">Paarvedan Foundation stands for kindness in action, uplifting lives through education, healthcare, and empowerment while building stronger, more hopeful communities.</p>
                                                 <div class="bg-golden-yellow text-white d-inline-block fs-13 lh-32 border-radius-100px ps-15px pe-15px">
                                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                                 </div>
@@ -676,7 +676,7 @@
                                         </div>
                                         <div class="p-35px border-start border-color-extra-medium-gray d-flex justify-content-center md-p-30px xs-p-25px">
                                             <div>
-                                                <p class="mb-15px w-95 xl-w-100">Impressive attention to detail in their data analysis. The service is reliable and delivers exceptional results.</p>
+                                                <p class="mb-15px w-95 xl-w-100">With a clear mission and visible impact, Paarvedan Foundation works tirelessly to create sustainable change for underprivileged communities across India.</p>
                                                 <div class="bg-golden-yellow text-white d-inline-block fs-13 lh-32 border-radius-100px ps-15px pe-15px">
                                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                                 </div>
@@ -697,7 +697,7 @@
                                         </div>
                                         <div class="p-35px border-start border-color-extra-medium-gray d-flex justify-content-center md-p-30px xs-p-25px">
                                             <div>
-                                                <p class="mb-15px w-95 xl-w-100">We implemented all our dashboards using this smart and amazing software. Analytics has changed my business!</p>
+                                                <p class="mb-15px w-95 xl-w-100">Paarvedan Foundation inspires people to serve society meaningfully, transforming lives through well-planned initiatives in education, health, and social empowerment.</p>
                                                 <div class="bg-golden-yellow text-white d-inline-block fs-13 lh-32 border-radius-100px ps-15px pe-15px">
                                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                                 </div>
@@ -718,7 +718,7 @@
                                         </div>
                                         <div class="p-35px border-start border-color-extra-medium-gray d-flex justify-content-center md-p-30px xs-p-25px">
                                             <div>
-                                                <p class="mb-15px w-95 xl-w-100">I chose this because of the interface and the robust features to handle our volumes of data quickly and efficiently.</p>
+                                                <p class="mb-15px w-95 xl-w-100">A reliable NGO making a real difference, Paarvedan Foundation connects compassion with action to support education, healthcare, and community development.</p>
                                                 <div class="bg-golden-yellow text-white d-inline-block fs-13 lh-32 border-radius-100px ps-15px pe-15px">
                                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                                                 </div>
