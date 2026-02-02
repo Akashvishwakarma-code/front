@@ -1,0 +1,101 @@
+.hero-text {
+  background-color: rgba(255, 255, 255, 0.973);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.8);
+}
+
+.hero-subtext {
+  color: black;
+  font: bold;
+}
+.hero-subtexttwo {
+  color: rgb(36, 36, 36);
+  font: bold;
+}
+
+/*privacy policy page*/
+
+.policy-section:not(:last-child) {
+  border-bottom: 1px solid #dee2e6;
+  margin-top: rem;
+  padding: 2rem;
+}
+
+.toc-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.toc-link:hover {
+  color: #0d6efd;
+}
+/* ---------- General Styling ---------- */
+body {
+  background-color: #f8fafc;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+/* ---------- Container / Box ---------- */
+.container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.policy-box {
+  background: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 2rem 2.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.policy-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* ---------- Headings ---------- */
+.policy-box h1 {
+  font-weight: 700;
+  color: #0d6efd;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* ---------- Paragraphs ---------- */
+.policy-box p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+/* ---------- CTA Button ---------- */
+.policy-box .btn {
+  display: inline-block;
+  background: #0d6efd;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 28px;
+  font-weight: 500;
+  text-decoration: none;
+  box-shadow: 0 3px 10px rgba(13, 110, 253, 0.3);
+  transition: all 0.3s ease;
+}
+
+.policy-box .btn:hover {
+  background: #0b5ed7;
+  box-shadow: 0 6px 15px rgba(13, 110, 253, 0.45);
+  transform: translateY(-2px);
+  color: #fff;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .policy-box {
+    padding: 1.5rem;
+  }
+}
+/*subscribe newsletter*/

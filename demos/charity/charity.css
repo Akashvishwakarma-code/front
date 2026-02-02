@@ -1,0 +1,339 @@
+/* ===================================
+    Crafto - Charity
+====================================== */
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap');
+/* variable */
+:root {     
+    --base-color: #F1C40F;
+    --alt-color: #3498db;
+    --dark-gray: #384744; 
+    --medium-gray: #7c7a75;
+    --alt-font: 'Otomanopee One', sans-serif;
+    --primary-font: 'DM Sans', sans-serif;
+} 
+/* reset */
+body {
+    font-size: 17px;
+    line-height: 28px; 
+    overflow-x: hidden;
+}
+p {
+	margin-bottom: 15px;
+}
+.alt-font{ 
+    word-spacing: -5px;
+}
+.map .alt-font {
+    word-spacing: normal;
+}
+.ws-minus-10px{
+    word-spacing: -10px;
+}
+.ws-minus-3px{
+    word-spacing: -3px;
+}
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+html, body {
+    overflow-x: hidden;
+}
+.h-700 {
+    height: 650px !important;
+}
+/* header */
+header .navbar-brand img {
+    max-height: 60px;
+}
+.navbar .navbar-nav .nav-link {
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+    padding: 10px 15px;
+}
+header .navbar-brand {
+    padding: 10px 0;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* bg color */
+.bg-gradient-paarvedan {
+    background-image: linear-gradient(135deg, #8E44AD, #3498DB);
+}
+.bg-primary-paarvedan {
+    background-color: #8E44AD;
+}
+.bg-primary-paarvedan-alt {
+    background-color: #3498DB;
+}
+.bg-button-alt-paarvedan {
+    color: #333;
+    background-color: #F1C40F;
+}
+.bg-button-alt-paarvedan:hover {
+    color: #fff;
+    background-color: #8E44AD;
+}
+.bg-button-paarvedan {
+    color: #fff;
+    background-color: #8E44AD;
+}
+.bg-button-paarvedan:hover {
+    color: #333;
+    background-color: #F1C40F;
+}
+.bg-alternative-paarvedan {
+    background-color: #F1C40F;
+}
+.primary-paarvedan {
+    color: #8E44AD;
+}
+.alternative-paarvedan {
+    color: #F1C40F;
+}
+.color-paarvedan {
+    color: #333333;
+}
+.bg-zircon-grey {
+    background-color: #D7E2E0;
+}
+.bg-racing-green {
+    background-color: #242E2C;
+}
+.bg-white-yellow {
+    background-color: #f9f4e8;
+}
+.bg-white-transparent {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+/* text color */
+.text-gradient-paarvedan {
+    background-image: linear-gradient(135deg, #8E44AD, #3498DB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-light-conch-green {
+    color: #A7B3B1;
+}
+.text-dark-golden-yellow {
+    color: #B6840D;
+}
+/* heading */
+h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 25px;
+}
+h3 {
+    line-height: 3rem;
+}
+/* border color */
+.border-color-dark-golden-yellow {
+    border-color: #8E44AD !important;
+}
+/* btn */
+.btn {
+    font-family: var(--primary-font);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.btn.with-rounded > span {
+    border-radius: 4px;
+}
+.btn.with-rounded.btn-large > span {
+    line-height: 32px;
+}
+.btn.with-rounded.btn-large > span {
+    right: 12px;
+}
+.btn.with-rounded.btn-extra-large > span {
+    right: 14px;
+}
+.btn.with-rounded.btn-medium > span {
+    right: 10px;
+}
+.btn.btn-very-small {
+    padding: 8px 16px;
+    font-size: 12px;
+}
+.btn.with-rounded.btn-extra-large {
+    padding-right: 75px;
+}
+.btn.with-rounded.btn-large {
+    padding-right: 60px;
+}
+.btn.with-rounded.btn-medium {
+    padding-right: 55px;
+}
+.btn.with-rounded.btn-small {
+    padding-right: 50px;
+}
+.btn.with-rounded.btn-very-small {
+    padding-right: 40px;
+}
+.btn-gradient-green-goldenrod-yellow {
+    background-image: linear-gradient(to right, #2C3B31, #B5840D, #2C3B31);
+    background-size: 200% auto;
+    color: var(--white);
+}
+.btn.btn-base-color {
+    color: var(--dark-gray);
+}
+.bg-alt-color {
+    background-color: var(--alt-color);
+}
+.btn.btn-box-shadow.btn-base-color:hover {
+    color: var(--dark-gray);
+}
+/* progress bar style */
+.progress-bar-style-01 .progress {
+    height: 7px;
+    border-radius: 6px;
+}
+.progress-bar-style-01 .progress .progress-bar {
+    border-radius: 6px;
+}
+/* pag title style */
+.page-title-extra-large h1 {
+    font-size: 3.8rem;
+    line-height: 3.8rem;
+    word-spacing: -8px;
+}
+.page-title-extra-large h2 {
+    font-size: 19px;
+    line-height: 34px;
+}
+.pagination-style-01 .page-item.active .page-link {
+    background: var(--dark-gray);
+    color: var(--white);
+}
+.placeholder-light::-webkit-input-placeholder { color: var(--white) !important; text-overflow: ellipsis; opacity:0.7; }
+.placeholder-light::-moz-placeholder { color: var(--white) !important; text-overflow: ellipsis; opacity:0.7; }
+.placeholder-light:-ms-input-placeholder { color: var(--white) !important; text-overflow: ellipsis; opacity:0.7; }
+/* contact form style 03 */
+.contact-form-style-03 {
+    margin-bottom: -125px;
+}
+/* interactive banner */
+.interactive-banner-style-02.hover-box * {
+    will-change: auto;
+}
+/* footer */
+footer {
+    padding-top: 90px;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+footer .footer-logo img {
+    max-height: 60px;
+}
+footer .nav-link {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: normal;
+}
+footer .medium-icon a {
+    font-size: 18px;
+}
+footer .medium-icon li {
+    margin: 0 3px;
+} 
+/* google map */
+#map .gmnoprint[data-control-width="40"] {  
+    bottom: 30px !important;
+    top: auto !important;
+}
+.social-icon-style-09 ul.light li a {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+/* media query responsive */
+@media (max-width: 1600px) {
+    section {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+}
+@media (max-width: 1199px) {
+    .navbar .navbar-nav .nav-link {
+        padding: 10px 16px;
+    }
+    footer .nav-link {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+@media (max-width: 991px) {
+    section {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .contact-form-style-03 {
+        margin-bottom: 75px;
+    }
+    .md-h-500 {
+        height: 500px !important;
+    }
+}
+@media (max-width: 767px) {
+    section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    footer {
+        padding-top: 90px;
+    }
+    .contact-form-style-03 {
+        margin-bottom: 50px;
+    }
+    .sm-h-400 {
+        height: 400px !important;
+    }
+}
+@media (max-width: 575px) {
+    section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    footer {
+        padding-top: 110px;
+    }
+    .large-icon a {
+        font-size: 22px;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.sdg-1 { background-color: #E5243B; }    /* No Poverty - Red */
+.sdg-2 { background-color: #DDA63A; }    /* Zero Hunger - Mustard Yellow */
+.sdg-3 { background-color: #4C9F38; }    /* Good Health - Green */
+.sdg-4 { background-color: #C5192D; }    /* Quality Education - Dark Red */
+.sdg-5 { background-color: #FF3A21; }    /* Gender Equality - Bright Red */
+.sdg-6 { background-color: #26BDE2; }    /* Clean Water - Blue */
+.sdg-7 { background-color: #FCC30B; }    /* Clean Energy - Yellow */
+.sdg-8 { background-color: #A21942; }    /* Decent Work - Dark Pink */
+.sdg-9 { background-color: #FD6925; }    /* Industry & Infrastructure - Orange */
+.sdg-10 { background-color: #DD1367; }   /* Reduced Inequality - Pink */
+.sdg-11 { background-color: #FD9D24; }   /* Sustainable Cities - Orange-Yellow */
+.sdg-12 { background-color: #BF8B2E; }   /* Responsible Consumption - Brownish */
+.sdg-13 { background-color: #3F7E44; }   /* Climate Action - Dark Green */
+.sdg-14 { background-color: #0A97D9; }   /* Life Below Water - Blue */
+.sdg-15 { background-color: #56C02B; }   /* Life on Land - Light Green */
+.sdg-16 { background-color: #00689D; }   /* Peace, Justice - Dark Blue */
+.sdg-17 { background-color: #19486A; }   /* Partnerships for Goals - Darker Blue */
+
+.bg-purple { background-color: #7E3FB0; }   /* Purple - Top Left Hand */
+.bg-green  { background-color: #3DA536; }   /* Green - Top Hand */
+.bg-yellow { background-color: #F7C931; }   /* Yellow - Right Hand */
+.bg-blue   { background-color: #2C8BCC; }   /* Blue - Bottom Right Hand */
+.bg-red    { background-color: #E93C2E; }   /* Red - Bottom Left Hand */
+.bg-pink   { background-color: #E654A6; }   /* Pink - Left Hand */
