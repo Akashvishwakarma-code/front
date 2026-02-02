@@ -83,7 +83,7 @@
                     <div class="bg-base-color fw-600 text-dark text-uppercase ps-20px pe-20px fs-12 border-radius-100px d-inline-block mb-15px">Surveys and Reports</div>
                     <h4 class="alt-font text-dark-gray fw-600 ls-minus-1px">Illuminating Impact:</h4>
                     <p class="w-100"> At Paarvedan Foundation, transparency and accountability are integral to our commitment to positive social change. Our comprehensive surveys and insightful reports serve as a beacon, providing valuable insights into the impact of our NGO collaborations. These tools not only illuminate the path forward but also strengthen our collective ability to make a lasting difference.</p>
-                    <a href="#" class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white">Donate Now<span class="bg-white"><i class="fa-solid fa-arrow-right color-paarvedan"></i></span></a>
+                    <a href="donate.php" class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white">Donate Now<span class="bg-white"><i class="fa-solid fa-arrow-right color-paarvedan"></i></span></a>
                 </div>
             </div>
         </div>

@@ -83,7 +83,7 @@
                     <div class="bg-base-color fw-600 text-dark text-uppercase ps-20px pe-20px fs-12 border-radius-100px d-inline-block mb-15px">Government CSR</div>
                     <h4 class="alt-font text-dark-gray fw-600 ls-minus-1px">Paarvedan Foundation and Government CSR</h4>
                     <p class="w-100 mb-40px sm-mb-20px">The Paarvedan Foundation, driven by its commitment to social responsibility and sustainable development, recognizes the importance of collaboration with government initiatives in Corporate Social Responsibility (CSR). This partnership aims to leverage collective resources and expertise to address societal challenges and contribute to the overall well-being of communities.</p>
-                    <a href="#" class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white">Donate Now<span class="bg-white"><i class="fa-solid fa-arrow-right color-paarvedan"></i></span></a>
+                    <a href="donate.php" class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white">Donate Now<span class="bg-white"><i class="fa-solid fa-arrow-right color-paarvedan"></i></span></a>
                 </div>
             </div>
         </div>

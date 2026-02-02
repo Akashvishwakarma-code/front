@@ -85,7 +85,7 @@
                     <p class="w-100">Paarvedan Foundation extends a heartfelt invitation to high-net-worth individuals who are champions of philanthropy and catalysts for positive societal transformation. Join us on a journey where your influence and resources can create a lasting impact on the lives of those in need and contribute to building a better world.</p>
                     <p class="alt-font fs-22"><b>Our Vision</b></p>
                     <p class="w-100">Paarvedan Foundation envisions a world where every individual has the opportunity to thrive. As a distinguished high-net-worth individual, your support can play a pivotal role in turning this vision into reality. Together, we can create a legacy of empowerment, compassion, and sustainable progress.</p>
-                    <a href="#" class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white">Donate Now<span class="bg-white"><i class="fa-solid fa-arrow-right color-paarvedan"></i></span></a>
+                    <a href="donate.php" class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white">Donate Now<span class="bg-white"><i class="fa-solid fa-arrow-right color-paarvedan"></i></span></a>
                 </div>
             </div>
         </div>
