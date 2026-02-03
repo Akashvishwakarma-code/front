@@ -107,8 +107,7 @@
                                 </ul>
                                 <a href="#" class="btn btn-link btn-hover-animation-switch btn-large fw-700 text-alt-color d-table d-lg-inline-block xl-mb-15px md-mx-auto">
                                     <span>
-                                        <span class="btn-text">Apply Now</span>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                        <a href="#form" class="btn-text">Apply Now<a>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </span>
                                 </a>
@@ -125,9 +124,8 @@
                                     <li>Invitations to volunteer opportunities</li>
                                 </ul>
                                 <a href="#" class="btn btn-link btn-hover-animation-switch btn-large fw-700 text-alt-color d-table d-lg-inline-block xl-mb-15px md-mx-auto">
-                                    <span>
-                                        <span class="btn-text">Apply Now</span>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                     <span>
+                                        <a href="#form" class="btn-text">Apply Now<a>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </span>
                                 </a>
@@ -145,9 +143,8 @@
                                     <li>Quarterly newsletter subscription</li>
                                 </ul>
                                 <a href="#" class="btn btn-link btn-hover-animation-switch btn-large fw-700 text-alt-color d-table d-lg-inline-block xl-mb-15px md-mx-auto">
-                                    <span>
-                                        <span class="btn-text">Apply Now</span>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                     <span>
+                                        <a href="#form" class="btn-text">Apply Now<a>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </span>
                                 </a>
@@ -165,9 +162,8 @@
                                     <li>Recognition on our website</li>
                                 </ul>
                                 <a href="#" class="btn btn-link btn-hover-animation-switch btn-large fw-700 text-alt-color d-table d-lg-inline-block xl-mb-15px md-mx-auto">
-                                    <span>
-                                        <span class="btn-text">Apply Now</span>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                     <span>
+                                        <a href="#form" class="btn-text">Apply Now<a>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </span>
                                 </a>
@@ -185,9 +181,8 @@
                                     <li>Priority registration for events</li>
                                 </ul>
                                 <a href="#" class="btn btn-link btn-hover-animation-switch btn-large fw-700 text-alt-color d-table d-lg-inline-block xl-mb-15px md-mx-auto">
-                                    <span>
-                                        <span class="btn-text">Apply Now</span>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                     <span>
+                                        <a href="#form" class="btn-text">Apply Now<a>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </span>
                                 </a>
@@ -206,9 +201,8 @@
                                     <li>Invitations to family-friendly events</li>
                                 </ul>
                                 <a href="#" class="btn btn-link btn-hover-animation-switch btn-large fw-700 text-alt-color d-table d-lg-inline-block xl-mb-15px md-mx-auto">
-                                    <span>
-                                        <span class="btn-text">Apply Now</span>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                     <span>
+                                        <a href="#form" class="btn-text">Apply Now<a>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </span>
                                 </a>
@@ -227,8 +221,7 @@
                                 </ul>
                                 <a href="#" class="btn btn-link btn-hover-animation-switch btn-large fw-700 text-alt-color d-table d-lg-inline-block xl-mb-15px md-mx-auto">
                                     <span>
-                                        <span class="btn-text">Apply Now</span>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                        <a href="#form" class="btn-text">Apply Now<a>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </span>
                                 </a>
@@ -247,8 +240,7 @@
                                 </ul>
                                 <a href="#" class="btn btn-link btn-hover-animation-switch btn-large fw-700 text-alt-color d-table d-lg-inline-block xl-mb-15px md-mx-auto">
                                     <span>
-                                        <span class="btn-text">Apply Now</span>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                        <a href="#form" class="btn-text">Apply Now<a>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </span>
                                 </a>
@@ -267,8 +259,7 @@
                                 </ul>
                                 <a href="#" class="btn btn-link btn-hover-animation-switch btn-large fw-700 text-alt-color d-table d-lg-inline-block xl-mb-15px md-mx-auto">
                                     <span>
-                                        <span class="btn-text">Apply Now</span>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                        <a href="#form" class="btn-text">Apply Now<a>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </span>
                                 </a>
@@ -293,7 +284,7 @@
                         <form id="myForm" enctype="multipart/form-data">
 
                             <!-- Section: Personal Information -->
-                            <div class="col-12">
+                            <div class="col-12" id ="form">
                                 <p class="fw-bold text-dark m-0">Personal Information:</p>
                                 <hr class="w-25 border-top border-danger border-4 m-0 mb-3 rounded">
                             </div>

@@ -119,15 +119,15 @@
                             
                             <h1 class="mb-4">Donation Refund Policy</h1>
                             
-                            <p>Thank you for choosing to support Paarvedan and contributing to our charitable initiatives. We strive to ensure that your donation experience is smooth and transparent. Refunds for donations made through our website are available under the following conditions [cite: 1.1]:</p>
+                            <p>Thank you for choosing to support Paarvedan and contributing to our charitable initiatives. We strive to ensure that your donation experience is smooth and transparent. Refunds for donations made through our website are available under the following conditions  :</p>
                             
                             <!-- Refund Conditions -->
                             <div id="policy-details" class="policy-section pt-3">
                                 <h2>Refund Conditions</h2>
                                 <ul>
-                                    <li>Refunds are applicable only **within 7 days** from the date of the donation [cite: 1.1].</li>
-                                    <li>Refunds are issued only for transactions that have **not been processed successfully** or if there has been an error in processing [cite: 1.1].</li>
-                                    <li>Refund requests must be made by contacting our support team at <a href="mailto:support@paarvedanfoundation.org">support@paarvedanfoundation.org</a> within the specified timeframe [cite: 1.1].</li>
+                                    <li>Refunds are applicable only **within 7 days** from the date of the donation  .</li>
+                                    <li>Refunds are issued only for transactions that have **not been processed successfully** or if there has been an error in processing  .</li>
+                                    <li>Refund requests must be made by contacting our support team at <a href="mailto:support@paarvedanfoundation.org">support@paarvedanfoundation.org</a> within the specified timeframe  .</li>
                                 </ul>
                             </div>
                             
@@ -135,29 +135,29 @@
                             <div id="processing" class="policy-section pt-3">
                                 <h2>Refund Processing</h2>
                                 <ul>
-                                    <li>Refunds will be processed using the **original method of payment**, i.e., through Razorpay [cite: 1.1].</li>
-                                    <li>Once the refund is initiated, it may take up to **7-10 business days** for the refund amount to reflect in your account [cite: 1.1].</li>
-                                    <li>Please note that at the time of refund, **payment gateway charges may be deducted** [cite: 1.1].</li>
-                                    <li>Any **processing fees or charges** incurred during the transaction will not be refunded [cite: 1.1].</li>
+                                    <li>Refunds will be processed using the **original method of payment**, i.e., through Razorpay  .</li>
+                                    <li>Once the refund is initiated, it may take up to **7-10 business days** for the refund amount to reflect in your account  .</li>
+                                    <li>Please note that at the time of refund, **payment gateway charges may be deducted**  .</li>
+                                    <li>Any **processing fees or charges** incurred during the transaction will not be refunded  .</li>
                                 </ul>
                                 <p class="alert alert-warning mt-4 p-3" style="background-color: #fff3cd; border-color: #ffeeba; color: #856404; border-radius: 5px;">
-                                    <strong>Important Note:</strong> This refund policy applies only to donations made through our website. For donations made through other channels, please refer to the respective refund policies of those platforms [cite: 1.1].
+                                    <strong>Important Note:</strong> This refund policy applies only to donations made through our website. For donations made through other channels, please refer to the respective refund policies of those platforms  .
                                 </p>
                             </div>
                             
                             <!-- Changes -->
                             <div id="changes" class="policy-section pt-3">
                                 <h2>Changes to this Policy</h2>
-                                <p>We reserve the right to modify or update this refund policy at any time without prior notice. Any changes to the policy will be effective immediately upon posting on this page. We encourage you to review this page periodically for any updates [cite: 1.1].</p>
+                                <p>We reserve the right to modify or update this refund policy at any time without prior notice. Any changes to the policy will be effective immediately upon posting on this page. We encourage you to review this page periodically for any updates  .</p>
                             </div>
 
                             <!-- Contact -->
                             <div id="contact" class="policy-section pt-3">
                                 <h2>Contact Information</h2>
-                                <p>If you have any questions or concerns regarding our refund policy or require further assistance, please feel free to contact us using the information provided below [cite: 1.1]:</p>
+                                <p>If you have any questions or concerns regarding our refund policy or require further assistance, please feel free to contact us using the information provided below  :</p>
                                 <div class="card bg-light mt-3 p-3">
                                     <p class="mb-1"><strong>Email:</strong> support@paarvedanfoundation.org</p>
-                                    <p class="mb-1"><strong>Phone:</strong> +91 92200 82211</p>
+                                    <p class="mb-1"><strong>Phone:</strong> +91 98209 82126</p>
                                     <p class="mb-0"><strong>Address:</strong> Gala No. 2, Plot 61 Behind Poddar Building No. 2 Dr. Meisheri Road, Novroji, Hill Road, near Sandhurst Road Railway Station, Mumbai, Maharashtra 400009</p>
                                 </div>
                             </div>
@@ -170,32 +170,7 @@
     </div>
     
     <!-- Subscribe Now Start (Copied from privacy-policy.php) -->
-    <section class="subscribe-section">
-        <div class="auto-container">
-            <div class="inner-box clearfix">
-                <div class="left-column pull-left my-auto">
-                    <div class="d-flex">
-                        <div class="">
-                            <img loading="lazy" src="assets/img/logo/PF-Logo-Half.svg" class="" width="75" alt="">
-                        </div>
-                        <h3 class="text-center pt-3">
-                            Subscribe Our Newsletter
-                        </h3>
-                    </div>
-                </div>
-                <div class="right-column pull-right clearfix">
-                    <div class="form-inner">
-                        <form method="post" class="subscribe-form">
-                            <div class="form-group">
-                                <input type="email" name="email" placeholder="Your Email Address..." required="">
-                                <button type="submit">Subscribe Us</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
     <!-- Subscribe Now End -->
  <?php include('footer.php') ;?>
     <!-- end footer -->

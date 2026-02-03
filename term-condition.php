@@ -152,73 +152,73 @@
                             <!-- Introduction & Acceptance of Terms -->
                             <div id="introduction" class="policy-section py-4">
                                 <h2>Introduction & Acceptance of Terms</h2>
-                                <p>Welcome to Paarvedan's! By accessing and using our website, you agree to comply with and be bound by these Terms and Conditions. If you do not agree with any part of these terms, please refrain from using our platform [cite: 1.1].</p>
+                                <p>Welcome to Paarvedan's! By accessing and using our website, you agree to comply with and be bound by these Terms and Conditions. If you do not agree with any part of these terms, please refrain from using our platform.</p>
                             </div>
 
                             <!-- Use of the Website -->
                             <div id="use" class="policy-section py-4">
                                 <h2>Use of the Website</h2>
-                                <p>You agree to use Paarvedan's for lawful and charitable purposes only [cite: 1.1]. You must not engage in any activities that may disrupt the functionality of the site or compromise the security of our users [cite: 1.1].</p>
+                                <p>You agree to use Paarvedan's for lawful and charitable purposes only . You must not engage in any activities that may disrupt the functionality of the site or compromise the security of our users .</p>
                             </div>
 
                             <!-- Donations and Contributions -->
                             <div id="donations" class="policy-section py-4">
                                 <h2>Donations and Contributions</h2>
-                                <p>When making a donation on Paarvedan's, you confirm that you are the rightful owner of the funds being contributed [cite: 1.1]. All donations are voluntary and non-refundable [cite: 1.1]. Paarvedan's reserves the right to refuse or refund any donation at its discretion [cite: 1.1].</p>
+                                <p>When making a donation on Paarvedan's, you confirm that you are the rightful owner of the funds being contributed  . All donations are voluntary and non-refundable. Paarvedan's reserves the right to refuse or refund any donation at its discretion.</p>
                             </div>
 
                             <!-- User Account and Registration -->
                             <div id="account" class="policy-section py-4">
                                 <h2>User Account and Registration</h2>
-                                <p>To access certain features of Paarvedan's, you may be required to create an account [cite: 1.1]. You are responsible for maintaining the confidentiality of your account information and agree to notify us of any unauthorized use [cite: 1.1].</p>
+                                <p>To access certain features of Paarvedan's, you may be required to create an account  . You are responsible for maintaining the confidentiality of your account information and agree to notify us of any unauthorized use .</p>
                             </div>
 
                             <!-- Content on the Platform -->
                             <div id="content" class="policy-section py-4">
                                 <h2>Content on the Platform</h2>
-                                <p>Users are encouraged to contribute content that aligns with the charitable nature of Paarvedan's [cite: 1.1]. Any inappropriate, offensive, or illegal content is strictly prohibited [cite: 1.1]. Paarvedan's reserves the right to remove such content without notice [cite: 1.1].</p>
+                                <p>Users are encouraged to contribute content that aligns with the charitable nature of Paarvedan's  . Any inappropriate, offensive, or illegal content is strictly prohibited  . Paarvedan's reserves the right to remove such content without notice  .</p>
                             </div>
 
                             <!-- Intellectual Property -->
                             <div id="ip" class="policy-section py-4">
                                 <h2>Intellectual Property</h2>
-                                <p>The content, logos, and trademarks on Paarvedan's are the property of Paarvedan's or its licensors [cite: 1.1]. You agree not to use, reproduce, or distribute any content from the platform without prior written consent [cite: 1.1].</p>
+                                <p>The content, logos, and trademarks on Paarvedan's are the property of Paarvedan's or its licensors  . You agree not to use, reproduce, or distribute any content from the platform without prior written consent  .</p>
                             </div>
 
                             <!-- Third-Party Links -->
                             <div id="thirdparty" class="policy-section py-4">
                                 <h2>Third-Party Links</h2>
-                                <p>Paarvedan's may contain links to third-party websites for additional information or resources [cite: 1.1]. We do not endorse or take responsibility for the content or practices of these external sites [cite: 1.1].</p>
+                                <p>Paarvedan's may contain links to third-party websites for additional information or resources  . We do not endorse or take responsibility for the content or practices of these external sites  .</p>
                             </div>
 
                             <!-- Changes to Terms and Conditions -->
                             <div id="changes" class="policy-section py-4">
                                 <h2>Changes to Terms and Conditions</h2>
-                                <p>Paarvedan's may update these Terms and Conditions from time to time [cite: 1.1]. It is your responsibility to review this page periodically for changes [cite: 1.1]. Continued use of the platform after modifications constitutes acceptance of the updated terms [cite: 1.1].</p>
+                                <p>Paarvedan's may update these Terms and Conditions from time to time  . It is your responsibility to review this page periodically for changes  . Continued use of the platform after modifications constitutes acceptance of the updated terms  .</p>
                             </div>
                             
                             <!-- Termination of Access -->
                             <div id="termination" class="policy-section py-4">
                                 <h2>Termination of Access</h2>
-                                <p>Paarvedan's reserves the right to terminate or suspend your access to the platform without notice for any violation of these Terms and Conditions or for any reason deemed necessary by Paarvedan's [cite: 1.1].</p>
+                                <p>Paarvedan's reserves the right to terminate or suspend your access to the platform without notice for any violation of these Terms and Conditions or for any reason deemed necessary by Paarvedan's  .</p>
                             </div>
 
                             <!-- Limitation of Liability -->
                             <div id="liability" class="policy-section py-4">
                                 <h2>Limitation of Liability</h2>
-                                <p>Paarvedan's and its affiliates shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from the use of or inability to use the platform [cite: 1.1].</p>
+                                <p>Paarvedan's and its affiliates shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from the use of or inability to use the platform  .</p>
                             </div>
                             
                             <!-- Governing Law -->
                             <div id="governing" class="policy-section py-4">
                                 <h2>Governing Law</h2>
-                                <p>These Terms and Conditions are governed by and construed in accordance with the laws of [Your Jurisdiction] [cite: 1.1]. Any disputes arising out of or related to these terms shall be resolved through binding arbitration in accordance with the rules of the [Arbitration Association] [cite: 1.1].</p>
+                                <p>These Terms and Conditions are governed by and construed in accordance with the laws of [Your Jurisdiction]  . Any disputes arising out of or related to these terms shall be resolved through binding arbitration in accordance with the rules of the [Arbitration Association]  .</p>
                             </div>
 
                             <!-- Contact Us -->
                             <div id="contact" class="policy-section py-4">
                                 <h2>Contact Us</h2>
-                                <p>If you have any questions or concerns about these terms, please contact us at <a href="mailto:support@paarvedanfoundation.org">support@paarvedanfoundation.org</a> [cite: 1.1].</p>
+                                <p>If you have any questions or concerns about these terms, please contact us at <a href="mailto:support@paarvedanfoundation.org">support@paarvedanfoundation.org</a>  .</p>
                             </div>
                             
                         </div>
@@ -229,32 +229,7 @@
     </div>
     
     <!-- Subscribe Now Start (Copied from privacy-policy.php) -->
-    <section class="subscribe-section">
-        <div class="auto-container">
-            <div class="inner-box clearfix">
-                <div class="left-column pull-left my-auto">
-                    <div class="d-flex">
-                        <div class="">
-                            <img loading="lazy" src="assets/img/logo/PF-Logo-Half.svg" class="" width="75" alt="">
-                        </div>
-                        <h3 class="text-center pt-3">
-                            Subscribe Our Newsletter
-                        </h3>
-                    </div>
-                </div>
-                <div class="right-column pull-right clearfix">
-                    <div class="form-inner">
-                        <form method="post" class="subscribe-form">
-                            <div class="form-group">
-                                <input type="email" name="email" placeholder="Your Email Address..." required="">
-                                <button type="submit">Subscribe Us</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
     <!-- Subscribe Now End -->
 
      <?php include('footer.php') ;?>

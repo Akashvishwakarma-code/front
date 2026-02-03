@@ -87,7 +87,9 @@
                 <div class="col-xl-5 offset-xl-1 col-lg-6 text-center text-lg-start" data-anime='{ "el": "childs", "willchange": "transform", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 600, "delay": 100, "easing": "easeOutCirc" }'>
                     <div class="bg-base-color fw-600 text-dark text-uppercase ps-20px pe-20px fs-12 border-radius-100px d-inline-block mb-15px">About Paarvedan</div>
                     <h2 class="alt-font text-dark-gray fw-600 ls-minus-1px">Bridging Generations, Inspiring Lives</h2>
-                    <p class="w-85 lg-w-95 sm-w-100 mb-40px sm-mb-20px">At the heart of the Paarvedan Foundation lies a rich and inspiring legacy that traces its roots back to the early 1960s. Founded by the visionary and pioneer, Bhagirth Ji Rupchand Chouhan, the organization embarked on a remarkable journey that has touched the lives of countless individual and communities across Madhya Pradesh.</p>
+                    <p class="w-85 lg-w-95 sm-w-100 mb-40px sm-mb-20px">
+Paarvedan Foundation stands on a powerful legacy that began in the early 1960s. Founded by visionary pioneer Bhagirth Ji Rupchand Chouhan, the foundation was born from a deep commitment to service, compassion, and social upliftment.
+Over the decades, this mission has grown into a movement—transforming lives and strengthening communities across Madhya Pradesh, while continuing to bridge generations through values of dignity, education, and collective progress.</p>
                     <a href="donate.php" class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white">Donate Now<span class="bg-white"><i class="fa-solid fa-arrow-right color-paarvedan"></i></span></a>
                 </div>
             </div>
@@ -144,7 +146,7 @@
                     <div class="content-box me-0">
                         
                         <div class="sec-title mb-4">
-                            <h3 class="alt-font text-dark-gray fw-700 text-center">Founder Message: Together Towards Transformation</h3>
+                            <h3 class="alt-font text-dark-gray fw-700 text-center">Co-Founder Message: Together Towards Transformation</h3>
                         </div>
                         
                         <div class="text">
@@ -741,8 +743,8 @@
     <div class="row justify-content-md-center">
       <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
         <h2 class="fs-6 text-secondary mb-2 text-uppercase text-center">Our Patners</h2>
-        <h2 class="mb-4 display-5 text-center">Trusted by over 17+ clients.</h2>
-        <p class="fs-5 text-secondary mb-5 text-center">Our clients are our top priority, and we are committed to providing them with the highest level of service.</p>
+        <h2 class="mb-4 display-5 text-center">Trusted by over 17+ Patners.</h2>
+        <p class="fs-5 text-secondary mb-5 text-center">Our Patners are our top priority, and we are committed to providing them with the highest level of service.</p>
         <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
       </div>
     </div>
@@ -756,7 +758,7 @@
           </svg>
         </div>
       </div>
-      <div class="col-6 col-md-4 col-xl-3 text-center">
+      <div class="col-4 col-md-4 col-xl-3 text-center">
         <div class="text-secondary bg-light px-4 py-3 px-md-6 py-md-4 px-lg-8 py-lg-5">
           <img src="image/brand/mahindra.png"/>
             <path d="m82.71,34.15c0,9.06-7.09,15.74-15.79,15.74s-15.79-6.68-15.79-15.74,7.09-15.74,15.79-15.74,15.79,6.62,15.79,15.74Zm-6.91,0c0-5.66-4.11-9.54-8.88-9.54s-8.88,3.88-8.88,9.54,4.11,9.54,8.88,9.54,8.88-3.94,8.88-9.54Zm40.98,0c0,9.06-7.09,15.74-15.79,15.74s-15.79-6.68-15.79-15.74,7.09-15.74,15.79-15.74,15.79,6.62,15.79,15.74Zm-6.91,0c0-5.66-4.11-9.54-8.88-9.54s-8.88,3.88-8.88,9.54,4.11,9.54,8.88,9.54,8.88-3.94,8.88-9.54Zm39.56-14.79v28.26c0,11.63-6.86,16.37-14.96,16.37-7.63,0-12.22-5.1-13.95-9.28l6.02-2.51c1.07,2.56,3.7,5.59,7.93,5.59,5.19,0,8.4-3.2,8.4-9.23v-2.26h-.24c-1.55,1.91-4.53,3.58-8.29,3.58-7.87,0-15.08-6.86-15.08-15.68s7.21-15.8,15.08-15.8c3.75,0,6.74,1.67,8.29,3.52h.24v-2.56h6.57Zm-6.08,14.85c0-5.54-3.7-9.6-8.4-9.6s-8.77,4.05-8.77,9.6,4,9.48,8.77,9.48,8.4-4,8.4-9.48Zm16.9-31.41v46.14h-6.74V2.8h6.74Zm26.28,36.54l5.37,3.58c-1.73,2.56-5.91,6.98-13.12,6.98-8.94,0-15.62-6.91-15.62-15.74,0-9.36,6.74-15.74,14.85-15.74s12.17,6.5,13.47,10.01l.72,1.79-21.04,8.72c1.61,3.16,4.12,4.77,7.63,4.77s5.96-1.73,7.75-4.36h0Zm-16.52-5.66l14.07-5.84c-.77-1.97-3.1-3.34-5.84-3.34-3.51,0-8.4,3.1-8.23,9.18Zm-144.41-3.61v-6.68h22.51c.22,1.16.33,2.54.33,4.03,0,5.01-1.37,11.21-5.78,15.62-4.29,4.47-9.78,6.86-17.05,6.86-13.47,0-24.8-10.97-24.8-24.44S12.14,1,25.61,1c7.45,0,12.76,2.92,16.75,6.74l-4.71,4.71c-2.86-2.68-6.74-4.77-12.04-4.77-9.84,0-17.53,7.93-17.53,17.77s7.69,17.77,17.53,17.77c6.38,0,10.01-2.56,12.34-4.89,1.89-1.89,3.13-4.59,3.62-8.27h-15.96Z" />
@@ -1202,6 +1204,29 @@ document.addEventListener('DOMContentLoaded', function() {
                         <h4 class="fw-semibold mb-3">Annual Report</h4>
                         <p class="text-muted mb-4">
                             Our Annual Reports section will showcase our legal and financial
+                            journey starting from the upcoming year as we grow and make a meaningful impact.
+                        </p>
+
+                        <a href="#" class="btn btn-danger px-4 py-2 fw-semibold" 
+                           style="border-radius:30px;">Download</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-6 col-lg-5">
+                <div class="card shadow-sm border-0" style="border-radius:15px;">
+                    <div class="card-body text-center p-4">
+
+                        <!-- Icon -->
+                        <div class="mb-3">
+                            <i class="bi bi-file-text" style="font-size:50px;color:lightgreen;"></i>
+                        </div>
+
+                        <h4 class="fw-semibold mb-3">Catalog</h4>
+                        <p class="text-muted mb-4">
+                            Our Catalog Reports section will showcase our legal and financial
                             journey starting from the upcoming year as we grow and make a meaningful impact.
                         </p>
 

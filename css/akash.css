@@ -99,3 +99,10 @@ body {
   }
 }
 /*subscribe newsletter*/
+
+.img-wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* perfect square */
+  overflow: hidden;
+  border-radius: 8px;
+}

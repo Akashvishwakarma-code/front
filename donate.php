@@ -180,6 +180,21 @@
                             <input class="border-radius-4px border-color-white box-shadow-double-large form-control required" 
                                    type="email" name="email" id="donor-email" placeholder="Enter your email*" required />
                         </div>
+                        
+                        <div class="col-md-6 mb-30px">
+                            <p class="fw-600 mb-10px alt-font text-dark-gray">Mobile</p>
+                            <input class="border-radius-4px border-color-white box-shadow-double-large form-control required" 
+                                   type="phone" name="Mobile" id="donor-name" placeholder="Enter your Mobile number*" required />
+                        </div>
+
+                        <div class="col-md-6 mb-30px">
+                            <p class="fw-600 mb-10px alt-font text-dark-gray">PAN Number </p>
+                            <input class="border-radius-4px border-color-white box-shadow-double-large form-control required" 
+                                   type="text" name="PAN" id="donor-name" placeholder="Enter your PAN Number"  />
+                        </div>
+
+                    
+
 
                         <div class="col-md-6 mb-30px">
                             <p class="fw-600 mb-10px alt-font text-dark-gray">Select Donation Amount</p>

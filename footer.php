@@ -98,7 +98,7 @@
                                 <ul class="links-list clearfix">
                                     <li><i class="fa-solid fa-angle-right"></i><a href="about-us.php" class="text-white">About</a></li>
                                     <li><i class="fa-solid fa-angle-right"></i><a href="events.php" class="text-white">Events</a></li>
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="government.php" class="text-white">Project</a></li>
+                                    <li><i class="fa-solid fa-angle-right"></i><a href="goverment.php" class="text-white">Project</a></li>
                                     <li><i class="fa-solid fa-angle-right"></i><a href="blog&news.php" class="text-white">Blog &amp; News</a></li>
                                     <li><i class="fa-solid fa-angle-right"></i><a href="webinar.php" class="text-white">Webinar</a></li>
                                 </ul>

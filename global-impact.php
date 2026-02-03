@@ -83,7 +83,7 @@
                     <div class="bg-base-color fw-600 text-dark text-uppercase ps-20px pe-20px fs-12 border-radius-100px d-inline-block mb-15px">Global Impact</div>
                     <h4 class="alt-font text-dark-gray fw-600 ls-minus-1px">Paarvedan Foundation: Collaborating for Global Impact.</h4>
                     <p class="w-100 mb-40px sm-mb-20px">Welcome to the Paarvedan Foundation, where we believe in the power of collaboration to drive positive change on a global scale. Our commitment to social responsibility and sustainable development has led us to explore exciting opportunities for collaboration with esteemed foreign funding organizations in the realm of Corporate Social Responsibility (CSR).</p>
-                    <a href="#" class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white">Donate Now<span class="bg-white"><i class="fa-solid fa-arrow-right color-paarvedan"></i></span></a>
+                    <a href="donate.php" class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white">Donate Now<span class="bg-white"><i class="fa-solid fa-arrow-right color-paarvedan"></i></span></a>
                 </div>
                 <div class="col-lg-10 text-center pt-60px" data-anime='{ "el": "childs", "willchange": "transform", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 600, "delay": 100, "easing": "easeOutCirc" }'>
                     <h4 class="alt-font text-dark-gray fw-600 ls-minus-1px">Our Vision for Global Collaboration</h4>

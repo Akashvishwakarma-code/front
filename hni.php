@@ -197,7 +197,13 @@
                 <div class="col-lg-10 pt-50px" data-anime='{ "el": "childs", "willchange": "transform", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 600, "delay": 100, "easing": "easeOutCirc" }'>
                     <h4 class="alt-font text-dark-gray fw-600 ls-minus-1px">Join Us in Shaping the Future</h4>
                     <p class="w-100">Your philanthropy has the power to create a legacy of impact that extends beyond your lifetime. Paarvedan Foundation invites you to be a catalyst for change, to leverage your resources for a world where everyone has the chance to thrive and succeed.</p>
-                    <h6 class="alt-font text-medium-gray fw-600 ls-minus-1px">Contact Us</h6>
+                    <h6 class="alt-font text-medium-black fw-600 ls-minus-1px">Contact Us</h6>
+                    <div style="text-align:center;">
+                    <a href="contact.php" style="padding:10px 20px;margin-left:0;background:lightblue;box-shadow:0,0,0,0.5;color:white;text-decoration:none;border-radius:5px;display:inline-block;">
+                        Contact Us
+                    </a>
+                    </div>
+
                     <p class="w-100">To explore how your philanthropy can align with Paarvedan Foundation's vision, please contact us at [Contact Information]. Together, let's embark on a transformative journey of philanthropy that leaves an indelible mark on the world.</p>
                     <h6 class="alt-font text-medium-gray fw-600 ls-minus-1px">Empower. Transform. Sustain.</h6>
                     <p class="w-100">Paarvedan Foundation Catalyzing Change with High Net Worth Individuals.</p>
