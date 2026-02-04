@@ -91,12 +91,12 @@
                     <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                         <div class="footer-widget links-widget ml-30">
                             <div class="widget-title">
-                                <h5>About Paarvedan</h5>
+                                <h5>About Us</h5>
                             </div>
                             
                             <div class="widget-content">
                                 <ul class="links-list clearfix">
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="about-us.php" class="text-white">About</a></li>
+                                    <li><i class="fa-solid fa-angle-right"></i><a href="about-us.php" class="text-white">About Paarvedan</a></li>
                                     <li><i class="fa-solid fa-angle-right"></i><a href="events.php" class="text-white">Events</a></li>
                                     <li><i class="fa-solid fa-angle-right"></i><a href="goverment.php" class="text-white">Project</a></li>
                                     <li><i class="fa-solid fa-angle-right"></i><a href="blog&news.php" class="text-white">Blog &amp; News</a></li>

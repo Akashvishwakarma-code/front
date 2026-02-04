@@ -239,7 +239,7 @@
                         
                         
                         <!-- Drawing Competition - 28 May 2024 -->
-                        <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2024" data-month="05" data-date="28" data-keywords="drawings">
+                        <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2025" data-month="05" data-date="28" data-keywords="drawings">
                             <div class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
                                 <div class="position-relative">
                                     <a href="demo-charity-blog-single-simple.html"><img src="image/drawing.jpg" alt=""></a>
@@ -251,7 +251,7 @@
                                         <p class="line-clamp-3">Paarvedan Foundation organised a drawing competition to encourage kids to show their creativity and imagination.</p>
                                         <div class="row mt-30px">
                                             <div class="col-6 text-start">
-                                                <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">28 May 2024</span></div>
+                                                <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">28 May 2025</span></div>
                                             </div>
                                             <div class="col-6 text-end">
                                                 <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">11:00 am</span></div>
@@ -1169,6 +1169,15 @@ document.addEventListener('DOMContentLoaded', function() {
     populateYearFilters();
     yearFilters = document.querySelectorAll('.year-filter');
     yearFilters.forEach(f => f.addEventListener('change', () => applyFilter()));
+
+    // FORCE default filters to ALL
+    const yearAll = document.getElementById('year-all');
+    const monthAll = document.getElementById('month-all');
+
+    if (yearAll) yearAll.checked = true;
+    if (monthAll) monthAll.checked = true;
+
+
 
     // --- FILTERING LOGIC ---
     function applyFilter(isKeywordSearch = false) {
