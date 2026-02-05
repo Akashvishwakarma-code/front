@@ -1050,8 +1050,8 @@
 </div>
 
 
-<!-- Free Food Distribution - 01 Aug 2023 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="08"
+<!-- Free Food Distribution - 01 Jan 2026 -->
+<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2026" data-month="01"
     data-date="01">
     <div
         class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
@@ -1073,7 +1073,7 @@
                 <div class="row mt-30px">
                     <div class="col-6 text-start">
                         <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">01
-                                Aug 2023</span></div>
+                                Jan 2026</span></div>
                     </div>
                     <div class="col-6 text-end">
                         <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">11:00
@@ -1096,8 +1096,8 @@
 </div>
 
 
-<!-- Sanskrit Training - 08 Jul 2023 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="07"
+<!-- Sanskrit Training - 08 Jan 2026 -->
+<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2026" data-month="01"
     data-date="08">
     <div
         class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
@@ -1119,7 +1119,7 @@
                 <div class="row mt-30px">
                     <div class="col-6 text-start">
                         <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">08
-                                Jul 2023</span></div>
+                                Jan 2026</span></div>
                     </div>
                     <div class="col-6 text-end">
                         <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">11:00
@@ -1142,8 +1142,8 @@
 </div>
 
 
-<!-- Tree Plantation - 15 Jun 2023 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="06"
+<!-- Tree Plantation - 15 Jan 2026 -->
+<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2026" data-month="01"
     data-date="15">
     <div
         class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
@@ -1164,7 +1164,7 @@
                 <div class="row mt-30px">
                     <div class="col-6 text-start">
                         <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">15
-                                Jun 2023</span></div>
+                                Jan 2026</span></div>
                     </div>
                     <div class="col-6 text-end">
                         <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">09:00
