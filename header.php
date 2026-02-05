@@ -25,10 +25,10 @@
                     <li class="nav-item"><a href="./" class="nav-link">Home</a></li>
                     
                     <li class="nav-item dropdown simple-dropdown ">
-                        <a href="about-us.php" class="nav-link ">About Us</a>
+                        <a href="#" class="nav-link ">About Us</a>
                         <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink_About" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink_About">
-                            <li><a href="#">About Paarvedan</a></li>
+                            <li><a href="about-us.php">About Paarvedan</a></li>
                             <li><a href="#">Our Message</a></li>
                             <li><a href="#">History</a></li>
                             <li><a href="#">Team</a></li>
