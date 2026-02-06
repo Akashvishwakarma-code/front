@@ -31,8 +31,9 @@
                             <li><a href="about-us.php" data-scroll="about">About Paarvedan</a></li>
                             <li><a href="about-us.php" data-scroll="message">Our Message</a></li>
                             <li><a href="about-us.php" data-scroll="history">History</a></li>
-                            <li><a href="about-us.php" data-scroll="team">Team</a></li>
+                            
                             <li><a href="about-us.php" data-scroll="partners">Partners</a></li>
+                            <li><a href="about-us.php" data-scroll="team">Team</a></li>
                         </ul>
                     </li>
 
