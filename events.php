@@ -353,7 +353,7 @@
                 <div class="row mt-30px">
                     <div class="col-6 text-start">
                         <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">22 Mar 2024</span>
+                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">22 Mar 2026</span>
                         </div>
                     </div>
                     <div class="col-6 text-end">

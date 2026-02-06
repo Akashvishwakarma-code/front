@@ -87,9 +87,10 @@
                 <!-- end footer column -->
             </div> 
         <!-- <div class="bg-gradient-paarvedan"> -->
-            <div class="row clearfix  py-5 px-5 text-white">
-                    <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                        <div class="footer-widget links-widget ml-30">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 py-5 px-5 text-white">
+                    
+                <div class="col footer-column">
+                        <div class="footer-widget links-widget">
                             <div class="widget-title">
                                 <h5>About Us</h5>
                             </div>
@@ -105,20 +106,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                        <div class="footer-widget links-widget ml-30">
-                            <div class="widget-title">
-                                <h5>For Donors</h5>
-                            </div>
-                            <div class="widget-content">
-                                <ul class="links-list clearfix">
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="donate.php" class="text-white">Make Your Donations</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                        <div class="footer-widget links-widget ml-30">
+                    
+                    <div class="col footer-column">
+                        <div class="footer-widget links-widget">
                             <div class="widget-title">
                                 <h5>Project</h5>
                             </div>
@@ -132,8 +122,30 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                        <div class="footer-widget links-widget ml-30">
+                    
+                    <div class="col footer-column">
+                        <div class="footer-widget links-widget">
+                            <div class="widget-title">
+                                <h5>Solutions</h5>
+                            </div>
+                                <div class="widget-content">
+                                    <ul class="links-list clearfix">
+                                        <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">Education for Children
+                                            </a></li>
+                                        <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">EmpowerHER!
+                                            </a></li>
+                                        <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">Tree Plantation
+                                            </a></li>
+                                        <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">SHG (Self-Help Group)
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                        <div class="col footer-column">
+                        <div class="footer-widget links-widget">
                             <div class="widget-title">
                                 <h5>Useful Pages</h5>
                             </div>
@@ -148,8 +160,22 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div> 
+
+
+                    <div class="col footer-column">
+                        <div class="footer-widget links-widget">
+                            <div class="widget-title">
+                                <h5>For Donors</h5>
+                            </div>
+                            <div class="widget-content">
+                                <ul class="links-list clearfix">
+                                    <li><i class="fa-solid fa-angle-right"></i><a href="donate.php" class="text-white">Make Your Donations</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> 
              <!-- start copyright -->
                 <div class="col-xl-5 last-paragraph-no-margin text-center text-xl-end">
                     <p class="fs-16 text-white">&copy; 2025 | <a href="./index.php" class="alternative-paarvedan fw-500">Paarvedan Foundation</a>. All Rights Reserved </p>
