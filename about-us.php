@@ -46,7 +46,7 @@
     <!-- end header -->
     <!-- start page title -->
     <section class="page-title-separate-breadcrumbs bg-dark-gray background-position-center-top ipad-top-space-margin cover-background bg-dark-gray"
-        style="background-image: url(image/p2n.jpg)">
+        style="background-image: url(image/p2n.jpg)" id="about">
         <div class="opacity-full-dark bg-gradient-dark-transparent"></div>
         <div class="container position-relative">
             <div class="row flex-column flex-lg-row justify-content-center align-items-lg-end extra-very-small-screen">
@@ -120,7 +120,7 @@ Over the decades, this mission has grown into a movement—transforming lives an
         </div>
     </section>
 <!-- START FOUNDER MESSAGE SECTION -->
-<section class="founder-message-section pt-5 pb-5">
+<section class="founder-message-section pt-5 pb-5" id="message">
     <div class="container">
         
         <!-- ROW 2: Founder Message (Image Centralized, Text below) -->
@@ -196,7 +196,7 @@ Over the decades, this mission has grown into a movement—transforming lives an
 <!-- END FOUNDER MESSAGE SECTION -->
     
     <!-- end section -->
-<section class="history-section pt-5 pb-5">
+<section class="history-section pt-5 pb-5" id="history">
     <div class="container">
         
         <!-- GEN 1 & GEN 2 TABS (Top Level) -->
@@ -738,7 +738,7 @@ Over the decades, this mission has grown into a movement—transforming lives an
 
 
     <!-- Client 2 - Bootstrap Brain Component -->
-<section class="py-3 py-md-5 py-xl-8">
+<section class="py-3 py-md-5 py-xl-8" id="partners">
   <div class="container" id="partner">
     <div class="row justify-content-md-center">
       <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
