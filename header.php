@@ -25,14 +25,14 @@
                     <li class="nav-item"><a href="./" class="nav-link">Home</a></li>
                     
                     <li class="nav-item dropdown simple-dropdown ">
-                        <a href="about-us.php" class="nav-link ">About Us</a>
+                        <a href="#" class="nav-link ">About Us</a>
                         <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink_About" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink_About">
-                            <li><a href="#">About Paarvedan</a></li>
-                            <li><a href="#">Our Message</a></li>
-                            <li><a href="#">History</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Partners</a></li>
+                            <li><a href="about-us.php" data-scroll="about">About Paarvedan</a></li>
+                            <li><a href="about-us.php" data-scroll="message">Our Message</a></li>
+                            <li><a href="about-us.php" data-scroll="history">History</a></li>
+                            <li><a href="about-us.php" data-scroll="team">Team</a></li>
+                            <li><a href="about-us.php" data-scroll="partners">Partners</a></li>
                         </ul>
                     </li>
 
@@ -180,3 +180,45 @@ li a:hover {
         
     }
 </style>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const NAVBAR_HEIGHT = document.querySelector('.navbar')?.offsetHeight || 80;
+
+    function scrollToSection(id) {
+        const el = document.getElementById(id);
+        if (!el) return;
+
+        const y = el.getBoundingClientRect().top + window.pageYOffset - NAVBAR_HEIGHT - 10;
+
+        window.scrollTo({
+            top: y,
+            behavior: "smooth"
+        });
+    }
+
+    // Handle clicks
+    document.querySelectorAll('a[data-scroll]').forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = this.dataset.scroll;
+
+            if (window.location.pathname.includes('about-us.php')) {
+                scrollToSection(target);
+            } else {
+                sessionStorage.setItem('scrollTarget', target);
+                window.location.href = 'about-us.php';
+            }
+        });
+    });
+
+    // Scroll after redirect
+    const target = sessionStorage.getItem('scrollTarget');
+    if (target) {
+        setTimeout(() => scrollToSection(target), 100);
+        sessionStorage.removeItem('scrollTarget');
+    }
+});
+</script>
