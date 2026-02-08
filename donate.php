@@ -240,10 +240,10 @@
                             </p>
                         </div>
 
-                        <div class="col-xl-6 col-md-5 text-center text-md-end sm-mt-20px">
+                        <div class="col-xl-6 col-md-5 text-center text-md-end sm-mt-20px ml-5">
                             <input type="hidden" name="redirect" value="">
                             <!-- Group both buttons for spacing -->
-                            <div class="d-flex justify-content-end gap-3"> 
+                            <div class="d-flex justify-content-start gap-2 m-5"> 
                                 
                                 <!-- 1. Razorpay Button (Primary) -->
                                 <button class="btn btn-base-color btn-switch-text btn-large left-icon btn-round-edge submit text-transform-none razorpay-btn" 
