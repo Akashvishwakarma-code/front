@@ -48,7 +48,7 @@
                     <ul>
                         <li><a href="index.php" class="text-white">Home</a></li>
                         <li><a href="about-us.php" class="text-white">About Us</a></li>
-                        <li><a href="government.php" class="text-white">Projects</a></li>
+                        <li><a href="goverment.php" class="text-white">Projects</a></li>
                         <li><a href="contact.php" class="text-white">Contact Us</a></li>
                     </ul>
                 </div>
@@ -102,6 +102,7 @@
                                     <li><i class="fa-solid fa-angle-right"></i><a href="goverment.php" class="text-white">Project</a></li>
                                     <li><i class="fa-solid fa-angle-right"></i><a href="blog&news.php" class="text-white">Blog &amp; News</a></li>
                                     <li><i class="fa-solid fa-angle-right"></i><a href="webinar.php" class="text-white">Webinar</a></li>
+                                    <li><i class="fa-solid fa-angle-right"></i><a href="contact.php" class="text-white">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -114,10 +115,13 @@
                             </div>
                             <div class="widget-content">
                                 <ul class="links-list clearfix">
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="corporate-employee-management.php" class="text-white">Corporates</a></li>
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="ngo.php" class="text-white">NGOs</a></li>
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="volunteer.php" class="text-white">Volunteer</a></li>
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="contact.php" class="text-white">Contact</a></li>
+                                   <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">Education for Children
+                                            </a></li>
+                                        <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">EmpowerHER!
+                                            </a></li>
+                                        <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">Tree Plantation
+                                            </a></li>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -130,12 +134,10 @@
                             </div>
                                 <div class="widget-content">
                                     <ul class="links-list clearfix">
-                                        <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">Education for Children
-                                            </a></li>
-                                        <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">EmpowerHER!
-                                            </a></li>
-                                        <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">Tree Plantation
-                                            </a></li>
+                                         <li><i class="fa-solid fa-angle-right"></i><a href="corporate-employee-management.php" class="text-white">Corporates</a></li>
+                                        <li><i class="fa-solid fa-angle-right"></i><a href="ngo.php" class="text-white">NGOs</a></li>
+                                        <li><i class="fa-solid fa-angle-right"></i><a href="volunteer.php" class="text-white">Volunteer</a></li>
+                                        
                                         <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">SHG (Self-Help Group)
                                             </a></li>
                                     </ul>

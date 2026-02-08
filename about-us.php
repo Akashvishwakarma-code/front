@@ -86,10 +86,13 @@
                 </div>
                 <div class="col-xl-5 offset-xl-1 col-lg-6 text-center text-lg-start" data-anime='{ "el": "childs", "willchange": "transform", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 600, "delay": 100, "easing": "easeOutCirc" }'>
                     <div class="bg-base-color fw-600 text-dark text-uppercase ps-20px pe-20px fs-12 border-radius-100px d-inline-block mb-15px">About Paarvedan</div>
-                    <h2 class="alt-font text-dark-gray fw-600 ls-minus-1px">Bridging Generations, Inspiring Lives</h2>
+                    <h2 class="alt-font text-dark-gray fw-600 ls-minus-1px">Transforming Communities, Enriching Lives</h2>
                     <p class="w-85 lg-w-95 sm-w-100 mb-40px sm-mb-20px">
-Paarvedan Foundation stands on a powerful legacy that began in the early 1960s. Founded by visionary pioneer Bhagirth Ji Rupchand Chouhan, the foundation was born from a deep commitment to service, compassion, and social upliftment.
-Over the decades, this mission has grown into a movement—transforming lives and strengthening communities across Madhya Pradesh, while continuing to bridge generations through values of dignity, education, and collective progress.</p>
+Paarvedan Foundation partners with communities across Madhya Pradesh to deliver 
+measurable improvements in education, livelihoods and local resilience. Rooted in a legacy 
+begun by Bhagirth Ji Rupchand Ji Chouhan in the early 1960s, we combine community‑led 
+design, evidence‑based programs and transparent reporting to create scalable, sustainable 
+impact.  </p>
                     <a href="donate.php" class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white">Donate Now<span class="bg-white"><i class="fa-solid fa-arrow-right color-paarvedan"></i></span></a>
                 </div>
             </div>
@@ -119,12 +122,12 @@ Over the decades, this mission has grown into a movement—transforming lives an
             </div>
         </div>
     </section>
-<!-- START FOUNDER MESSAGE SECTION -->
-<section class="founder-message-section pt-5 pb-5" id="message">
+<!-- START Co-Founder MESSAGE SECTION -->
+<section class="Co-Founder-message-section pt-5 pb-5" id="message">
     <div class="container">
         
-        <!-- ROW 2: Founder Message (Image Centralized, Text below) -->
-        <div class="row clearfix align-items-center p-4 rounded-3 shadow-sm border" id="founder">
+        <!-- ROW 2: Co-Founder Message (Image Centralized, Text below) -->
+        <div class="row clearfix align-items-center p-4 rounded-3 shadow-sm border" id="Co-Founder">
             
             <!-- IMAGE COLUMN (Centralized above the text) -->
             <div class="col-12 text-center mb-5">
@@ -154,7 +157,7 @@ Over the decades, this mission has grown into a movement—transforming lives an
                             <!-- Introduction -->
                             <div class="my-3">
                                 <p class="fw-bold fs-5 text-start">Dear Friends and Supporters,</p>
-                                <p class="text-justify">I am filled with immense joy and gratitude as I pen down this message, reflecting on the journey and vision of Paarvedan Foundation. As the founder, it is my privilege to share our mission and the profound impact we aim to create.</p>
+                                <p class="text-justify">I am filled with immense joy and gratitude as I pen down this message, reflecting on the journey and vision of Paarvedan Foundation. As the Co-Founder, it is my privilege to share our mission and the profound impact we aim to create.</p>
                             </div>
                             
                             <!-- Founding -->
@@ -193,7 +196,7 @@ Over the decades, this mission has grown into a movement—transforming lives an
         
     </div>
 </section>
-<!-- END FOUNDER MESSAGE SECTION -->
+<!-- END Co-Founder MESSAGE SECTION -->
     
     <!-- end section -->
 <section class="history-section pt-5 pb-5" id="history">
@@ -262,37 +265,50 @@ Over the decades, this mission has grown into a movement—transforming lives an
                                     <div class="tab-content border p-4 rounded-3 shadow">
                                         
                                         <div class="tab-pane fade show active" id="year-1938" role="tabpanel" aria-labelledby="year-1938-tab">
-                                            <h3 class="mb-2 fs-5 text-dark">Introduction:</h3>
-                                            <p>Born in 1938 in Mandsour, Madhya Pradesh, Mr. Bhagirth Rupchand Chouhan was not just a man; he was a visionary whose life's journey epitomized resilience, compassion, and a profound commitment to community upliftment. This narrative unfolds the inspiring tale of a man who moved from Mandsour to Mumbai with zero rupees, founded Talpatriwala business, and left an indelible mark by constructing over 300 temples across Madhya Pradesh.</p>
+                                            <h3 class="mb-2 fs-5 text-dark">Birth, Mandsour :</h3>
+                                            <p>
+Shri Bhagirth Ji Rupchand Ji Chouhan was born in Mandsour, Madhya Pradesh. His 
+early years were shaped by rural life and the values of resilience and service.                                            </p>
                                         </div>
                                         
                                         <div class="tab-pane fade" id="year-1947" role="tabpanel" aria-labelledby="year-1947-tab">
-                                            <h3 class="mb-2 fs-5 text-dark">Early Years in Mandsour:</h3>
-                                            <p>Mr. Chouhan's early years in Mandsour were marked by the simplicity of rural life. Growing up in an era when opportunities were scarce, he harbored dreams that stretched far beyond the fields of his hometown.</p>
-                                        </div>
+                                            <h3 class="mb-2 fs-5 text-dark">Early Life in Mandsour</h3>
+<p>
+Growing up in a modest household, he nurtured ambitions that reached beyond his 
+village and prepared for a life of enterprise and community work.                                 </p>                                        </div>
                                         
                                         <div class="tab-pane fade" id="year-1958" role="tabpanel" aria-labelledby="year-1958-tab">
-                                            <h3 class="mb-2 fs-5 text-dark">Early Years and the Leap to Mumbai:</h3>
-                                            <p>In the backdrop of post-independence India, Mr. Bhagirth Rupchand Chouhan's early years were marked by modesty and determination. Fueled by a desire to create a better life, he took a bold step, leaving behind his roots in Mandsour to seek opportunities in the bustling city of Mumbai. What makes this journey remarkable is that he embarked on this venture with zero rupees in his pocket, a testament to his unwavering spirit and tenacity.</p>
-                                        </div>
+                                            <h3 class="mb-2 fs-5 text-dark">Preparing for Change</h3>
+<p>
+In the years after India’s independence, Bhagirth Ji’s determination to seek broader 
+opportunities took root; he began planning the move that would define his future.                                            </p>                                        </div>
                                         
                                         <div class="tab-pane fade" id="year-1962" role="tabpanel" aria-labelledby="year-1962-tab">
-                                            <h3 class="mb-2 fs-5 text-dark">Bold Move to Mumbai with Zero Rupees:</h3>
-                                            <p>In a defining moment, Mr. Chouhan made the audacious decision to move to Mumbai, a city that beckoned with promises of opportunity. What sets his journey apart is the fact that he embarked on this venture with nothing but a vision and zero rupees to his name. This remarkable leap of faith speaks volumes about his courage and tenacity.</p>
-                                        </div>
+                                            <h3 class="mb-2 fs-5 text-dark">The Move to Mumbai with Zero Rupees :</h3>
+<p>
+In a defining act of courage, he relocated to Mumbai with no capital, driven by vision and 
+tenacity. This bold leap marked the start of his entrepreneurial journey.                                            </p>                                        </div>
                                         
                                         <div class="tab-pane fade" id="year-1973" role="tabpanel" aria-labelledby="year-1973-tab">
-                                            <h3 class="mb-2 fs-5 text-dark">Founding Talpatriwala Business: </h3>
-                                            <p>In the throbbing heart of Mumbai, Mr. Chouhan founded Talpatriwala business, a venture that would become a testament to his entrepreneurial acumen. The company, specializing in metal sheets and roofing solutions, not only prospered under his leadership but also became a symbol of his resilience and commitment to hard work.</p>
-                                        </div>
+                                            <h3 class="mb-2 fs-5 text-dark">Founding Talpatriwala </h3>
+<p>
+In Mumbai he founded Talpatriwala, a business specializing in metal sheets and roofing 
+solutions. Under his leadership the company prospered and became a symbol of his 
+hard work and business acumen.                                            </p>                                        </div>
                                         
                                         <div class="tab-pane fade" id="year-1983" role="tabpanel" aria-labelledby="year-1983-tab">
-                                            <h3 class="mb-2 fs-5 text-dark">Temple Construction Across Madhya Pradesh:</h3>
-                                            <p>Beyond business success, Mr. Bhagirth Rupchand Chouhan's true legacy lies in his devotion to community service. Recognizing the importance of spiritual sanctuaries, he dedicated himself to constructing temples across Madhya Pradesh. With a deep sense of community and faith, he spearheaded the construction of over 300 temples, providing sacred spaces that continue to serve as pillars of communal harmony and spiritual solace.</p>
-                                        </div>
+                                            <h3 class="mb-2 fs-5 text-dark">Devotion to Community and Spiritual Life</h3>
+<p>
+Beyond commercial success, Bhagirth Ji dedicated himself to community upliftment. He 
+led the construction of over 300 temples across Madhya Pradesh, creating spiritual and social hubs that strengthened local communities.
+                                            </p>                                        </div>
                                         
                                         <div class="tab-pane fade" id="year-2000" role="tabpanel" aria-labelledby="year-2000-tab">
-                                            <h3 class="mb-2 fs-5 text-center text-dark">He passed away in year 2000</h3>
+                                            <h3 class="mb-2 fs-5 text-center text-dark">Passing and Legacy 
+</h3><p>Bhagirth Ji Rupchand Ji Chouhan passed away in 2000. He left behind a multifaceted 
+legacy of entrepreneurship, philanthropy and community building that continues to 
+inspire the work of Paarvedan Foundation.</p>
+
                                         </div>
                                     </div>
                                 </div>
@@ -336,49 +352,83 @@ Over the decades, this mission has grown into a movement—transforming lives an
                                         </ul>
                                     </div>
                                     
-                                    <!-- Nested Year Content -->
-                                    <div class="tab-content border p-4 rounded-3 shadow">
-                                        
-                                        <div class="tab-pane fade show active" id="year-1958-r" role="tabpanel" aria-labelledby="year-1958-r-tab">
-                                            <h3 class="mb-2 fs-5 text-dark">Introduction:</h3>
-                                            <p>In the tapestry of industrial legacies, the life and journey of Ramgopal Ji Bhagirth Chouhan, the illustrious son of Bhagirth Ji Rupchand Chouhan, fondly recognized as the 'Father of Indian Rope Industry,' is a narrative woven with innovation, commitment, and profound contributions. Born in 1958 and leaving a lasting impact until his departure in 2020, Ramgopal Ji carried forward the torch of entrepreneurial excellence, leaving an indelible mark on the industry landscape.</p>
+                                                                            <!-- Nested Year Content -->
+                                        <div class="tab-content border p-4 rounded-3 shadow">
+
+                                            <div class="tab-pane fade show active" id="year-1958-r" role="tabpanel" aria-labelledby="year-1958-r-tab">
+                                                <h3 class="mb-2 fs-5 text-dark">Birth and Heritage (1958)</h3>
+                                                <p>
+                                                    Born into the entrepreneurial family of Bhagirth Ji Rupchand Ji Chouhan, 
+                                                    Shri Ramgopal Ji Bhagirth Ji Chouhan inherited a legacy of enterprise and 
+                                                    community service that shaped his future path.
+                                                </p>
+                                            </div>
+
+                                            <div class="tab-pane fade" id="year-1980-r" role="tabpanel" aria-labelledby="year-1980-r-tab">
+                                                <h3 class="mb-2 fs-5 text-dark">Early Years and Family Influence (1980)</h3>
+                                                <p>
+                                                    Grounded in a family tradition of business acumen and social commitment, 
+                                                    Ramgopal Ji’s formative years reinforced his resolve to build industry 
+                                                    and community value.
+                                                </p>
+                                            </div>
+
+                                            <div class="tab-pane fade" id="year-1985-r" role="tabpanel" aria-labelledby="year-1985-r-tab">
+                                                <h3 class="mb-2 fs-5 text-dark">Founding of Rope Industry Business (1985)</h3>
+                                                <p>
+                                                    Ramgopal Ji launched his rope manufacturing venture, setting out to 
+                                                    redefine standards in the Indian rope industry through quality, scale, 
+                                                    and a clear market vision.
+                                                </p>
+                                            </div>
+
+                                            <div class="tab-pane fade" id="year-1987-r" role="tabpanel" aria-labelledby="year-1987-r-tab">
+                                                <h3 class="mb-2 fs-5 text-dark">Commitment to Sustainable Practices (1987)</h3>
+                                                <p>
+                                                    Early on, he embedded environmental stewardship into operations, 
+                                                    prioritizing responsible manufacturing and sustainable resource use 
+                                                    as core business principles.
+                                                </p>
+                                            </div>
+
+                                            <div class="tab-pane fade" id="year-1995-r" role="tabpanel" aria-labelledby="year-1995-r-tab">
+                                                <h3 class="mb-2 fs-5 text-dark">Innovation and Technological Advancement (1995)</h3>
+                                                <p>
+                                                    Under his leadership, the company adopted new technologies and process 
+                                                    innovations, raising productivity and positioning the firm as a leader 
+                                                    in rope manufacturing.
+                                                </p>
+                                            </div>
+
+                                            <div class="tab-pane fade" id="year-1999-r" role="tabpanel" aria-labelledby="year-1999-r-tab">
+                                                <h3 class="mb-2 fs-5 text-dark">Reputation for Quality and Reliability (1999)</h3>
+                                                <p>
+                                                    By consistently exceeding industry standards, Ramgopal Ji established 
+                                                    a reputation for durable, dependable products, making his company a 
+                                                    trusted name across sectors.
+                                                </p>
+                                            </div>
+
+                                            <div class="tab-pane fade" id="year-2004-r" role="tabpanel" aria-labelledby="year-2004-r-tab">
+                                                <h3 class="mb-2 fs-5 text-dark">Industry Leadership and Sectoral Contribution (2004)</h3>
+                                                <p>
+                                                    Beyond his own enterprise, he contributed to the broader growth of the 
+                                                    Indian rope industry through collaboration, knowledge-sharing, and 
+                                                    advocacy for best practices.
+                                                </p>
+                                            </div>
+
+                                            <div class="tab-pane fade" id="year-2020-r" role="tabpanel" aria-labelledby="year-2020-r-tab">
+                                                <h3 class="mb-2 fs-5 text-dark">Passing and Enduring Legacy (2020)</h3>
+                                                <p>
+                                                    Ramgopal Ji passed away in 2020. His legacy endures in the company he built, 
+                                                    the sustainable practices he championed, and the standards of quality 
+                                                    and innovation he left for the industry.
+                                                </p>
+                                            </div>
+
                                         </div>
-                                        
-                                        <div class="tab-pane fade" id="year-1980-r" role="tabpanel" aria-labelledby="year-1980-r-tab">
-                                            <h3 class="mb-2 fs-5 text-dark">Early Years and Family Heritage:</h3>
-                                            <p>Ramgopal Ji was born into a family synonymous with business acumen and pioneering spirit. The entrepreneurial legacy passed down from his father, Bhagirth Ji Rupchand Chouhan, laid the foundation for a journey that would continue the family's rich tradition.</p>
-                                        </div>
-                                        
-                                        <div class="tab-pane fade" id="year-1985-r" role="tabpanel" aria-labelledby="year-1985-r-tab">
-                                            <h3 class="mb-2 fs-5 text-dark">Entrance into the Rope Industry:</h3>
-                                            <p>In 1985, Ramgopal Ji took the helm and founded Rope industry Business, a company destined to shape the future of the Indian rope industry. His vision was not merely to enter the market but to redefine standards and introduce innovations that would set Star Rope apart.</p>
-                                        </div>
-                                        
-                                        <div class="tab-pane fade" id="year-1987-r" role="tabpanel" aria-labelledby="year-1987-r-tab">
-                                            <h3 class="mb-2 fs-5 text-dark">Sustainable Practices and Environmental Stewardship:</h3>
-                                            <p>Recognizing the importance of sustainable business practices, Ramgopal Ji instilled a commitment to environmental stewardship within Rope industry Business. His vision extended beyond profitability, emphasizing responsible business conduct and setting a precedent for the industry.</p>
-                                        </div>
-                                        
-                                        <div class="tab-pane fade" id="year-1995-r" role="tabpanel" aria-labelledby="year-1995-r-tab">
-                                            <h3 class="mb-2 fs-5 text-dark">Innovations and Technological Advancements: </h3>
-                                            <p>Under Ramgopal Ji's visionary leadership, Rope industry Business became a hub for innovation in rope manufacturing. His commitment to integrating cutting-edge technologies into production processes positioned the company at the forefront of industry advancements.</p>
-                                        </div>
-                                        
-                                        <div class="tab-pane fade" id="year-1999-r" role="tabpanel" aria-labelledby="year-1999-r-tab">
-                                            <h3 class="mb-2 fs-5 text-dark">Legacy of Quality and Reliability:</h3>
-                                            <p>Ramgopal Ji was unwavering in his dedication to delivering quality. Rope industry Business under his guidance, became synonymous with reliability and excellence. The company's commitment to surpassing industry standards became a hallmark of their operations</p>
-                                        </div>
-                                        
-                                        <div class="tab-pane fade" id="year-2004-r" role="tabpanel" aria-labelledby="year-2004-r-tab">
-                                            <h3 class="mb-2 fs-5 text-dark">Contributions to Industry Growth:</h3>
-                                            <p>Beyond steering the success of his own enterprise, Ramgopal Ji played a pivotal role in fostering overall growth within the Indian rope industry. His insights, collaborative spirit, and commitment to industry development influenced standards and practices.</p>
-                                        </div>
-                                        
-                                        <div class="tab-pane fade" id="year-2020-r" role="tabpanel" aria-labelledby="year-2020-r-tab">
-                                            <h3 class="mb-2 fs-5 text-dark">Legacy Continues:</h3>
-                                            <p>Even after his departure in 2020, Ramgopal Ji Bhagirth Chouhan's legacy lives on through Rope industry Business. The company stands as a testament to his unwavering commitment to excellence, innovation, and responsible entrepreneurship. The journey of Ramgopal Ji Bhagirth Chouhan serves as an enduring inspiration, illustrating how a commitment to innovation, quality, and sustainability can not only shape an industry but also leave a lasting impact on the entrepreneurial landscape</p>
-                                        </div>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -397,7 +447,7 @@ Over the decades, this mission has grown into a movement—transforming lives an
                 </div>
                 <div class="col-lg-6 text-center text-lg-start order-lg-1">
                     <div class="bg-base-color fw-600 text-dark text-uppercase ps-20px pe-20px fs-12 border-radius-100px d-inline-block mb-15px">About Paarvedan</div>
-                    <h2 class="alt-font text-dark-gray fw-600 ls-minus-1px">Few Words From Our Founder </h2>
+                    <h2 class="alt-font text-dark-gray fw-600 ls-minus-1px">Few Words From Our Co-Founder </h2>
                     <p class="w-100 mb-40px sm-mb-20px">Dear Friends and Supporters, I am filled with immense joy and gratitude as I pen down this message, reflecting on the journey and vision of Paarvedan Foundation. As the founder, it is my privilege to share our mission and the profound impact we aim to create.</p>
                     <h6 class="alt-font text-dark-gray fw-600 ls-minus-1px">- Arun Chouhan</h6>
                 </div>
@@ -865,15 +915,15 @@ Over the decades, this mission has grown into a movement—transforming lives an
             <!-- Key Change 1: Added overflow-x-auto and flex classes to enable scrolling -->
             <div class="d-flex overflow-auto pb-3 gap-4 custom-scrollbar team-scroll-container" id="team-grid-scroll"> 
                 
-                <!-- Team Member 1: Arun Chouhan (Founder) -->
+                <!-- Team Member 1: Arun Chouhan (Co-Founder) -->
                 <div class="team-col flex-shrink-0" style="width: 280px;">
                     <div class="card team-card h-100 border-0 shadow-sm overflow-hidden">
                         <figure class="image-box position-relative overflow-hidden">
                             <!-- Placeholder image path -->
-                            <img loading="lazy" src="image/treamdummy.png" alt="Arun Chouhan - Founder" class="img-fluid w-100 team-image">
+                            <img loading="lazy" src="image/treamdummy.png" alt="Arun Chouhan - Co-Founder" class="img-fluid w-100 team-image">
                         </figure>
                         <div class="card-body text-center p-3">
-                            <span class="designation text-muted d-block mb-1 fs-6">Founder</span>
+                            <span class="designation text-muted d-block mb-1 fs-6">Co-Founder</span>
                             <h3 class="fw-700 fs-5 text-dark-gray">Arun Chouhan</h3>
                             
                             <!-- Social Links Overlay/Footer -->
@@ -1230,7 +1280,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             journey starting from the upcoming year as we grow and make a meaningful impact.
                         </p>
 
-                        <a href="#" class="btn btn-danger px-4 py-2 fw-semibold" 
+                        <a href="catalog.pdf" class="btn btn-danger px-4 py-2 fw-semibold" 
                            style="border-radius:30px;">Download</a>
                     </div>
                 </div>

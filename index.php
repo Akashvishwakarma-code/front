@@ -46,7 +46,7 @@
     </header>
     <!-- end header -->
     <!-- start banner -->
-    <section class="top-space-padding position-relative cover-background background-position-center-top img-hero" style="background-image: url('image/18.jpg'); height:90%;object-fit:cover; width:100%;background-color:rgba(255, 255, 255, 0.5);">
+    <section class="top-space-padding position-relative cover-background background-position-center-top img-hero" style="background-image: url('image/front.jpg'); height:130vh;object-fit:cover; width:100%;background-color:rgba(255, 255, 255, 0.5);">
         <div class="container">
             <div class="row align-items-center position-relative">
                 <div class="col-11 col-lg-6 col-sm-7 mt-14 mb-14 sm-mt-10 sm-mb-10" data-anime='{ "el": "childs", "translateX": [30, 1], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
@@ -348,8 +348,8 @@
         <div class="container">
             <div class="row align-items-center" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
                 <div class="col-lg-6 position-relative md-mb-14 sm-mb-17 xs-mb-23">
-                    <div class="w-100 h-80" data-animation-delay="50" data-shadow-animation="true">
-                        <img src="image/family.jpg" alt="" class="border-radius-8px w-100 ">
+                    <div class="w-100 h-50" data-animation-delay="50" data-shadow-animation="true">
+                        <img style="height:90vh" src="image/family.jpg" alt="" class="border-radius-8px w-100  ">
                     </div>
                 </div>
                 <div class="col-xl-5 offset-xl-1 col-lg-6 text-center text-lg-start">

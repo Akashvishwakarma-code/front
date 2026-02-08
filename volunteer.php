@@ -44,7 +44,7 @@
     <!-- end header -->
     <!-- start page title -->
     <section class="page-title-separate-breadcrumbs bg-dark-gray ipad-top-space-margin cover-background bg-dark-gray"
-        style="background-image: url(image/volunter.jpg)">
+        style="background-image: url(image/vol.jpeg)">
         <div class="opacity-full-dark bg-gradient-dark-transparent"></div>
         <div class="container position-relative">
             <div class="row flex-column flex-lg-row justify-content-center align-items-lg-end extra-very-small-screen">
