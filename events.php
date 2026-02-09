@@ -336,14 +336,14 @@
     <div
         class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
         <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/indoor-outdoor.jpg" alt="" /></a>
-            <a href="demo-charity-stories.html"
+            <a href="explore-events.php"><img src="image/indoor-outdoor.jpg" alt="" /></a>
+            <a href="explore-events.php"
                 class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
                 Mumbai</a>
         </div>
         <div class="bg-white">
             <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
+                <a href="explore-events.php"
                     class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Indoor-Outdoor
                     Sports</a>
                 <p class="line-clamp-3">
@@ -364,7 +364,7 @@
                 </div>
             </div>
             <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
+                <a href="explore-events.php"
                     class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
                     <span>
                         <span class="btn-text">Explore more</span>
@@ -776,22 +776,22 @@
     </div>
 </div>
 
-<!-- Beach Cleaning - 23 Sep 2023 -->
+<!-- Beach Cleaning - 23 Sep upcoming -->
 <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="upcoming" data-month="09"
     data-date="23">
     <div
         class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
         <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/beachclean.jpg"
+            <a href="explore-events.php"><img src="image/beachclean.jpg"
                     style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
                     alt=""></a>
-            <a href="demo-charity-stories.html"
+            <a href="explore-events.php"
                 class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
                 Dadar</a>
         </div>
         <div class="bg-white">
             <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
+                <a href="explore-events.php"
                     class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Beach
                     Cleaning</a>
                 <p class="line-clamp-3">Beach Cleanup Drive during the Ganesh Festival — a collective effort to preserve
@@ -808,7 +808,7 @@
                 </div>
             </div>
             <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
+                <a href="explore-events.php"
                     class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
                     <span>
                         <span class="btn-text">Explore more</span>
@@ -1010,16 +1010,16 @@
     <div
         class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
         <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/schoolbag.jpg"
+            <a href="explore-events.php"><img src="image/schoolbag.jpg"
                     style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
                     alt=""></a>
-            <a href="demo-charity-stories.html"
+            <a href="explore-events.php"
                 class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
                 Mumbai</a>
         </div>
         <div class="bg-white">
             <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
+                <a href="explore-events.php"
                     class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Bag
                     Distribution</a>
                 <p class="line-clamp-3">A drive gifting 1,000 school bags to students, helping them begin their
@@ -1036,7 +1036,7 @@
                 </div>
             </div>
             <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
+                <a href="explore-events.php"
                     class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
                     <span>
                         <span class="btn-text">Explore more</span>
