@@ -270,7 +270,7 @@
                 </div>
             </div>
             <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
+                <a href="event-detail.php?event_id=1"
                     class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
                     <span>
                         <span class="btn-text">Explore more</span>
