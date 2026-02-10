@@ -284,7 +284,7 @@
 </div>
 
 <!-- Notebook & Stationery Distribution (GoKool Kids) - 03 Mar 2024 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item" data-year="2023" data-month="05" data-date="28"
+<div class="col-lg-4 col-md-6 mb-30px event-card-item" data-year="2024" data-month="05" data-date="28"
     data-keywords="drawings">
     <div
         class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
@@ -330,20 +330,20 @@
     </div>
 </div>
 
-<!-- Indoor-Outdoor Sports - 22 Mar 2024 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item" data-year="upcoming" data-month="05" data-date="28"
+<!-- Indoor-Outdoor Sports - 22 sept upcoming -->
+<div class="col-lg-4 col-md-6 mb-30px event-card-item" data-year="upcoming" data-month="09" data-date="28"
     data-keywords="drawings">
     <div
         class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
         <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/indoor-outdoor.jpg" alt="" /></a>
-            <a href="demo-charity-stories.html"
+            <a href="explore-events.php"><img src="image/indoor-outdoor.jpg" alt="" /></a>
+            <a href="explore-events.php"
                 class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
                 Mumbai</a>
         </div>
         <div class="bg-white">
             <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
+                <a href="explore-events.php"
                     class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Indoor-Outdoor
                     Sports</a>
                 <p class="line-clamp-3">
@@ -353,7 +353,7 @@
                 <div class="row mt-30px">
                     <div class="col-6 text-start">
                         <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">22 Mar 2026</span>
+                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">22 sept 2026</span>
                         </div>
                     </div>
                     <div class="col-6 text-end">
@@ -364,7 +364,7 @@
                 </div>
             </div>
             <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
+                <a href="explore-events.php"
                     class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
                     <span>
                         <span class="btn-text">Explore more</span>
@@ -377,6 +377,7 @@
     </div>
 </div>
 
+<!-- notebooks & stationery Sports - 29 dec 2023 -->
 <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="12"
     data-date="29" data-keywords="notebook,stationery,education">
     <div
@@ -429,7 +430,8 @@
     </div>
 </div>
 
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="12"
+<!-- Christmas Activity Sports - 29 dec 2025 -->
+<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2025" data-month="12"
     data-date="15" data-keywords="christmas,activity,decorations">
     <div
         class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
@@ -457,7 +459,7 @@
                 <div class="row mt-30px">
                     <div class="col-6 text-start">
                         <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">15 Dec 2023</span>
+                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">15 Dec 2025</span>
                         </div>
                     </div>
                     <div class="col-6 text-end">
@@ -481,8 +483,8 @@
     </div>
 </div>
 
-<!-- Travel Kit Distribution - 11 Dec 2023 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="12"
+<!-- Travel Kit Distribution - 11 Dec 2024 -->
+<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2024" data-month="12"
     data-date="11" data-keywords="travel kit,distribution,hygiene">
     <div
         class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
@@ -511,7 +513,7 @@
                 <div class="row mt-30px">
                     <div class="col-6 text-start">
                         <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">11 Dec 2023</span>
+                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">11 Dec 2024</span>
                         </div>
                     </div>
                     <div class="col-6 text-end">
@@ -534,11 +536,9 @@
         </div>
     </div>
 </div>
-<!-- </div>
-</div> -->
 
-<!-- Solar Light Research - 23 Nov 2023 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="11"
+<!-- Solar Light Research - 23 Nov 2025 -->
+<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2025" data-month="11"
     data-date="23" data-keywords="solar light,research,renewable energy">
     <div
         class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
@@ -560,7 +560,7 @@
                 <div class="row mt-30px">
                     <div class="col-6 text-start">
                         <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">23 Nov 2023</span>
+                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">23 Nov 2025</span>
                         </div>
                     </div>
                     <div class="col-6 text-end">
@@ -634,7 +634,7 @@
 
 
 <!-- ANCHOR & SECTION TITLE FOR 2023 EVENTS -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="10"
+<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2024" data-month="10"
     data-date="18" data-keywords="clothes distribution,donation,community support">
     <div
         class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
@@ -656,7 +656,7 @@
                 <div class="row mt-30px">
                     <div class="col-6 text-start">
                         <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">18 Oct 2023</span>
+                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">18 Oct 2024</span>
                         </div>
                     </div>
                     <div class="col-6 text-end">
@@ -776,22 +776,22 @@
     </div>
 </div>
 
-<!-- Beach Cleaning - 23 Sep 2023 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="09"
+<!-- Beach Cleaning - 23 Sep upcoming -->
+<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="upcoming" data-month="09"
     data-date="23">
     <div
         class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
         <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/beachclean.jpg"
+            <a href="explore-events.php"><img src="image/beachclean.jpg"
                     style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
                     alt=""></a>
-            <a href="demo-charity-stories.html"
+            <a href="explore-events.php"
                 class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
                 Dadar</a>
         </div>
         <div class="bg-white">
             <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
+                <a href="explore-events.php"
                     class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Beach
                     Cleaning</a>
                 <p class="line-clamp-3">Beach Cleanup Drive during the Ganesh Festival — a collective effort to preserve
@@ -799,7 +799,7 @@
                 <div class="row mt-30px">
                     <div class="col-6 text-start">
                         <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">23
-                                Sep 2023</span></div>
+                                Sep 2026</span></div>
                     </div>
                     <div class="col-6 text-end">
                         <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">09:00
@@ -808,7 +808,7 @@
                 </div>
             </div>
             <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
+                <a href="explore-events.php"
                     class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
                     <span>
                         <span class="btn-text">Explore more</span>
@@ -1004,22 +1004,22 @@
 </div>
 
 
-<!-- Bag Distribution - 18 Aug 2023 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="08"
+<!-- Bag Distribution - 11 Nov upcoming -->
+<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="upcoming" data-month="11"
     data-date="18">
     <div
         class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
         <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/schoolbag.jpg"
+            <a href="explore-events.php"><img src="image/schoolbag.jpg"
                     style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
                     alt=""></a>
-            <a href="demo-charity-stories.html"
+            <a href="explore-events.php"
                 class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
                 Mumbai</a>
         </div>
         <div class="bg-white">
             <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
+                <a href="explore-events.php"
                     class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Bag
                     Distribution</a>
                 <p class="line-clamp-3">A drive gifting 1,000 school bags to students, helping them begin their
@@ -1027,7 +1027,7 @@
                 <div class="row mt-30px">
                     <div class="col-6 text-start">
                         <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">18
-                                Aug 2023</span></div>
+                                Nov 2026</span></div>
                     </div>
                     <div class="col-6 text-end">
                         <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">06:00
@@ -1036,7 +1036,7 @@
                 </div>
             </div>
             <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
+                <a href="explore-events.php"
                     class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
                     <span>
                         <span class="btn-text">Explore more</span>
@@ -1201,7 +1201,7 @@
 
 
 
-<!-- NOTE: You must include the following JavaScript right before the closing </body> tag -->
+
 <script>
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -1209,8 +1209,7 @@ document.addEventListener('DOMContentLoaded', () => {
        CREATE YEAR FILTERS
     ======================= */
     const yearContainer = document.getElementById('year-filter-container');
-    const now = new Date().getFullYear();
-    const years = [now - 1, now];
+    const currentYear = new Date().getFullYear();
 
     function addYearRadio(value, label, checked = false, secondary = false) {
         const id = `year-${value}`;
@@ -1234,7 +1233,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Past & current years
-    years.forEach((y, i) => addYearRadio(String(y), String(y), i === 1));
+    // years.forEach((y, i) => addYearRadio(String(y), String(y), i === 1));
+
+    for (let y = currentYear - 3; y <= currentYear; y++) {
+        addYearRadio(String(y), String(y), y === currentYear);
+    }
 
     // Upcoming
     addYearRadio('upcoming', 'Upcoming');

@@ -22,7 +22,7 @@
             <!-- NAV MENU: Collapses on mobile -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a href="./" class="nav-link">Home</a></li>
+                    <li class="nav- item"><a href="./" class="nav-link">Home</a></li>
                     
                     <li class="nav-item dropdown simple-dropdown ">
                         <a href="#" class="nav-link ">About Us</a>
@@ -31,8 +31,9 @@
                             <li><a href="about-us.php" data-scroll="about">About Paarvedan</a></li>
                             <li><a href="about-us.php" data-scroll="message">Our Message</a></li>
                             <li><a href="about-us.php" data-scroll="history">History</a></li>
-                            <li><a href="about-us.php" data-scroll="team">Team</a></li>
+                            
                             <li><a href="about-us.php" data-scroll="partners">Partners</a></li>
+                            <li><a href="about-us.php" data-scroll="team">Team</a></li>
                         </ul>
                     </li>
 
@@ -75,8 +76,9 @@
                             
                         </ul>
                     </li>
-                    <li class="nav-item"><a href="events.php" class="nav-link">Events</a></li>
-                    <li  class="nav- item"><a href="volunteer.php " class="nav-link">Volunteer</a></li>
+                    <li class="nav- item"><a href="events.php" class="nav-link">Events</a></li>
+
+                    <li class="nav- item"><a href="volunteer.php " class="nav-link">Volunteer</a></li>
                     
                     <!-- <li class="nav-item dropdown simple-dropdown">
                         <a href="#" class="nav-link">Projects</a>
