@@ -41,8 +41,8 @@
                         <a href="#" class="nav-link ">Solution </a>
                         <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink_About" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink_About">
-                            <li><a href="about-us.php" data-scroll="about">Corporate</a></li>
-                            <li><a href="about-us.php" data-scroll="message">NGOs</a></li> <li><a href="goverment.php">Government</a></li>
+                            <li><a href="corporate-employee-management.php" >Corporate</a></li>
+                            <li><a href="goverment.php" >NGOs</a></li> <li><a href="goverment.php">Government</a></li>
                             <li><a href="global-impact.php">Global Impact</a></li>
                             <li><a href="csr-resources.php">CSR Resources</a></li>
                             <li><a href="hni.php">HNI</a></li>
@@ -90,14 +90,12 @@
                         <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink_Projects" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink_Projects">
                            <li><a href="survey-reports.php">Survey Reports</a></li>
-                            <li><a href="about-us.php" data-scroll="history">Ambulance</a></li>
-                            <li><a href="about-us.php" data-scroll="team">Educate Child</a></li>
-                            <li><a href="about-us.php" data-scroll="partners">Grain Distribution</a></li>
+                            <li><a href="about-us.php">Ambulance</a></li>
+                            <li><a href="about-us.php" >Educate Child</a></li>
+                            <li><a href="about-us.php" >Grain Distribution</a></li>
                         </ul>
                     </li>
-                    <li  class="nav- item"><a href="membership.php " class="nav-link">Membership</a></li>
-                    
-                    <!-- <li class="nav-item dropdown simple-dropdown">
+                    <li  class="nav- item"><a href="membership.php " class="nav-link">Membership</a></li> <!-- <li class="nav-item dropdown simple-dropdown">
                         <a href="#" class="nav-link">Media</a>
                         <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink_Media" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink_Media">
