@@ -42,7 +42,7 @@
                         <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink_About" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink_About">
                             <li><a href="corporate-employee-management.php" >Corporate</a></li>
-                            <li><a href="goverment.php" >NGOs</a></li> <li><a href="goverment.php">Government</a></li>
+                            <li><a href="ngo.php" >NGOs</a></li> <li><a href="goverment.php">Government</a></li>
                             <li><a href="global-impact.php">Global Impact</a></li>
                             <li><a href="csr-resources.php">CSR Resources</a></li>
                             <li><a href="hni.php">HNI</a></li>
