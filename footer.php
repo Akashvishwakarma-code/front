@@ -156,6 +156,8 @@
                                     <li><i class="fa-solid fa-angle-right"></i><a href="privacy-policy.php" class="text-white">Privacy Policy</a></li>
                                     <li><i class="fa-solid fa-angle-right"></i><a href="term-condition.php" class="text-white">Terms &amp; Conditions</a></li>
                                     <li><i class="fa-solid fa-angle-right"></i><a href="faqs.php" class="text-white">FAQs</a></li>
+                                     <li><i class="fa-solid fa-angle-right"></i><a href="Policies.php" class="text-white">Policies</a></li>
+
                                     <li><i class="fa-solid fa-angle-right"></i><a href="verify-certificate.php" class="text-white">Verify Certificate</a></li>
                                     <li><i class="fa-solid fa-angle-right"></i><a href="refund.php" class="text-white">Refund Policy</a></li>
                                 </ul>
