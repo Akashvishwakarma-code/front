@@ -429,10 +429,10 @@
                         <div class="bg-white">
                             <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center progress-bar-style-01">
                                 <a href="#" class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px ls-minus-05px">Education for Children</a>
-                                <p>We aim to provide education to weaker sections in every part of India. .</p>
+                                <p>We aim to provide education to weaker sections in every part of India.</p>
                                 <!-- start progress bar item -->
                                 <div class="progress mt-50px mb-15px bg-zircon-grey">
-                                    <div class="progress-bar bg-dark-gray" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="child-issue-one">  <!--progress percent first--> 
+                                    <div class="progress-bar bg-dark-gray" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="child-issue-one"> <!--progress percent first-->
                                         <span class="progress-bar-percent text-center bg-dark-gray fs-11 lh-12 fw-500 text-white">80%</span>
                                     </div>
                                 </div>
@@ -464,12 +464,12 @@
                     <div class="box-shadow-quadruple-large box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
                         <div class="position-relative">
                             <a href="#"><img src="image/secure.jpg" style="width: 100%; height: 230px; object-fit: cover; object-position: center; display: block;" alt=""></a>
-                            <a href="#" class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">Support</a>
+                            <a href="#" class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">Distribution</a>
                         </div>
                         <div class="bg-white">
                             <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center progress-bar-style-01">
-                                <a href="#" class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px ls-minus-05px">Build a Secure & Happy Life</a>
-                                <p>Providing happy life to individuals by helping them with no return expectation.</p>
+                                <a href="#" class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px ls-minus-05px">Grain Distribution</a>
+                                <p>Ensuring food security by delivering essential grains to families facing poverty and hardship.</p>
                                 <!-- start progress bar item -->
                                 <div class="progress mt-50px mb-15px bg-zircon-grey">
                                     <div class="progress-bar bg-dark-gray" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="child-issue-two">
@@ -499,17 +499,17 @@
                     </div>
                     <!-- end services box style -->
                 </div>
-                <div class="col">
+                <div class="col md-mb-30px">
                     <!-- start services box style -->
                     <div class="box-shadow-quadruple-large box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
                         <div class="position-relative">
-                            <a href="#"><img src="image/kidsplaying.jpg" style="width: 100%; height: 230px; object-fit: cover; object-position: center; display: block;"     alt=""></a>
-                            <a href="#" class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">Childhood</a>
+                            <a href="#"><img src="image/empowerwoman.jpg" style="width: 100%; height: 230px; object-fit: cover; object-position: center; display: block;" alt=""></a>
+                            <a href="#" class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">Empower</a>
                         </div>
                         <div class="bg-white">
                             <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center progress-bar-style-01">
-                                <a href="#" class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px ls-minus-05px">Save Childhood in India</a>
-                                <p>Helping children in India facing extreme poverty.</p>
+                                <a href="#" class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px ls-minus-05px">EmpowerHER!</a>
+                                <p>Supporting women with resources and guidance to help them achieve financial and social independence.</p>
                                 <!-- start progress bar item -->
                                 <div class="progress mt-50px mb-15px bg-zircon-grey">
                                     <div class="progress-bar bg-dark-gray" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="child-issue-three">

@@ -46,7 +46,7 @@
                             <li><a href="global-impact.php">Global Impact</a></li>
                             <li><a href="csr-resources.php">CSR Resources</a></li>
                             <li><a href="hni.php">HNI</a></li>
-                            
+                            <li><a href="survey-reports.php">Survey Reports</a></li>
                             
                             <li class="nav-item dropdown simple-dropdown">
                                 <li class="nav-item dropdown simple-dropdown">
@@ -89,10 +89,13 @@
                         <a href="#" class="nav-link">Projects</a>
                         <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink_Projects" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink_Projects">
-                           <li><a href="survey-reports.php">Survey Reports</a></li>
-                            <li><a href="about-us.php">Ambulance</a></li>
-                            <li><a href="about-us.php" >Educate Child</a></li>
-                            <li><a href="about-us.php" >Grain Distribution</a></li>
+                
+                            <li><a href="#" >Education for Children</a></li>
+                            <li><a href="#" >Grain Distribution</a></li>
+                            <li><a href="#">Women Empowerment</a></li>
+                            <li><a href="#">Ambulance</a></li>
+                            <li><a href="#">Tree Plantation</a></li>
+
                         </ul>
                     </li>
                     <li  class="nav- item"><a href="membership.php " class="nav-link">Membership</a></li> <!-- <li class="nav-item dropdown simple-dropdown">

@@ -116,12 +116,19 @@
                             <div class="widget-content">
                                 <ul class="links-list clearfix">
                                    <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">Education for Children
-                                            </a></li>
-                                        <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">EmpowerHER!
-                                            </a></li>
-                                        <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">Tree Plantation
-                                            </a></li>
-                                    
+                                        </a></li>
+
+                                    <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">Grain Distribution
+                                        </a></li>
+                                        
+
+                                    <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">Women Empowerment
+                                        </a></li>
+                                    <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">Ambulance
+                                        </a></li>
+                                    <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">Tree Plantation
+                                        </a></li>
+                                                                            
                                 </ul>
                             </div>
                         </div>
