@@ -83,7 +83,6 @@
             width: 70px;
             height: 3px;
             background: #f5b02e;
-            
         }
        
        .btn-paarvedan {
