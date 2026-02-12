@@ -1253,6 +1253,11 @@
             // All
             addYearRadio('all', 'All', false, true);
 
+            // Auto-select current month
+            const currentMonth = String(new Date().getMonth() + 1).padStart(2, '0');
+            const currentMonthRadio = document.getElementById(`month-${currentMonth}`);
+            if (currentMonthRadio) currentMonthRadio.checked = true;
+
             /* =======================
                FILTERING LOGIC
             ======================= */

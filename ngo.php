@@ -98,7 +98,7 @@
             <div class="row g-0 justify-content-center">
                 <div class="col-lg-8">
                     <div class="contact-form-style-01" data-anime='{ "translateX": [0, 0], "opacity": [0,1], "duration": 600, "delay": 300, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <h4 class="alt-font text-dark-gray highlight-separator-small">Volunteer with Us - Application Form</h4>
+                        <h4 class="alt-font text-dark-gray highlight-separator-small">NGO Collaboration - Application Form</h4>
                         <form id="myForm" enctype="multipart/form-data">
 
                             <!-- NGO Details -->

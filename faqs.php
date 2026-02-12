@@ -183,7 +183,7 @@
                             
                             <div class="accordion-group">
                                 <div class="accordion-item" style="padding: 45px 20px;">
-                                    <button class="accordion-button" style="" id="q1" onclick="toggleAccordion(this)">What is CSR?</button>
+                                    <button class="accordion-button" id="q1" onclick="toggleAccordion(this)">What is CSR?</button>
                                     <div class="accordion-content">
                                         <p>CSR stands for Corporate Social Responsibility. It is a business approach that encourages companies to contribute positively to society through ethical practices, environmental sustainability, and community engagement.</p>
                                     </div>
