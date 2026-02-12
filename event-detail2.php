@@ -260,7 +260,7 @@
                         <h6>Paarvedan Foundation Impact</h6>
                         <p class="small mb-2">Join our community of <strong>278</strong> volunteers who have
                             supported over <strong>1.50L beneficiaries</strong>.</p>
-                        <a href="/front#popular-causes" class="btn btn-sm btn-success">View All Causes</a>
+                        <a href="events.php" class="btn btn-sm btn-success">View All Events</a>
                     </div>
                 </div>
 

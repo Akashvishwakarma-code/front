@@ -1211,157 +1211,157 @@
 
 
     <script>
-    document.addEventListener('DOMContentLoaded', () => {
+        document.addEventListener('DOMContentLoaded', () => {
 
-        /* =======================
-           CREATE YEAR FILTERS
-        ======================= */
-        const yearContainer = document.getElementById('year-filter-container');
-        const currentYear = new Date().getFullYear();
+            /* =======================
+               CREATE YEAR FILTERS
+            ======================= */
+            const yearContainer = document.getElementById('year-filter-container');
+            const currentYear = new Date().getFullYear();
 
-        function addYearRadio(value, label, checked = false, secondary = false, container = yearContainer) {
-            const id = `year-${value}`;
+            function addYearRadio(value, label, checked = false, secondary = false, container = yearContainer) {
+                const id = `year-${value}`;
 
-            const input = document.createElement('input');
-            input.type = 'radio';
-            input.name = 'event-year';
-            input.value = value;
-            input.id = id;
-            input.className = 'btn-check year-filter';
-            input.autocomplete = 'off';
-            if (checked) input.checked = true;
+                const input = document.createElement('input');
+                input.type = 'radio';
+                input.name = 'event-year';
+                input.value = value;
+                input.id = id;
+                input.className = 'btn-check year-filter';
+                input.autocomplete = 'off';
+                if (checked) input.checked = true;
 
-            const lbl = document.createElement('label');
-            lbl.htmlFor = id;
-            lbl.className = `btn ${secondary ? 'btn-outline-secondary' : 'btn-outline-danger'} rounded-pill`;
-            lbl.innerText = label;
+                const lbl = document.createElement('label');
+                lbl.htmlFor = id;
+                lbl.className = `btn ${secondary ? 'btn-outline-secondary' : 'btn-outline-danger'} rounded-pill`;
+                lbl.innerText = label;
 
-            container.appendChild(input);
-            container.appendChild(lbl);
-        }
+                container.appendChild(input);
+                container.appendChild(lbl);
+            }
 
-        // --- Collapsible past years ---
-        const collapseWrapper = document.createElement('div');
-        collapseWrapper.className = 'w-100 mb-1';
+            // --- Collapsible past years ---
+            const collapseWrapper = document.createElement('div');
+            collapseWrapper.className = 'w-100 mb-1';
 
-        const toggleBtn = document.createElement('button');
-        toggleBtn.className = 'btn btn-light border w-100 text-start';
+            const toggleBtn = document.createElement('button');
+            toggleBtn.className = 'btn btn-light border w-100 text-start';
 
-        toggleBtn.setAttribute('type', 'button');
-        toggleBtn.setAttribute('data-bs-toggle', 'collapse');
-        toggleBtn.setAttribute('data-bs-target', '#past-years-collapse');
-        toggleBtn.setAttribute('aria-expanded', 'false');
-        toggleBtn.setAttribute('aria-controls', 'past-years-collapse');
-        toggleBtn.innerHTML = `Past Years <span class="float-end">&#9660;</span>`;
-        collapseWrapper.appendChild(toggleBtn);
+            toggleBtn.setAttribute('type', 'button');
+            toggleBtn.setAttribute('data-bs-toggle', 'collapse');
+            toggleBtn.setAttribute('data-bs-target', '#past-years-collapse');
+            toggleBtn.setAttribute('aria-expanded', 'false');
+            toggleBtn.setAttribute('aria-controls', 'past-years-collapse');
+            toggleBtn.innerHTML = `Past Years <span class="float-end">&#9660;</span>`;
+            collapseWrapper.appendChild(toggleBtn);
 
-        const collapseDiv = document.createElement('div');
-        collapseDiv.id = 'past-years-collapse';
-        collapseDiv.className = 'collapse';
+            const collapseDiv = document.createElement('div');
+            collapseDiv.id = 'past-years-collapse';
+            collapseDiv.className = 'collapse';
 
-        const pastYearsInner = document.createElement('div');
-        pastYearsInner.className = 'd-flex flex-wrap gap-2 pt-2';
+            const pastYearsInner = document.createElement('div');
+            pastYearsInner.className = 'd-flex flex-wrap gap-2 pt-2';
 
-        // Populate past years (up to 3 years back) into the collapsible
-        for (let y = currentYear - 3; y < currentYear; y++) {
-            addYearRadio(String(y), String(y), false, false, pastYearsInner);
-        }
+            // Populate past years (up to 3 years back) into the collapsible
+            for (let y = currentYear - 3; y < currentYear; y++) {
+                addYearRadio(String(y), String(y), false, false, pastYearsInner);
+            }
 
-        collapseDiv.appendChild(pastYearsInner);
-        collapseWrapper.appendChild(collapseDiv);
-        yearContainer.appendChild(collapseWrapper);
+            collapseDiv.appendChild(pastYearsInner);
+            collapseWrapper.appendChild(collapseDiv);
+            yearContainer.appendChild(collapseWrapper);
 
-        // --- Current year (default checked), Upcoming, All ---
-        addYearRadio(String(currentYear), String(currentYear), true);
-        addYearRadio('upcoming', 'Upcoming');
-        addYearRadio('all', 'All', false, true);
+            // --- Current year (default checked), Upcoming, All ---
+            addYearRadio(String(currentYear), String(currentYear), true);
+            addYearRadio('upcoming', 'Upcoming');
+            addYearRadio('all', 'All', false, true);
 
-        // Auto-select current month
-        const currentMonth = String(new Date().getMonth() + 1).padStart(2, '0');
-        const currentMonthRadio = document.getElementById(`month-${currentMonth}`);
-        if (currentMonthRadio) currentMonthRadio.checked = true;
+            // Auto-select current month
+            const currentMonth = String(new Date().getMonth() + 1).padStart(2, '0');
+            const currentMonthRadio = document.getElementById(`month-${currentMonth}`);
+            if (currentMonthRadio) currentMonthRadio.checked = true;
 
-        /* =======================
-           FILTERING LOGIC
-        ======================= */
+            /* =======================
+               FILTERING LOGIC
+            ======================= */
 
-        const eventCards = [...document.querySelectorAll('.event-card-item')];
-        const yearRadios = () =>
-            document.querySelector('input[name="event-year"]:checked')?.value || 'all';
-        const monthRadios = () =>
-            document.querySelector('input[name="event-month"]:checked')?.value || 'all';
-        const keywordInput = document.getElementById('keyword-input');
+            const eventCards = [...document.querySelectorAll('.event-card-item')];
+            const yearRadios = () =>
+                document.querySelector('input[name="event-year"]:checked')?.value || 'all';
+            const monthRadios = () =>
+                document.querySelector('input[name="event-month"]:checked')?.value || 'all';
+            const keywordInput = document.getElementById('keyword-input');
 
-        function isUpcoming(card) {
-            return card.dataset.year === 'upcoming';
-        }
+            function isUpcoming(card) {
+                return card.dataset.year === 'upcoming';
+            }
 
-        function matchesYear(card, year) {
-            if (year === 'all') return true;
-            if (year === 'upcoming') return isUpcoming(card);
-            return card.dataset.year === year;
-        }
+            function matchesYear(card, year) {
+                if (year === 'all') return true;
+                if (year === 'upcoming') return isUpcoming(card);
+                return card.dataset.year === year;
+            }
 
-        function matchesMonth(card, month) {
-            if (month === 'all') return true;
-            if (isUpcoming(card)) return false;
-            return card.dataset.month === month;
-        }
+            function matchesMonth(card, month) {
+                if (month === 'all') return true;
+                if (isUpcoming(card)) return false;
+                return card.dataset.month === month;
+            }
 
-        function matchesKeyword(card, keyword) {
-            if (!keyword) return true;
-            return (card.dataset.keywords || '').toLowerCase().includes(keyword);
-        }
+            function matchesKeyword(card, keyword) {
+                if (!keyword) return true;
+                return (card.dataset.keywords || '').toLowerCase().includes(keyword);
+            }
 
-        function applyFilter() {
-            const year = yearRadios();
-            const month = monthRadios();
-            const keyword = keywordInput?.value.trim().toLowerCase() || '';
-            let visible = 0;
+            function applyFilter() {
+                const year = yearRadios();
+                const month = monthRadios();
+                const keyword = keywordInput?.value.trim().toLowerCase() || '';
+                let visible = 0;
 
-            eventCards.forEach(card => {
-                const show =
-                    matchesYear(card, year) &&
-                    matchesMonth(card, month) &&
-                    matchesKeyword(card, keyword);
+                eventCards.forEach(card => {
+                    const show =
+                        matchesYear(card, year) &&
+                        matchesMonth(card, month) &&
+                        matchesKeyword(card, keyword);
 
-                card.style.display = show ? '' : 'none';
-                if (show) visible++;
+                    card.style.display = show ? '' : 'none';
+                    if (show) visible++;
+                });
+
+                toggleNoResults(visible);
+            }
+
+            function toggleNoResults(count) {
+                let msg = document.getElementById('no-events-message');
+                if (!msg) {
+                    msg = document.createElement('div');
+                    msg.id = 'no-events-message';
+                    msg.className = 'col-12 text-center mt-4';
+                    msg.innerHTML = '<p class="fs-16 text-muted">No events found.</p>';
+                    document.querySelector('.content-side')?.appendChild(msg);
+                }
+                msg.style.display = count === 0 ? 'block' : 'none';
+            }
+
+            document.addEventListener('change', e => {
+                if (e.target.matches('.year-filter, .month-filter')) {
+                    applyFilter();
+                }
             });
 
-            toggleNoResults(visible);
-        }
+            document.getElementById('apply-keyword-search-btn')
+                ?.addEventListener('click', applyFilter);
 
-        function toggleNoResults(count) {
-            let msg = document.getElementById('no-events-message');
-            if (!msg) {
-                msg = document.createElement('div');
-                msg.id = 'no-events-message';
-                msg.className = 'col-12 text-center mt-4';
-                msg.innerHTML = '<p class="fs-16 text-muted">No events found.</p>';
-                document.querySelector('.content-side')?.appendChild(msg);
-            }
-            msg.style.display = count === 0 ? 'block' : 'none';
-        }
+            document.getElementById('close-search-bar-btn')
+                ?.addEventListener('click', () => {
+                    keywordInput.value = '';
+                    applyFilter();
+                });
 
-        document.addEventListener('change', e => {
-            if (e.target.matches('.year-filter, .month-filter')) {
-                applyFilter();
-            }
+            applyFilter();
         });
-
-        document.getElementById('apply-keyword-search-btn')
-            ?.addEventListener('click', applyFilter);
-
-        document.getElementById('close-search-bar-btn')
-            ?.addEventListener('click', () => {
-                keywordInput.value = '';
-                applyFilter();
-            });
-
-        applyFilter();
-    });
-</script>
+    </script>
 
 
     <section class="cover-background">

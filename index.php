@@ -423,12 +423,12 @@
                     <!-- start services box style -->
                     <div class="box-shadow-quadruple-large box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
                         <div class="position-relative">
-                            <a href="#"><img src="image/schoolstudent.jpg" style="width: 100%; height: 230px; object-fit: cover; object-position: center; display: block;" alt=""></a>
-                            <a href="#" class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">Education</a>
+                            <a href="project.php?id=scholarshipProgramme"><img src="image/schoolstudent.jpg" style="width: 100%; height: 230px; object-fit: cover; object-position: center; display: block;" alt=""></a>
+                            <a href="project.php?id=scholarshipProgramme" class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">Education</a>
                         </div>
                         <div class="bg-white">
                             <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center progress-bar-style-01">
-                                <a href="#" class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px ls-minus-05px">Scholarship</a>
+                                <a href="project.php?id=scholarshipProgramme" class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px ls-minus-05px">Scholarship</a>
                                 <p>We aim to provide education to weaker sections in every part of India.</p>
                                 <!-- start progress bar item -->
                                 <div class="progress mt-50px mb-15px bg-zircon-grey">
@@ -463,12 +463,12 @@
                     <!-- start services box style -->
                     <div class="box-shadow-quadruple-large box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
                         <div class="position-relative">
-                            <a href="#"><img src="image/secure.jpg" style="width: 100%; height: 230px; object-fit: cover; object-position: center; display: block;" alt=""></a>
-                            <a href="#" class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">Distribution</a>
+                            <a href="project.php?id=grainDistribution"><img src="image/secure.jpg" style="width: 100%; height: 230px; object-fit: cover; object-position: center; display: block;" alt=""></a>
+                            <a href="project.php?id=grainDistribution" class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">Distribution</a>
                         </div>
                         <div class="bg-white">
                             <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center progress-bar-style-01">
-                                <a href="#" class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px ls-minus-05px">Grain Distribution</a>
+                                <a href="project.php?id=grainDistribution" class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px ls-minus-05px">Grain Distribution</a>
                                 <p>Ensuring food security by delivering essential grains to families facing poverty and hardship.</p>
                                 <!-- start progress bar item -->
                                 <div class="progress mt-50px mb-15px bg-zircon-grey">
@@ -503,8 +503,8 @@
                     <!-- start services box style -->
                     <div class="box-shadow-quadruple-large box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
                         <div class="position-relative">
-                            <a href="#"><img src="image/ambulance.jpg" style="width: 100%; height: 230px; object-fit: cover; object-position: center; display: block;" alt=""></a>
-                            <a href="#" class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">Healthcare</a>
+                            <a href="project.php?id=ambulanceProject"><img src="image/ambulance.jpg" style="width: 100%; height: 230px; object-fit: cover; object-position: center; display: block;" alt=""></a>
+                            <a href="project.php?id=ambulanceProject" class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">Healthcare</a>
                         </div>
                         <div class="bg-white">
                             <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center progress-bar-style-01">

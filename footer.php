@@ -117,19 +117,47 @@
                         </div>
                         <div class="widget-content">
                             <ul class="links-list clearfix">
-                                <li><i class="fa-solid fa-angle-right"></i><a href="project.php?id=scholarshipProgramme" class="text-white">Scholarship Program
-                                    </a></li>
-
-                                <li><i class="fa-solid fa-angle-right"></i><a href="project.php?id=grainDistribution" class="text-white">Grain Distribution
-                                    </a></li>
-
-
+                                                       
                                 <li><i class="fa-solid fa-angle-right"></i><a href="event-detail2.php?id=womenEmpowermentSHG" class="text-white">Women Empowerment
                                     </a></li>
-                                <li><i class="fa-solid fa-angle-right"></i><a href="project.php?id=ambulanceProject" class="text-white">Ambulance
-                                    </a></li>
+                                
                                 <li><i class="fa-solid fa-angle-right"></i><a href="event-detail2.php?id=treePlantationProgram" class="text-white">Tree Plantation
                                     </a></li>
+
+
+                                <li class="dropdown mb-2">
+                                    <a class="text-white d-flex align-items-center justify-content-between dropdown-toggle"
+                                        href="#"
+                                        id="navbarDropdownMenuLink_SHG"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <span>
+                                            <i class="fa-solid fa-angle-right me-2"></i> Campaigns
+                                        </span>
+                                    </a>
+
+                                    <ul class="dropdown-menu bg-dark border-0 shadow"
+                                        aria-labelledby="navbarDropdownMenuLink_SHG">
+                                        <li>
+                                            <a class="dropdown-item text-white" href="project.php?id=ambulanceProject">
+                                                Ambulance
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item text-white" href="project.php?id=grainDistribution">
+                                                Grain Distribution
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item text-white" href="project.php?id=scholarshipProgramme">
+                                                Scholarship Program
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                
+
 
                             </ul>
                         </div>
