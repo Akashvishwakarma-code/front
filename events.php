@@ -1211,134 +1211,157 @@
 
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', () => {
 
-            /* =======================
-               CREATE YEAR FILTERS
-            ======================= */
-            const yearContainer = document.getElementById('year-filter-container');
-            const currentYear = new Date().getFullYear();
+        /* =======================
+           CREATE YEAR FILTERS
+        ======================= */
+        const yearContainer = document.getElementById('year-filter-container');
+        const currentYear = new Date().getFullYear();
 
-            function addYearRadio(value, label, checked = false, secondary = false) {
-                const id = `year-${value}`;
+        function addYearRadio(value, label, checked = false, secondary = false, container = yearContainer) {
+            const id = `year-${value}`;
 
-                const input = document.createElement('input');
-                input.type = 'radio';
-                input.name = 'event-year';
-                input.value = value;
-                input.id = id;
-                input.className = 'btn-check year-filter';
-                input.autocomplete = 'off';
-                if (checked) input.checked = true;
+            const input = document.createElement('input');
+            input.type = 'radio';
+            input.name = 'event-year';
+            input.value = value;
+            input.id = id;
+            input.className = 'btn-check year-filter';
+            input.autocomplete = 'off';
+            if (checked) input.checked = true;
 
-                const lbl = document.createElement('label');
-                lbl.htmlFor = id;
-                lbl.className = `btn ${secondary ? 'btn-outline-secondary' : 'btn-outline-danger'} rounded-pill`;
-                lbl.innerText = label;
+            const lbl = document.createElement('label');
+            lbl.htmlFor = id;
+            lbl.className = `btn ${secondary ? 'btn-outline-secondary' : 'btn-outline-danger'} rounded-pill`;
+            lbl.innerText = label;
 
-                yearContainer.appendChild(input);
-                yearContainer.appendChild(lbl);
-            }
+            container.appendChild(input);
+            container.appendChild(lbl);
+        }
 
-            // Past & current years
-            // years.forEach((y, i) => addYearRadio(String(y), String(y), i === 1));
+        // --- Collapsible past years ---
+        const collapseWrapper = document.createElement('div');
+        collapseWrapper.className = 'w-100 mb-1';
 
-            for (let y = currentYear - 3; y <= currentYear; y++) {
-                addYearRadio(String(y), String(y), y === currentYear);
-            }
+        const toggleBtn = document.createElement('button');
+        toggleBtn.className = 'btn btn-light border w-100 text-start';
 
-            // Upcoming
-            addYearRadio('upcoming', 'Upcoming');
+        toggleBtn.setAttribute('type', 'button');
+        toggleBtn.setAttribute('data-bs-toggle', 'collapse');
+        toggleBtn.setAttribute('data-bs-target', '#past-years-collapse');
+        toggleBtn.setAttribute('aria-expanded', 'false');
+        toggleBtn.setAttribute('aria-controls', 'past-years-collapse');
+        toggleBtn.innerHTML = `Past Years <span class="float-end">&#9660;</span>`;
+        collapseWrapper.appendChild(toggleBtn);
 
-            // All
-            addYearRadio('all', 'All', false, true);
+        const collapseDiv = document.createElement('div');
+        collapseDiv.id = 'past-years-collapse';
+        collapseDiv.className = 'collapse';
 
-            // Auto-select current month
-            const currentMonth = String(new Date().getMonth() + 1).padStart(2, '0');
-            const currentMonthRadio = document.getElementById(`month-${currentMonth}`);
-            if (currentMonthRadio) currentMonthRadio.checked = true;
+        const pastYearsInner = document.createElement('div');
+        pastYearsInner.className = 'd-flex flex-wrap gap-2 pt-2';
 
-            /* =======================
-               FILTERING LOGIC
-            ======================= */
+        // Populate past years (up to 3 years back) into the collapsible
+        for (let y = currentYear - 3; y < currentYear; y++) {
+            addYearRadio(String(y), String(y), false, false, pastYearsInner);
+        }
 
-            const eventCards = [...document.querySelectorAll('.event-card-item')];
-            const yearRadios = () =>
-                document.querySelector('input[name="event-year"]:checked')?.value || 'all';
-            const monthRadios = () =>
-                document.querySelector('input[name="event-month"]:checked')?.value || 'all';
-            const keywordInput = document.getElementById('keyword-input');
+        collapseDiv.appendChild(pastYearsInner);
+        collapseWrapper.appendChild(collapseDiv);
+        yearContainer.appendChild(collapseWrapper);
 
-            function isUpcoming(card) {
-                return card.dataset.year === 'upcoming';
-            }
+        // --- Current year (default checked), Upcoming, All ---
+        addYearRadio(String(currentYear), String(currentYear), true);
+        addYearRadio('upcoming', 'Upcoming');
+        addYearRadio('all', 'All', false, true);
 
-            function matchesYear(card, year) {
-                if (year === 'all') return true;
-                if (year === 'upcoming') return isUpcoming(card);
-                return card.dataset.year === year;
-            }
+        // Auto-select current month
+        const currentMonth = String(new Date().getMonth() + 1).padStart(2, '0');
+        const currentMonthRadio = document.getElementById(`month-${currentMonth}`);
+        if (currentMonthRadio) currentMonthRadio.checked = true;
 
-            function matchesMonth(card, month) {
-                if (month === 'all') return true;
-                if (isUpcoming(card)) return false;
-                return card.dataset.month === month;
-            }
+        /* =======================
+           FILTERING LOGIC
+        ======================= */
 
-            function matchesKeyword(card, keyword) {
-                if (!keyword) return true;
-                return (card.dataset.keywords || '').toLowerCase().includes(keyword);
-            }
+        const eventCards = [...document.querySelectorAll('.event-card-item')];
+        const yearRadios = () =>
+            document.querySelector('input[name="event-year"]:checked')?.value || 'all';
+        const monthRadios = () =>
+            document.querySelector('input[name="event-month"]:checked')?.value || 'all';
+        const keywordInput = document.getElementById('keyword-input');
 
-            function applyFilter() {
-                const year = yearRadios();
-                const month = monthRadios();
-                const keyword = keywordInput?.value.trim().toLowerCase() || '';
-                let visible = 0;
+        function isUpcoming(card) {
+            return card.dataset.year === 'upcoming';
+        }
 
-                eventCards.forEach(card => {
-                    const show =
-                        matchesYear(card, year) &&
-                        matchesMonth(card, month) &&
-                        matchesKeyword(card, keyword);
+        function matchesYear(card, year) {
+            if (year === 'all') return true;
+            if (year === 'upcoming') return isUpcoming(card);
+            return card.dataset.year === year;
+        }
 
-                    card.style.display = show ? '' : 'none';
-                    if (show) visible++;
-                });
+        function matchesMonth(card, month) {
+            if (month === 'all') return true;
+            if (isUpcoming(card)) return false;
+            return card.dataset.month === month;
+        }
 
-                toggleNoResults(visible);
-            }
+        function matchesKeyword(card, keyword) {
+            if (!keyword) return true;
+            return (card.dataset.keywords || '').toLowerCase().includes(keyword);
+        }
 
-            function toggleNoResults(count) {
-                let msg = document.getElementById('no-events-message');
-                if (!msg) {
-                    msg = document.createElement('div');
-                    msg.id = 'no-events-message';
-                    msg.className = 'col-12 text-center mt-4';
-                    msg.innerHTML = '<p class="fs-16 text-muted">No events found.</p>';
-                    document.querySelector('.content-side')?.appendChild(msg);
-                }
-                msg.style.display = count === 0 ? 'block' : 'none';
-            }
+        function applyFilter() {
+            const year = yearRadios();
+            const month = monthRadios();
+            const keyword = keywordInput?.value.trim().toLowerCase() || '';
+            let visible = 0;
 
-            document.addEventListener('change', e => {
-                if (e.target.matches('.year-filter, .month-filter')) {
-                    applyFilter();
-                }
+            eventCards.forEach(card => {
+                const show =
+                    matchesYear(card, year) &&
+                    matchesMonth(card, month) &&
+                    matchesKeyword(card, keyword);
+
+                card.style.display = show ? '' : 'none';
+                if (show) visible++;
             });
 
-            document.getElementById('apply-keyword-search-btn')
-                ?.addEventListener('click', applyFilter);
+            toggleNoResults(visible);
+        }
 
-            document.getElementById('close-search-bar-btn')
-                ?.addEventListener('click', () => {
-                    keywordInput.value = '';
-                    applyFilter();
-                });
+        function toggleNoResults(count) {
+            let msg = document.getElementById('no-events-message');
+            if (!msg) {
+                msg = document.createElement('div');
+                msg.id = 'no-events-message';
+                msg.className = 'col-12 text-center mt-4';
+                msg.innerHTML = '<p class="fs-16 text-muted">No events found.</p>';
+                document.querySelector('.content-side')?.appendChild(msg);
+            }
+            msg.style.display = count === 0 ? 'block' : 'none';
+        }
 
-            applyFilter();
+        document.addEventListener('change', e => {
+            if (e.target.matches('.year-filter, .month-filter')) {
+                applyFilter();
+            }
         });
-    </script>
+
+        document.getElementById('apply-keyword-search-btn')
+            ?.addEventListener('click', applyFilter);
+
+        document.getElementById('close-search-bar-btn')
+            ?.addEventListener('click', () => {
+                keywordInput.value = '';
+                applyFilter();
+            });
+
+        applyFilter();
+    });
+</script>
 
 
     <section class="cover-background">
