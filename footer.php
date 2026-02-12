@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
     <title>Document</title>
 </head>
+
 <body>
 
     <section class="p-0">
@@ -85,120 +87,168 @@
                     </div>
                 </div>
                 <!-- end footer column -->
-            </div> 
-        <!-- <div class="bg-gradient-paarvedan"> -->
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 py-5 px-5 text-white">
-                    
+            </div>
+            <!-- <div class="bg-gradient-paarvedan"> -->
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 py-5 px-5 text-white">
+
                 <div class="col footer-column">
-                        <div class="footer-widget links-widget">
-                            <div class="widget-title">
-                                <h5>About Us</h5>
-                            </div>
-                            
-                            <div class="widget-content">
-                                <ul class="links-list clearfix">
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="about-us.php" class="text-white">About Paarvedan</a></li>
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="events.php" class="text-white">Events</a></li>
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="goverment.php" class="text-white">Project</a></li>
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="blog&news.php" class="text-white">Blog &amp; News</a></li>
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="webinar.php" class="text-white">Webinar</a></li>
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="contact.php" class="text-white">Contact</a></li>
-                                </ul>
-                            </div>
+                    <div class="footer-widget links-widget">
+                        <div class="widget-title">
+                            <h5>About Us</h5>
+                        </div>
+
+                        <div class="widget-content">
+                            <ul class="links-list clearfix">
+                                <li><i class="fa-solid fa-angle-right"></i><a href="about-us.php" class="text-white">About Paarvedan</a></li>
+                                <li><i class="fa-solid fa-angle-right"></i><a href="events.php" class="text-white">Events</a></li>
+                                <li><i class="fa-solid fa-angle-right"></i><a href="goverment.php" class="text-white">Project</a></li>
+                                <li><i class="fa-solid fa-angle-right"></i><a href="blog&news.php" class="text-white">Blog &amp; News</a></li>
+                                <li><i class="fa-solid fa-angle-right"></i><a href="webinar.php" class="text-white">Webinar</a></li>
+                                <li><i class="fa-solid fa-angle-right"></i><a href="contact.php" class="text-white">Contact</a></li>
+                            </ul>
                         </div>
                     </div>
-                    
-                    <div class="col footer-column">
-                        <div class="footer-widget links-widget">
-                            <div class="widget-title">
-                                <h5>Project</h5>
-                            </div>
-                            <div class="widget-content">
-                                <ul class="links-list clearfix">
-                                   <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">Education for Children
-                                        </a></li>
-
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">Grain Distribution
-                                        </a></li>
-                                        
-
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">Women Empowerment
-                                        </a></li>
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">Ambulance
-                                        </a></li>
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">Tree Plantation
-                                        </a></li>
-                                                                            
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col footer-column">
-                        <div class="footer-widget links-widget">
-                            <div class="widget-title">
-                                <h5>Solutions</h5>
-                            </div>
-                                <div class="widget-content">
-                                    <ul class="links-list clearfix">
-                                         <li><i class="fa-solid fa-angle-right"></i><a href="corporate-employee-management.php" class="text-white">Corporates</a></li>
-                                        <li><i class="fa-solid fa-angle-right"></i><a href="ngo.php" class="text-white">NGOs</a></li>
-                                        <li><i class="fa-solid fa-angle-right"></i><a href="volunteer.php" class="text-white">Volunteer</a></li>
-                                        
-                                        <li><i class="fa-solid fa-angle-right"></i><a href="#" class="text-white">SHG (Self-Help Group)
-                                            </a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    
-
-                        <div class="col footer-column">
-                        <div class="footer-widget links-widget">
-                            <div class="widget-title">
-                                <h5>Useful Pages</h5>
-                            </div>
-                            <div class="widget-content">
-                                <ul class="links-list clearfix">
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="privacy-policy.php" class="text-white">Privacy Policy</a></li>
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="term-condition.php" class="text-white">Terms &amp; Conditions</a></li>
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="faqs.php" class="text-white">FAQs</a></li>
-                                     <li><i class="fa-solid fa-angle-right"></i><a href="Policies.php" class="text-white">Policies</a></li>
-
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="verify-certificate.php" class="text-white">Verify Certificate</a></li>
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="refund.php" class="text-white">Refund Policy</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col footer-column">
-                        <div class="footer-widget links-widget">
-                            <div class="widget-title">
-                                <h5>For Donors</h5>
-                            </div>
-                            <div class="widget-content">
-                                <ul class="links-list clearfix">
-                                    <li><i class="fa-solid fa-angle-right"></i><a href="donate.php" class="text-white">Make Your Donations</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                </div> 
-             <!-- start copyright -->
-                <div class="col-xl-5 last-paragraph-no-margin text-center text-xl-end">
-                    <p class="fs-16 text-white">&copy; 2025 | <a href="./index.php" class="alternative-paarvedan fw-500">Paarvedan Foundation</a>. All Rights Reserved </p>
                 </div>
-                <!-- start copyright --> 
+
+                <div class="col footer-column">
+                    <div class="footer-widget links-widget">
+                        <div class="widget-title">
+                            <h5>Project</h5>
+                        </div>
+                        <div class="widget-content">
+                            <ul class="links-list clearfix">
+                                <li><i class="fa-solid fa-angle-right"></i><a href="project.php?id=scholarshipProgramme" class="text-white">Scholarship Program
+                                    </a></li>
+
+                                <li><i class="fa-solid fa-angle-right"></i><a href="project.php?id=grainDistribution" class="text-white">Grain Distribution
+                                    </a></li>
+
+
+                                <li><i class="fa-solid fa-angle-right"></i><a href="event-detail2.php?id=womenEmpowermentSHG" class="text-white">Women Empowerment
+                                    </a></li>
+                                <li><i class="fa-solid fa-angle-right"></i><a href="project.php?id=ambulanceProject" class="text-white">Ambulance
+                                    </a></li>
+                                <li><i class="fa-solid fa-angle-right"></i><a href="event-detail2.php?id=treePlantationProgram" class="text-white">Tree Plantation
+                                    </a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col footer-column">
+                    <div class="footer-widget links-widget">
+                        <div class="widget-title">
+                            <h5>Solutions</h5>
+                        </div>
+                        <div class="widget-content">
+                            <ul class="links-list list-unstyled">
+
+                                <li class="mb-2">
+                                    <a href="corporate-employee-management.php" class="text-white d-flex align-items-center">
+                                        <i class="fa-solid fa-angle-right me-2"></i> Corporates
+                                    </a>
+                                </li>
+
+                                <li class="mb-2">
+                                    <a href="ngo.php" class="text-white d-flex align-items-center">
+                                        <i class="fa-solid fa-angle-right me-2"></i> NGOs
+                                    </a>
+                                </li>
+
+                                <li class="mb-2">
+                                    <a href="volunteer.php" class="text-white d-flex align-items-center">
+                                        <i class="fa-solid fa-angle-right me-2"></i> Volunteer
+                                    </a>
+                                </li>
+
+                                <!-- SHG Dropdown -->
+                                <li class="dropdown mb-2">
+                                    <a class="text-white d-flex align-items-center justify-content-between dropdown-toggle"
+                                        href="#"
+                                        id="navbarDropdownMenuLink_SHG"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <span>
+                                            <i class="fa-solid fa-angle-right me-2"></i> SHG (Self-Help Group)
+                                        </span>
+                                    </a>
+
+                                    <ul class="dropdown-menu bg-dark border-0 shadow"
+                                        aria-labelledby="navbarDropdownMenuLink_SHG">
+                                        <li>
+                                            <a class="dropdown-item text-white" href="mahila-bachat-gat.php">
+                                                Mahila Bachat Gat
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item text-white" href="esg-women-empowerment.php">
+                                                ESG & Women Empowerment
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item text-white" href="startup.php">
+                                                Startup
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col footer-column">
+                    <div class="footer-widget links-widget">
+                        <div class="widget-title">
+                            <h5>Useful Pages</h5>
+                        </div>
+                        <div class="widget-content">
+                            <ul class="links-list clearfix">
+                                <li><i class="fa-solid fa-angle-right"></i><a href="privacy-policy.php" class="text-white">Privacy Policy</a></li>
+                                <li><i class="fa-solid fa-angle-right"></i><a href="term-condition.php" class="text-white">Terms &amp; Conditions</a></li>
+                                <li><i class="fa-solid fa-angle-right"></i><a href="faqs.php" class="text-white">FAQs</a></li>
+                                <li><i class="fa-solid fa-angle-right"></i><a href="Policies.php" class="text-white">Policies</a></li>
+
+                                <li><i class="fa-solid fa-angle-right"></i><a href="verify-certificate.php" class="text-white">Verify Certificate</a></li>
+                                <li><i class="fa-solid fa-angle-right"></i><a href="refund.php" class="text-white">Refund Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col footer-column">
+                    <div class="footer-widget links-widget">
+                        <div class="widget-title">
+                            <h5>For Donors</h5>
+                        </div>
+                        <div class="widget-content">
+                            <ul class="links-list clearfix">
+                                <li><i class="fa-solid fa-angle-right"></i><a href="donate.php" class="text-white">Make Your Donations</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- start copyright -->
+            <div class="col-xl-5 last-paragraph-no-margin text-center text-xl-end">
+                <p class="fs-16 text-white">&copy; 2025 | <a href="./index.php" class="alternative-paarvedan fw-500">Paarvedan Foundation</a>. All Rights Reserved </p>
+            </div>
+            <!-- start copyright -->
     </footer>
 </body>
+
 </html>
 <style>
-    h5{
-        font-weight:bold;
-        color:#FFBF00;
+    h5 {
+        font-weight: bold;
+        color: #FFBF00;
 
 
     }
@@ -217,7 +267,7 @@
         </div>
     </section> -->
 
- <!-- start footer
+<!-- start footer
     <footer class="bg-gradient-paarvedan position-relative">
         <div class="position-absolute left-minus-100px top-25px d-none">
             <img src="image/bg-footer.png" alt="" class="w-80">
@@ -240,7 +290,7 @@
                     </div>
                 </div>
                 <!-- end footer column -->
-                <!-- start footer column --
+<!-- start footer column --
                 <div class="col-lg-2 col-md-4 col-sm-6 ps-4 last-paragraph-no-margin md-mb-40px xs-mb-30px">
                     <span class="fw-600 fs-18 d-block alternative-paarvedan mb-10px">Quick Links</span>
                     <ul>
@@ -251,7 +301,7 @@
                     </ul>
                 </div>
                 <!-- end footer column -->
-                <!-- start footer column --
+<!-- start footer column --
                 <div class="col-lg-4 col-md-4 col-sm-6 last-paragraph-no-margin xs-mb-30px">
                     <span class="fw-500 fs-18 d-block text-white mb-10px">Help</span>
                     <span class="lh-26 d-block alternative-paarvedan fw-600">Call us directly</span>
@@ -260,7 +310,7 @@
                     <a href="mailto:support@paarvedanfoundation.org" class="text-white text-decoration-line-bottom">support@paarvedanfoundation.org</a>
                 </div>
                 <!-- end footer column -->
-                <!-- start footer column --
+<!-- start footer column --
                 <div class="col-lg-3 col-md-12 col-sm-6 text-md-center text-lg-start">
                     <span class="fs-18 fw-500 d-block text-white mb-20px">Subscribe to our newsletter!</span>
                     <div class="d-inline-block w-100 newsletter-style-02 position-relative mb-15px">
@@ -298,7 +348,7 @@
                     </ul>
                 </div>
                 <!-- end footer menu -->
-                <!-- start copyright --
+<!-- start copyright --
                 <div class="col-xl-5 last-paragraph-no-margin text-center text-xl-end">
                     <p class="fs-16 text-white">&copy; 2025 | <a href="" class="alternative-paarvedan fw-500">Paarvedan Foundation</a>. All Rights Reserved </p>
                 </div>
