@@ -99,6 +99,88 @@
              border: 1px solid #e0e0e0;
              background-color: #ffffff;
         }
+
+
+        /* ── Screenshot Upload Field ─────────────────────────────── */
+        .screenshot-upload-area {
+            border: 2px dashed #c0b4f0;
+            border-radius: 10px;
+            background-color: #f9f7ff;
+            padding: 24px 16px;
+            text-align: center;
+            cursor: pointer;
+            transition: border-color 0.2s ease, background-color 0.2s ease;
+            position: relative;
+        }
+        .screenshot-upload-area:hover,
+        .screenshot-upload-area.dragover {
+            border-color: var(--color-primary-accent);
+            background-color: #f0ecff;
+        }
+        .screenshot-upload-area input[type="file"] {
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+            cursor: pointer;
+            width: 100%;
+            height: 100%;
+        }
+        .screenshot-upload-area .upload-icon {
+            font-size: 2rem;
+            color: var(--color-primary-accent);
+            margin-bottom: 8px;
+        }
+        .screenshot-upload-area .upload-label {
+            font-size: 0.95rem;
+            color: #555;
+            margin: 0;
+        }
+        .screenshot-upload-area .upload-hint {
+            font-size: 0.78rem;
+            color: #999;
+            margin-top: 4px;
+        }
+
+        /* Preview thumbnail */
+        #screenshot-preview-wrapper {
+            display: none;
+            margin-top: 12px;
+            position: relative;
+            display: none;
+            justify-content: center;
+        }
+        #screenshot-preview-wrapper img {
+            max-height: 160px;
+            max-width: 100%;
+            border-radius: 8px;
+            border: 2px solid #c0b4f0;
+            object-fit: contain;
+        }
+        #screenshot-preview-wrapper .remove-preview {
+            position: absolute;
+            top: -8px;
+            right: calc(50% - 88px);
+            background: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            font-size: 14px;
+            line-height: 24px;
+            text-align: center;
+            cursor: pointer;
+            padding: 0;
+        }
+        #screenshot-filename {
+            font-size: 0.82rem;
+            color: #28a745;
+            margin-top: 6px;
+            word-break: break-all;
+        }
+
+
+
     </style>
 </head>
 
@@ -233,6 +315,38 @@
                             <textarea class="border-radius-4px border-color-white box-shadow-double-large form-control" 
                                       cols="40" rows="4" name="message" id="donor-message" placeholder="Your message"></textarea>
                         </div>
+
+
+                        <!-- ── PAYMENT SCREENSHOT UPLOAD ───────────────────────── -->
+                        <div class="col-md-12 mb-30px">
+                            <p class="fw-600 mb-10px alt-font text-dark-gray">
+                                Attach Payment Screenshot
+                                <span class="text-muted fw-400 fs-14"> (Optional — for UPI / Bank Transfer payments)</span>
+                            </p>
+
+                            <div class="screenshot-upload-area" id="upload-area">
+                                <!-- Hidden file input covers the entire area -->
+                                <input type="file"
+                                       name="payment_screenshot"
+                                       id="payment-screenshot"
+                                       accept="image/png, image/jpeg, image/jpg, image/webp"
+                                       title=" " />
+
+                                <div class="upload-icon">
+                                    <i class="fas fa-cloud-upload-alt"></i>
+                                </div>
+                                <p class="upload-label fw-600">Click or drag &amp; drop your screenshot here</p>
+                                <p class="upload-hint">Accepted formats: JPG, PNG, WEBP &nbsp;|&nbsp; Max size: 5 MB</p>
+                            </div>
+
+                            <!-- Preview after file selected -->
+                            <div id="screenshot-preview-wrapper">
+                                <img id="screenshot-preview-img" src="" alt="Payment Screenshot Preview" />
+                                <button type="button" class="remove-preview" id="remove-screenshot" title="Remove">✕</button>
+                            </div>
+                            <p id="screenshot-filename"></p>
+                        </div>
+                        <!-- ── END SCREENSHOT UPLOAD ──────────────────────────── -->
 
                         <div class="col-xl-6 col-md-7">
                             <p class="mb-0 fs-14 lh-26 text-center text-md-start w-90 md-w-100">
