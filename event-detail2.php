@@ -299,8 +299,8 @@
                 notebook: {
                     title: "Notebook Distribution Program",
                     description: "Paarvedan Foundation organised a Notebook Distribution Program to support children from economically vulnerable communities by ensuring access to essential learning materials and promoting uninterrupted education.",
-                    date: "2025",
-                    time: "Community-Based Distribution",
+                    date: "2023",
+                    time: "11:00 AM",
                     location: "Sandhurst Road & Buldhana",
                     organizer: "Paarvedan Foundation",
                     image: "image/notebook.jpg",
@@ -341,7 +341,7 @@
                 travelKitDistribution: {
                     title: "Travel Kit & Old Age Kit Distribution Program",
                     description: "Paarvedan Foundation organised the Travel Kit and Old Age Kit Distribution Program to promote personal hygiene, health awareness, and dignity among children and elderly individuals from economically vulnerable communities.",
-                    date: "2025",
+                    date: "2024",
                     time: "Community-Based Welfare Initiative",
                     location: "Community Distribution Areas",
                     organizer: "Paarvedan Foundation",
@@ -369,7 +369,7 @@
                 diyaMakingProgram: {
                     title: "Diya Making & Distribution Program",
                     description: "Paarvedan Foundation organised a Diya Making & Distribution Program in collaboration with Mahindra Holidays to promote cultural inclusivity, creativity, and the spirit of giving during Diwali.",
-                    date: "2025",
+                    date: "2023",
                     time: "Diwali Festive Initiative",
                     location: "Mahindra Holidays & Asha Sadan, Sandhurst Road",
                     organizer: "Paarvedan Foundation",
@@ -383,7 +383,7 @@
                 clothesDistribution: {
                     title: "Clothes Distribution Drive – Warming Hearts Initiative",
                     description: "Paarvedan Foundation, in collaboration with HDFC ERGO, organized a Clothes Distribution Drive to provide warm and dignified clothing support to vulnerable urban populations during the winter season.",
-                    date: "2025",
+                    date: "2024",
                     time: "Winter Relief Initiative",
                     location: "Urban Community Areas",
                     organizer: "Paarvedan Foundation",
@@ -397,7 +397,7 @@
                 womenEmpowermentSHG: {
                     title: "Women Empowerment Self-Help Group (SHG) Initiative",
                     description: "Paarvedan Foundation organized a Women Empowerment Self-Help Group (SHG) Gathering to foster resilience, financial awareness, emotional well-being, and leadership among women from vulnerable communities.",
-                    date: "2025",
+                    date: "2023",
                     time: "Community Empowerment Initiative",
                     location: "Community-Based Gathering",
                     organizer: "Paarvedan Foundation",
@@ -411,7 +411,7 @@
                 communityMovieScreening: {
                     title: "Community Movie Screening Initiative",
                     description: "Paarvedan Foundation organized a large-scale Community Movie Screening Initiative at Metro INOX, providing free access to popular Indian films and promoting social inclusion, emotional well-being, and shared cultural experiences.",
-                    date: "2025",
+                    date: "2023",
                     time: "Community Recreation Initiative",
                     location: "Metro INOX",
                     organizer: "Paarvedan Foundation",
@@ -425,7 +425,7 @@
                 beachCleaningInitiative: {
                     title: "Coastal Cleanliness & Beach Restoration Initiative",
                     description: "Paarvedan Foundation organized a large-scale Beach Cleaning and Coastal Restoration Initiative across Dadar Beach, Versova Beach, and Girgaon Chowpatty to promote environmental sustainability, reduce marine pollution, and strengthen civic responsibility.",
-                    date: "2025",
+                    date: "2026",
                     time: "Environmental Sustainability Initiative",
                     location: "Dadar Beach, Versova Beach & Girgaon Chowpatty, Mumbai",
                     organizer: "Paarvedan Foundation",
@@ -439,7 +439,7 @@
                 oldAgeHomeCareEngagement: {
                     title: "Old-Age Home Care & Engagement Initiative",
                     description: "Paarvedan Foundation conducted an Old-Age Home Care & Engagement Initiative to provide emotional support, companionship, and essential assistance to senior citizens residing in institutional care homes.",
-                    date: "2025",
+                    date: "2023",
                     time: "Elderly Care & Emotional Support Initiative",
                     location: "All Saint Old Age Home & Rashmi Old Age Home, Thane",
                     organizer: "Paarvedan Foundation",
@@ -451,9 +451,9 @@
                 },
 
                 womenEmpowermentSelfHelpGroup: {
-                    title: "Women Empowerment Self-Help Group (SHG) Initiative",
+                    title: "Self-Help Group (SHG) Initiative",
                     description: "Paarvedan Foundation organized a Women Empowerment Self-Help Group (SHG) Initiative to foster confidence, financial literacy, emotional resilience, and collective leadership among women from marginalized communities.",
-                    date: "2025",
+                    date: "2023",
                     time: "Community Empowerment & Capacity-Building Initiative",
                     location: "Community-Based Gathering",
                     organizer: "Paarvedan Foundation",
@@ -467,7 +467,7 @@
                 seedRakhiInitiative: {
                     title: "Seed Rakhi Environmental & Social Awareness Initiative",
                     description: "Paarvedan Foundation organized a Seed Rakhi Initiative to promote eco-friendly Raksha Bandhan celebrations by integrating sustainability, plantation awareness, and cultural values through biodegradable Seed Rakhis.",
-                    date: "2025",
+                    date: "2023",
                     time: "Environmental & Cultural Sustainability Initiative",
                     location: "Community-Based Distribution & Awareness Campaign",
                     organizer: "Paarvedan Foundation",
@@ -481,7 +481,7 @@
                 audiobookExtravaganza: {
                     title: "Harmony of Words – Audiobook Extravaganza",
                     description: "Paarvedan Foundation, in collaboration with HDFC ERGO, organized the Audiobook Extravaganza to promote inclusive education and accessible literature for visually impaired individuals through immersive audio-based learning experiences.",
-                    date: "2025",
+                    date: "2023",
                     time: "Inclusive Education & Accessibility Initiative",
                     location: "Community-Based Accessible Venue",
                     organizer: "Paarvedan Foundation",
@@ -495,7 +495,7 @@
                 bagDistributionProgram: {
                     title: "School Bag Distribution Program",
                     description: "Paarvedan Foundation implemented the School Bag Distribution Program to support school-going children from economically vulnerable communities by providing essential school bags and promoting educational continuity.",
-                    date: "2025",
+                    date: "2026",
                     time: "Education Support Initiative",
                     location: "Community-Based Distribution Areas",
                     organizer: "Paarvedan Foundation",
@@ -509,7 +509,7 @@
                 dailyFoodDistributionProgram: {
                     title: "Daily 100 Packet Food Distribution Program",
                     description: "Paarvedan Foundation implemented the Daily 100 Packet Distribution Program under its Zero Hunger Initiative, providing consistent and nutritious meals to vulnerable communities over 26 consecutive days.",
-                    date: "2025",
+                    date: "2026",
                     time: "Zero Hunger – Daily Relief Initiative",
                     location: "Community-Based Distribution Areas",
                     organizer: "Paarvedan Foundation",
@@ -523,7 +523,7 @@
                 sanskritTrainingProgram: {
                     title: "Sanskrit Training Program (2023–2025)",
                     description: "Paarvedan Foundation implemented a three-year Sanskrit Training Program to promote linguistic awareness, preserve cultural heritage, and provide structured Sanskrit education to students and community members.",
-                    date: "2023–2025",
+                    date: "2026",
                     time: "Cultural & Educational Enrichment Initiative",
                     location: "Community-Based Training Centers",
                     organizer: "Paarvedan Foundation",
@@ -537,7 +537,7 @@
                 treePlantationProgram: {
                     title: "Tree Plantation Program (2023–2025)",
                     description: "Paarvedan Foundation implemented a three-year Tree Plantation Program to increase green cover, promote environmental sustainability, and strengthen community participation in ecological conservation.",
-                    date: "2023–2025",
+                    date: "2026",
                     time: "Environmental Sustainability & Climate Action Initiative",
                     location: "Community & Semi-Urban Plantation Sites",
                     organizer: "Paarvedan Foundation",
