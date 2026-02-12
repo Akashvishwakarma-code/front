@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="demos/charity/charity.css" />
-    <link rel="stylesheet" href="css/akash.css"/>
+    <link rel="stylesheet" href="css/akash.css" />
 
     <!-- CUSTOM STYLES for RESPONSIVE TIMELINE BAR -->
     <style>
@@ -31,19 +31,22 @@
             border-bottom: 2px solid #5D3FD3;
             padding: 20px 0;
             margin-bottom: 40px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
         }
+
         .timeline-filter-bar h4 {
             color: #5D3FD3;
             margin-bottom: 15px;
             font-weight: 700;
         }
+
         .timeline-filter-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
             gap: 10px;
             text-align: center;
         }
+
         .timeline-filter-grid a {
             display: block;
             padding: 8px 5px;
@@ -56,19 +59,21 @@
             text-decoration: none;
             border: 1px solid #ddd;
         }
+
         .timeline-filter-grid a:hover {
             background-color: #5D3FD3;
             color: white;
             transform: translateY(-2px);
-            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
         }
-        
+
         .timeline-year-anchor {
             position: relative;
-            top: -100px; /* Offset for fixed header when jumping to ID */
+            top: -100px;
+            /* Offset for fixed header when jumping to ID */
             visibility: hidden;
         }
-        
+
         .timeline-section-title {
             font-size: 28px;
             font-weight: 700;
@@ -87,16 +92,19 @@
             object-fit: cover;
             display: block;
         }
+
         .event-card-item .box-shadow-quadruple-large {
             height: 100%;
             display: flex;
             flex-direction: column;
         }
+
         .event-card-item .bg-white {
             flex: 1;
             display: flex;
             flex-direction: column;
         }
+
         .event-card-item .ps-50px {
             flex: 1;
             display: flex;
@@ -123,7 +131,7 @@
         <!-- start push popup -->
     </header>
 
-    
+
     <!-- end header -->
     <!-- start page title -->
     <section class="page-title-separate-breadcrumbs bg-dark-gray ipad-top-space-margin cover-background bg-dark-gray"
@@ -157,1175 +165,1175 @@
         </div>
     </section>
     <!-- end breadcrumbs -->
-    
-   <section class="events-page-section events-list position-relative pt-4">
-    <div class="container-fluid">
-        <div class="row clearfix px-5">
-            
-            <!-- LEFT SIDEBAR: Year and Month Filters (col-lg-3 for better visibility) -->
-            <div class="col-lg-3 col-md-4" style="z-index:10;" >
-                <!-- Wrapper for sticky behavior, using CSS for precise top offset -->
-                <div class="sidebar-filters sticky-top sticky-sidebar">
-                    
-                    <h5 class="fs-18 fw-600 text-dark-gray mb-3">Filter by Year</h5>
-                    <div class="mb-4">
-                        <div id="year-filter-container" class="year-col d-flex flex-wrap gap-2" aria-label="Year Filters">
-                            <!-- JS will populate: previous year, current year, Upcoming, All -->
+
+    <section class="events-page-section events-list position-relative pt-4">
+        <div class="container-fluid">
+            <div class="row clearfix px-5">
+
+                <!-- LEFT SIDEBAR: Year and Month Filters (col-lg-3 for better visibility) -->
+                <div class="col-lg-3 col-md-4" style="z-index:10;">
+                    <!-- Wrapper for sticky behavior, using CSS for precise top offset -->
+                    <div class="sidebar-filters sticky-top sticky-sidebar">
+
+                        <h5 class="fs-18 fw-600 text-dark-gray mb-3">Filter by Year</h5>
+                        <div class="mb-4">
+                            <div id="year-filter-container" class="year-col d-flex flex-wrap gap-2" aria-label="Year Filters">
+                                <!-- JS will populate: previous year, current year, Upcoming, All -->
+                            </div>
                         </div>
-                    </div>
-                    
-                    <h5 class="fs-18 fw-600 text-dark-gray mb-3">Filter by Month</h5>
-                    <!-- Month Checkboxes (Simplified to a single list) -->
-                    <div class="d-grid gap-2 month-filter-group mb-4">
-                        <input type="radio" class="btn-check month-filter" name="event-month" id="month-01" value="01" autocomplete="off">
-                        <label class="btn btn-outline-danger rounded w-100 text-start" for="month-01">January</label>
-                        <input type="radio" class="btn-check month-filter" name="event-month" id="month-02" value="02" autocomplete="off">
-                        <label class="btn btn-outline-danger rounded w-100 text-start" for="month-02">February</label>
-                        <input type="radio" class="btn-check month-filter" name="event-month" id="month-03" value="03" autocomplete="off">
-                        <label class="btn btn-outline-danger rounded w-100 text-start" for="month-03">March</label>
-                        <input type="radio" class="btn-check month-filter" name="event-month" id="month-04" value="04" autocomplete="off">
-                        <label class="btn btn-outline-danger rounded w-100 text-start" for="month-04">April</label>
-                        <input type="radio" class="btn-check month-filter" name="event-month" id="month-05" value="05" autocomplete="off">
-                        <label class="btn btn-outline-danger rounded w-100 text-start" for="month-05">May</label>
-                        <input type="radio" class="btn-check month-filter" name="event-month" id="month-06" value="06" autocomplete="off">
-                        <label class="btn btn-outline-danger rounded w-100 text-start" for="month-06">June</label>
-                        <input type="radio" class="btn-check month-filter" name="event-month" id="month-07" value="07" autocomplete="off">
-                        <label class="btn btn-outline-danger rounded w-100 text-start" for="month-07">July</label>
-                        <input type="radio" class="btn-check month-filter" name="event-month" id="month-08" value="08" autocomplete="off">
-                        <label class="btn btn-outline-danger rounded w-100 text-start" for="month-08">August</label>
-                        <input type="radio" class="btn-check month-filter" name="event-month" id="month-09" value="09" autocomplete="off">
-                        <label class="btn btn-outline-danger rounded w-100 text-start" for="month-09">September</label>
-                        <input type="radio" class="btn-check month-filter" name="event-month" id="month-10" value="10" autocomplete="off">
-                        <label class="btn btn-outline-danger rounded w-100 text-start" for="month-10">October</label>
-                        <input type="radio" class="btn-check month-filter" name="event-month" id="month-11" value="11" autocomplete="off">
-                        <label class="btn btn-outline-danger rounded w-100 text-start" for="month-11">November</label>
-                        <input type="radio" class="btn-check month-filter" name="event-month" id="month-12" value="12" autocomplete="off">
-                        <label class="btn btn-outline-danger rounded w-100 text-start" for="month-12">December</label>
-                        
-                        <input type="radio" class="btn-check month-filter" name="event-month" id="month-all" value="all" autocomplete="off">
-                        <label class="btn btn-outline-secondary rounded w-100 text-start" for="month-all">All Months</label>
-                    </div>
-                    
-                    <!-- Search Button -->
-                    <div class="py-3">
-                        <button class="btn btn-sm btn-dark w-100" id="show-search-bar-btn">
-                            <i class="fa-solid fa-magnifying-glass me-2"></i> Keyword Search
-                        </button>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- MAIN CONTENT AREA (col-lg-9 to center the content) -->
-            <div class="col-lg-9 col-md-8">
-                <!-- Outer row to center the content -->
-                <div class="row justify-content-center"> 
-                    
-                    <!-- Search Bar Popup / Overlay -->
-                    <div id="search-overlay" style="display:none;" class="col-12 mb-4">
-                        <div class="input-group shadow-sm p-3 bg-white rounded-3">
-                            <input type="text" class="form-control form-control-lg" id="keyword-input" placeholder="Enter keywords (e.g., Diya, Mumbai, Clean)" aria-label="Keyword Search">
-                            <button class="btn btn-danger btn-lg" type="button" id="apply-keyword-search-btn">
-                                <i class="fa-solid fa-search"></i>
-                            </button>
-                             <button class="btn btn-outline-danger btn-lg" type="button" id="close-search-bar-btn">
-                                Close
+
+                        <h5 class="fs-18 fw-600 text-dark-gray mb-3">Filter by Month</h5>
+                        <!-- Month Checkboxes (Simplified to a single list) -->
+                        <div class="d-grid gap-2 month-filter-group mb-4">
+                            <input type="radio" class="btn-check month-filter" name="event-month" id="month-01" value="01" autocomplete="off">
+                            <label class="btn btn-outline-danger rounded w-100 text-start" for="month-01">January</label>
+                            <input type="radio" class="btn-check month-filter" name="event-month" id="month-02" value="02" autocomplete="off">
+                            <label class="btn btn-outline-danger rounded w-100 text-start" for="month-02">February</label>
+                            <input type="radio" class="btn-check month-filter" name="event-month" id="month-03" value="03" autocomplete="off">
+                            <label class="btn btn-outline-danger rounded w-100 text-start" for="month-03">March</label>
+                            <input type="radio" class="btn-check month-filter" name="event-month" id="month-04" value="04" autocomplete="off">
+                            <label class="btn btn-outline-danger rounded w-100 text-start" for="month-04">April</label>
+                            <input type="radio" class="btn-check month-filter" name="event-month" id="month-05" value="05" autocomplete="off">
+                            <label class="btn btn-outline-danger rounded w-100 text-start" for="month-05">May</label>
+                            <input type="radio" class="btn-check month-filter" name="event-month" id="month-06" value="06" autocomplete="off">
+                            <label class="btn btn-outline-danger rounded w-100 text-start" for="month-06">June</label>
+                            <input type="radio" class="btn-check month-filter" name="event-month" id="month-07" value="07" autocomplete="off">
+                            <label class="btn btn-outline-danger rounded w-100 text-start" for="month-07">July</label>
+                            <input type="radio" class="btn-check month-filter" name="event-month" id="month-08" value="08" autocomplete="off">
+                            <label class="btn btn-outline-danger rounded w-100 text-start" for="month-08">August</label>
+                            <input type="radio" class="btn-check month-filter" name="event-month" id="month-09" value="09" autocomplete="off">
+                            <label class="btn btn-outline-danger rounded w-100 text-start" for="month-09">September</label>
+                            <input type="radio" class="btn-check month-filter" name="event-month" id="month-10" value="10" autocomplete="off">
+                            <label class="btn btn-outline-danger rounded w-100 text-start" for="month-10">October</label>
+                            <input type="radio" class="btn-check month-filter" name="event-month" id="month-11" value="11" autocomplete="off">
+                            <label class="btn btn-outline-danger rounded w-100 text-start" for="month-11">November</label>
+                            <input type="radio" class="btn-check month-filter" name="event-month" id="month-12" value="12" autocomplete="off">
+                            <label class="btn btn-outline-danger rounded w-100 text-start" for="month-12">December</label>
+
+                            <input type="radio" class="btn-check month-filter" name="event-month" id="month-all" value="all" autocomplete="off">
+                            <label class="btn btn-outline-secondary rounded w-100 text-start" for="month-all">All Months</label>
+                        </div>
+
+                        <!-- Search Button -->
+                        <div class="py-3">
+                            <button class="btn btn-sm btn-dark w-100" id="show-search-bar-btn">
+                                <i class="fa-solid fa-magnifying-glass me-2"></i> Keyword Search
                             </button>
                         </div>
                     </div>
-
-                    <!-- Content Wrapper -->
-                    <div class="col-12 content-side">
-                        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mb-5 sm-mb-35px">
-                            <!-- Drawing Competition - 28 May 2024 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2025" data-month="05"
-    data-date="28" data-keywords="drawings">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/drawing.jpg" alt="" /></a>
-            <a href="demo-charity-stories.html"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                Mumbai</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Drawing
-                    Competition</a>
-                <p class="line-clamp-3">
-                    Paarvedan Foundation organised a drawing competition to encourage kids
-                    to show their creativity and imagination.
-                </p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">28 May 2025</span>
-                        </div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">11:00 am</span>
-                        </div>
-                    </div>
                 </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="event-detail.php?event_id=1"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Notebook & Stationery Distribution (GoKool Kids) - 03 Mar 2024 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item" data-year="2024" data-month="05" data-date="28"
-    data-keywords="drawings">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/notebook.jpg" alt="" /></a>
-            <a href="demo-charity-stories.html"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                GoKool Kids, Sandhurst Road</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Notebook &
-                    Stationery Distribution</a>
-                <p class="line-clamp-3">
-                    We gifted 300 notebooks & stationery to students, helping them start
-                    their educational journey.
-                </p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">03 Mar 2024</span>
-                        </div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">09:00 am</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+                <!-- MAIN CONTENT AREA (col-lg-9 to center the content) -->
+                <div class="col-lg-9 col-md-8">
+                    <!-- Outer row to center the content -->
+                    <div class="row justify-content-center">
 
-<!-- Indoor-Outdoor Sports - 22 sept upcoming -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item" data-year="upcoming" data-month="09" data-date="28"
-    data-keywords="drawings">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="explore-events.php"><img src="image/indoor-outdoor.jpg" alt="" /></a>
-            <a href="explore-events.php"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                Mumbai</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="explore-events.php"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Indoor-Outdoor
-                    Sports</a>
-                <p class="line-clamp-3">
-                    Paarvedan Foundation organized fun competitions in football, cricket,
-                    and chess.
-                </p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">22 sept 2026</span>
+                        <!-- Search Bar Popup / Overlay -->
+                        <div id="search-overlay" style="display:none;" class="col-12 mb-4">
+                            <div class="input-group shadow-sm p-3 bg-white rounded-3">
+                                <input type="text" class="form-control form-control-lg" id="keyword-input" placeholder="Enter keywords (e.g., Diya, Mumbai, Clean)" aria-label="Keyword Search">
+                                <button class="btn btn-danger btn-lg" type="button" id="apply-keyword-search-btn">
+                                    <i class="fa-solid fa-search"></i>
+                                </button>
+                                <button class="btn btn-outline-danger btn-lg" type="button" id="close-search-bar-btn">
+                                    Close
+                                </button>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">02:00 pm</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="explore-events.php"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- notebooks & stationery Sports - 29 dec 2023 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="12"
-    data-date="29" data-keywords="notebook,stationery,education">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/notebook.jpg" style="
+                        <!-- Content Wrapper -->
+                        <div class="col-12 content-side">
+                            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mb-5 sm-mb-35px">
+                                <!-- Drawing Competition - 28 May 2024 -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2025" data-month="05"
+                                    data-date="28" data-keywords="drawings">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="demo-charity-blog-single-simple.html"><img src="image/drawing.jpg" alt="" /></a>
+                                            <a href="demo-charity-stories.html"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                Mumbai</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="demo-charity-blog-single-simple.html"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Drawing
+                                                    Competition</a>
+                                                <p class="line-clamp-3">
+                                                    Paarvedan Foundation organised a drawing competition to encourage kids
+                                                    to show their creativity and imagination.
+                                                </p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">28 May 2025</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">11:00 am</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=drawing"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Notebook & Stationery Distribution (GoKool Kids) - 03 Mar 2024 -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item" data-year="2024" data-month="05" data-date="28"
+                                    data-keywords="drawings">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="demo-charity-blog-single-simple.html"><img src="image/notebook.jpg" alt="" /></a>
+                                            <a href="demo-charity-stories.html"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                GoKool Kids, Sandhurst Road</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="demo-charity-blog-single-simple.html"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Notebook &
+                                                    Stationery Distribution</a>
+                                                <p class="line-clamp-3">
+                                                    We gifted 300 notebooks & stationery to students, helping them start
+                                                    their educational journey.
+                                                </p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">03 Mar 2024</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">09:00 am</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=notebook"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Indoor-Outdoor Sports - 22 sept upcoming -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item" data-year="upcoming" data-month="09" data-date="28"
+                                    data-keywords="drawings">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="explore-events.php"><img src="image/indoor-outdoor.jpg" alt="" /></a>
+                                            <a href="explore-events.php"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                Mumbai</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="explore-events.php"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Indoor-Outdoor
+                                                    Sports</a>
+                                                <p class="line-clamp-3">
+                                                    Paarvedan Foundation organized fun competitions in football, cricket,
+                                                    and chess.
+                                                </p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">22 sept 2026</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">02:00 pm</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=sports"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- notebooks & stationery Sports - 29 dec 2023 -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="12"
+                                    data-date="29" data-keywords="notebook,stationery,education">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="demo-charity-blog-single-simple.html"><img src="image/notebook.jpg" style="
             width: 100%;
             height: 250px;
             object-fit: cover;
             object-position: center;
             display: block;
           " alt="" /></a>
-            <a href="demo-charity-stories.html"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                Buldana</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Notebook
-                    Distribution</a>
-                <p class="line-clamp-3">
-                    We gifted 300 notebooks & stationery to students, helping them start
-                    their educational journey.
-                </p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">29 Dec 2023</span>
-                        </div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">09:00 am</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+                                            <a href="demo-charity-stories.html"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                Buldana</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="demo-charity-blog-single-simple.html"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Notebook
+                                                    Distribution</a>
+                                                <p class="line-clamp-3">
+                                                    We gifted 300 notebooks & stationery to students, helping them start
+                                                    their educational journey.
+                                                </p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">29 Dec 2023</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">09:00 am</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=notebook"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-<!-- Christmas Activity Sports - 29 dec 2025 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2025" data-month="12"
-    data-date="15" data-keywords="christmas,activity,decorations">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/christmas.jpg" style="
+                                <!-- Christmas Activity Sports - 29 dec 2025 -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2025" data-month="12"
+                                    data-date="15" data-keywords="christmas,activity,decorations">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="demo-charity-blog-single-simple.html"><img src="image/christmas.jpg" style="
             width: 100%;
             height: 250px;
             object-fit: cover;
             object-position: center;
             display: block;
           " alt="" /></a>
-            <a href="demo-charity-stories.html"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                Mumbai</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Christmas
-                    Activity</a>
-                <p class="line-clamp-3">
-                    Paarvedan Foundation, along with HDFC ERGO, hosted a Christmas event
-                    where participants made festive decorations using recycled materials.
-                </p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">15 Dec 2025</span>
-                        </div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">07:00 pm</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+                                            <a href="demo-charity-stories.html"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                Mumbai</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="demo-charity-blog-single-simple.html"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Christmas
+                                                    Activity</a>
+                                                <p class="line-clamp-3">
+                                                    Paarvedan Foundation, along with HDFC ERGO, hosted a Christmas event
+                                                    where participants made festive decorations using recycled materials.
+                                                </p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">15 Dec 2025</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">07:00 pm</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=christmasActivity"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-<!-- Travel Kit Distribution - 11 Dec 2024 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2024" data-month="12"
-    data-date="11" data-keywords="travel kit,distribution,hygiene">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/travelkit.jpg" style="
+                                <!-- Travel Kit Distribution - 11 Dec 2024 -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2024" data-month="12"
+                                    data-date="11" data-keywords="travel kit,distribution,hygiene">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="demo-charity-blog-single-simple.html"><img src="image/travelkit.jpg" style="
             width: 100%;
             height: 250px;
             object-fit: cover;
             object-position: center;
             display: block;
           " alt="" /></a>
-            <a href="demo-charity-stories.html"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                Mumbai</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Travel Kit
-                    Distribution</a>
-                <p class="line-clamp-3">
-                    We organised this drive to help people who don’t always have easy
-                    access to basic hygiene supplies feel cared for, stay clean, and
-                    travel.
-                </p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">11 Dec 2024</span>
-                        </div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">11:00 am</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+                                            <a href="demo-charity-stories.html"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                Mumbai</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="demo-charity-blog-single-simple.html"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Travel Kit
+                                                    Distribution</a>
+                                                <p class="line-clamp-3">
+                                                    We organised this drive to help people who don’t always have easy
+                                                    access to basic hygiene supplies feel cared for, stay clean, and
+                                                    travel.
+                                                </p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">11 Dec 2024</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">11:00 am</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=travelKitDistribution"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-<!-- Solar Light Research - 23 Nov 2025 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2025" data-month="11"
-    data-date="23" data-keywords="solar light,research,renewable energy">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/sun.jpg" alt="" /></a>
-            <a href="demo-charity-stories.html"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                Navghar, Maharashtra</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Solar Light
-                    Research</a>
-                <p class="line-clamp-3">
-                    Partnered with Indian Oil Advani Ventures, Paarvedan Foundation
-                    researched solar-powered lights in Navghar, Maharashtra.
-                </p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">23 Nov 2025</span>
-                        </div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">02:00 pm</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<!-- Diya Making - 05 Nov 2023 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="11"
-    data-date="05" data-keywords="diya making,diwali,crafts">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/diya.jpg" alt="" /></a>
-            <a href="demo-charity-stories.html"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                Asha Sadan, Sandhurst Road</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Diya
-                    Making</a>
-                <p class="line-clamp-3">
-                    A heartwarming event celebrating Diwali with creativity, compassion,
-                    and sustainability in partnership with Mahindra Holidays.
-                </p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">05 Nov 2023</span>
-                        </div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">02:00 am</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+                                <!-- Solar Light Research - 23 Nov 2025 -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2025" data-month="11"
+                                    data-date="23" data-keywords="solar light,research,renewable energy">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="demo-charity-blog-single-simple.html"><img src="image/sun.jpg" alt="" /></a>
+                                            <a href="demo-charity-stories.html"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                Navghar, Maharashtra</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="demo-charity-blog-single-simple.html"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Solar Light
+                                                    Research</a>
+                                                <p class="line-clamp-3">
+                                                    Partnered with Indian Oil Advani Ventures, Paarvedan Foundation
+                                                    researched solar-powered lights in Navghar, Maharashtra.
+                                                </p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">23 Nov 2025</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">02:00 pm</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=solarLightResearch"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
 
-<!-- ANCHOR & SECTION TITLE FOR 2023 EVENTS -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2024" data-month="10"
-    data-date="18" data-keywords="clothes distribution,donation,community support">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/cloths.jpg" alt="" /></a>
-            <a href="demo-charity-stories.html"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                Asha Sadan, Sandhurst Road</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Clothes
-                    Distribution</a>
-                <p class="line-clamp-3">
-                    We organised a clothes distribution drive to share warm and clean
-                    clothes with people in need.
-                </p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">18 Oct 2024</span>
-                        </div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">11:30 am</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+                                <!-- Diya Making - 05 Nov 2023 -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="11"
+                                    data-date="05" data-keywords="diya making,diwali,crafts">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="demo-charity-blog-single-simple.html"><img src="image/diya.jpg" alt="" /></a>
+                                            <a href="demo-charity-stories.html"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                Asha Sadan, Sandhurst Road</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="demo-charity-blog-single-simple.html"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Diya
+                                                    Making</a>
+                                                <p class="line-clamp-3">
+                                                    A heartwarming event celebrating Diwali with creativity, compassion,
+                                                    and sustainability in partnership with Mahindra Holidays.
+                                                </p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">05 Nov 2023</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">02:00 am</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=diyaMakingProgram"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-<!-- EmpowerHER! - 26 Sep 2023 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="09"
-    data-date="26">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/empowerwoman.jpg" style="
+
+                                <!-- Clothing -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2024" data-month="10"
+                                    data-date="18" data-keywords="clothes distribution,donation,community support">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="demo-charity-blog-single-simple.html"><img src="image/cloths.jpg" alt="" /></a>
+                                            <a href="demo-charity-stories.html"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                Asha Sadan, Sandhurst Road</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="demo-charity-blog-single-simple.html"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Clothes
+                                                    Distribution</a>
+                                                <p class="line-clamp-3">
+                                                    We organised a clothes distribution drive to share warm and clean
+                                                    clothes with people in need.
+                                                </p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">18 Oct 2024</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">11:30 am</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=clothesDistribution"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- EmpowerHER! - 26 Sep 2023 -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="09"
+                                    data-date="26">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="demo-charity-blog-single-simple.html"><img src="image/empowerwoman.jpg" style="
             width: 100%;
             height: 250px;
             object-fit: cover;
             object-position: center;
             display: block;
           " alt="" /></a>
-            <a href="demo-charity-stories.html"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                Mumbai</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">EmpowerHER!</a>
-                <p class="line-clamp-3">
-                    EmpowerHER was a beautiful gathering celebrating the strength,
-                    courage, and achievements of women.
-                </p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">26 Sep 2023</span>
-                        </div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal">
-                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">12:00 pm</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+                                            <a href="demo-charity-stories.html"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                Mumbai</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="demo-charity-blog-single-simple.html"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">EmpowerHER!</a>
+                                                <p class="line-clamp-3">
+                                                    EmpowerHER was a beautiful gathering celebrating the strength,
+                                                    courage, and achievements of women.
+                                                </p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-block d-xl-inline-block">26 Sep 2023</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal">
+                                                            <span class="fw-500 text-dark-gray d-xl-inline-block d-block">12:00 pm</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=womenEmpowermentSHG"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-<!-- Movie Screening - 23 Sep 2023 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="09"
-    data-date="23">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/moviescreening.jpg"
-                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
-                    alt=""></a>
-            <a href="demo-charity-stories.html"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                Mumbai</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Movie
-                    Screening</a>
-                <p class="line-clamp-3">An exclusive screening of the movies Jawan & Dunki was organized.</p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">23
-                                Sep 2023</span></div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">08:00
-                                pm</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+                                <!-- Movie Screening - 23 Sep 2023 -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="09"
+                                    data-date="23">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="demo-charity-blog-single-simple.html"><img src="image/moviescreening.jpg"
+                                                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
+                                                    alt=""></a>
+                                            <a href="demo-charity-stories.html"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                Mumbai</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="demo-charity-blog-single-simple.html"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Movie
+                                                    Screening</a>
+                                                <p class="line-clamp-3">An exclusive screening of the movies Jawan & Dunki was organized.</p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">23
+                                                                Sep 2023</span></div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">08:00
+                                                                pm</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=communityMovieScreening"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-<!-- Beach Cleaning - 23 Sep upcoming -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="upcoming" data-month="09"
-    data-date="23">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="explore-events.php"><img src="image/beachclean.jpg"
-                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
-                    alt=""></a>
-            <a href="explore-events.php"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                Dadar</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="explore-events.php"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Beach
-                    Cleaning</a>
-                <p class="line-clamp-3">Beach Cleanup Drive during the Ganesh Festival — a collective effort to preserve
-                    our oceans and promote responsible celebration.</p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">23
-                                Sep 2026</span></div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">09:00
-                                am</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="explore-events.php"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+                                <!-- Beach Cleaning - 23 Sep upcoming -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="upcoming" data-month="09"
+                                    data-date="23">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="explore-events.php"><img src="image/beachclean.jpg"
+                                                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
+                                                    alt=""></a>
+                                            <a href="explore-events.php"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                Dadar</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="explore-events.php"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Beach
+                                                    Cleaning</a>
+                                                <p class="line-clamp-3">Beach Cleanup Drive during the Ganesh Festival — a collective effort to preserve
+                                                    our oceans and promote responsible celebration.</p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">23
+                                                                Sep 2026</span></div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">09:00
+                                                                am</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=beachCleaningInitiative"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-<!-- Old Age Home Visit - 21 Sep 2023 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="09"
-    data-date="21">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/manwithload.jpg"
-                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
-                    alt=""></a>
-            <a href="demo-charity-stories.html"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                Airoli</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Old Age Home
-                    Visit</a>
-                <p class="line-clamp-3">A heartwarming event bringing generations together to celebrate the wisdom,
-                    talent, and life stories of our elders.</p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">21
-                                Sep 2023</span></div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">04:00
-                                pm</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<!-- Self-Help Group (SHG) - 09 Sep 2023 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="09"
-    data-date="09">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/team.jpg"
-                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
-                    alt=""></a>
-            <a href="demo-charity-stories.html"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                Mumbai</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">SHG
-                    (Self-Help Group)</a>
-                <p class="line-clamp-3">A warm get-together where women shared stories, learned new skills, supported
-                    each other, and grew stronger.</p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">09
-                                Sep 2023</span></div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">12:00
-                                pm</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+                                <!-- Old Age Home Visit - 21 Sep 2023 -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="09"
+                                    data-date="21">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="demo-charity-blog-single-simple.html"><img src="image/manwithload.jpg"
+                                                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
+                                                    alt=""></a>
+                                            <a href="demo-charity-stories.html"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                Airoli</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="demo-charity-blog-single-simple.html"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Old Age Home
+                                                    Visit</a>
+                                                <p class="line-clamp-3">A heartwarming event bringing generations together to celebrate the wisdom,
+                                                    talent, and life stories of our elders.</p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">21
+                                                                Sep 2023</span></div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">04:00
+                                                                pm</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=oldAgeHomeCareEngagement"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
 
-<!-- Seed Rakhi - 11 Sep 2023 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="09"
-    data-date="11">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/raki.jpg"
-                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
-                    alt=""></a>
-            <a href="demo-charity-stories.html"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                Mumbai</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Seed
-                    Rakhi</a>
-                <p class="line-clamp-3">Participants crafted eco-friendly rakhis using natural materials, later gifted
-                    to local police stations.</p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">11
-                                Sep 2023</span></div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">11:00
-                                am</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+                                <!-- Self-Help Group (SHG) - 09 Sep 2023 -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="09"
+                                    data-date="09">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="demo-charity-blog-single-simple.html"><img src="image/team.jpg"
+                                                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
+                                                    alt=""></a>
+                                            <a href="demo-charity-stories.html"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                Mumbai</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="demo-charity-blog-single-simple.html"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">SHG
+                                                    (Self-Help Group)</a>
+                                                <p class="line-clamp-3">A warm get-together where women shared stories, learned new skills, supported
+                                                    each other, and grew stronger.</p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">09
+                                                                Sep 2023</span></div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">12:00
+                                                                pm</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=womenEmpowermentSelfHelpGroup"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
 
-<!-- Audio Book - 25 Sep 2023 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="09"
-    data-date="25">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/audiobook.jpg"
-                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
-                    alt=""></a>
-            <a href="demo-charity-stories.html"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                Mumbai</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Audio
-                    Book</a>
-                <p class="line-clamp-3">This unique event celebrated the magic of storytelling through sound.</p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">25
-                                Sep 2023</span></div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">12:00
-                                pm</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+                                <!-- Seed Rakhi - 11 Sep 2023 -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="09"
+                                    data-date="11">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="demo-charity-blog-single-simple.html"><img src="image/raki.jpg"
+                                                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
+                                                    alt=""></a>
+                                            <a href="demo-charity-stories.html"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                Mumbai</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="demo-charity-blog-single-simple.html"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Seed
+                                                    Rakhi</a>
+                                                <p class="line-clamp-3">Participants crafted eco-friendly rakhis using natural materials, later gifted
+                                                    to local police stations.</p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">11
+                                                                Sep 2023</span></div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">11:00
+                                                                am</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=seedRakhiInitiative"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
 
-<!-- Bag Distribution - 11 Nov upcoming -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="upcoming" data-month="11"
-    data-date="18">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="explore-events.php"><img src="image/schoolbag.jpg"
-                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
-                    alt=""></a>
-            <a href="explore-events.php"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                Mumbai</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="explore-events.php"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Bag
-                    Distribution</a>
-                <p class="line-clamp-3">A drive gifting 1,000 school bags to students, helping them begin their
-                    educational journey with confidence.</p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">18
-                                Nov 2026</span></div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">06:00
-                                pm</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="explore-events.php"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+                                <!-- Audio Book - 25 Sep 2023 -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2023" data-month="09"
+                                    data-date="25">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="demo-charity-blog-single-simple.html"><img src="image/audiobook.jpg"
+                                                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
+                                                    alt=""></a>
+                                            <a href="demo-charity-stories.html"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                Mumbai</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="demo-charity-blog-single-simple.html"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Audio
+                                                    Book</a>
+                                                <p class="line-clamp-3">This unique event celebrated the magic of storytelling through sound.</p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">25
+                                                                Sep 2023</span></div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">12:00
+                                                                pm</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=audiobookExtravaganza"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
 
-<!-- Free Food Distribution - 01 Jan 2026 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2026" data-month="01"
-    data-date="01">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/fooddistribution.jpg"
-                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
-                    alt=""></a>
-            <a href="demo-charity-stories.html"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                Mumbai</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Free Food
-                    Distribution</a>
-                <p class="line-clamp-3">An ongoing initiative distributing 100 food packets daily to those in need,
-                    ensuring no one sleeps hungry.</p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">01
-                                Jan 2026</span></div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">11:00
-                                am</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+                                <!-- Bag Distribution - 11 Nov upcoming -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="upcoming" data-month="11"
+                                    data-date="18">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="explore-events.php"><img src="image/schoolbag.jpg"
+                                                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
+                                                    alt=""></a>
+                                            <a href="explore-events.php"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                Mumbai</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="explore-events.php"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Bag
+                                                    Distribution</a>
+                                                <p class="line-clamp-3">A drive gifting 1,000 school bags to students, helping them begin their
+                                                    educational journey with confidence.</p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">18
+                                                                Nov 2026</span></div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">06:00
+                                                                pm</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=bagDistributionProgram"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
 
-<!-- Sanskrit Training - 08 Jan 2026 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2026" data-month="01"
-    data-date="08">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/museum.jpg"
-                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
-                    alt=""></a>
-            <a href="demo-charity-stories.html"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                Mumbai</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Sanskrit
-                    Training</a>
-                <p class="line-clamp-3">A program helping children and youth connect with India’s ancient language and
-                    culture.</p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">08
-                                Jan 2026</span></div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">11:00
-                                am</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+                                <!-- Free Food Distribution - 01 Jan 2026 -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2026" data-month="01"
+                                    data-date="01">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="demo-charity-blog-single-simple.html"><img src="image/fooddistribution.jpg"
+                                                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
+                                                    alt=""></a>
+                                            <a href="demo-charity-stories.html"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                Mumbai</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="demo-charity-blog-single-simple.html"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Free Food
+                                                    Distribution</a>
+                                                <p class="line-clamp-3">An ongoing initiative distributing 100 food packets daily to those in need,
+                                                    ensuring no one sleeps hungry.</p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">01
+                                                                Jan 2026</span></div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">11:00
+                                                                am</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=dailyFoodDistributionProgram"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
 
-<!-- Tree Plantation - 15 Jan 2026 -->
-<div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2026" data-month="01"
-    data-date="15">
-    <div
-        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
-        <div class="position-relative">
-            <a href="demo-charity-blog-single-simple.html"><img src="image/planting.jpg"
-                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
-                    alt=""></a>
-            <a href="demo-charity-stories.html"
-                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
-                Mumbai</a>
-        </div>
-        <div class="bg-white">
-            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Tree
-                    Plantation</a>
-                <p class="line-clamp-3">Volunteers planted saplings in local areas to promote a greener environment.</p>
-                <div class="row mt-30px">
-                    <div class="col-6 text-start">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">15
-                                Jan 2026</span></div>
-                    </div>
-                    <div class="col-6 text-end">
-                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">09:00
-                                am</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
-                <a href="demo-charity-blog-single-simple.html"
-                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
-                    <span>
-                        <span class="btn-text">Explore more</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-                   
-            
-            <!-- End of Event Grid -->
-            
-        </div>
+                                <!-- Sanskrit Training - 08 Jan 2026 -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2026" data-month="01"
+                                    data-date="08">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="demo-charity-blog-single-simple.html"><img src="image/museum.jpg"
+                                                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
+                                                    alt=""></a>
+                                            <a href="demo-charity-stories.html"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                Mumbai</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="demo-charity-blog-single-simple.html"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Sanskrit
+                                                    Training</a>
+                                                <p class="line-clamp-3">A program helping children and youth connect with India’s ancient language and
+                                                    culture.</p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">08
+                                                                Jan 2026</span></div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">11:00
+                                                                am</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=sanskritTrainingProgram"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-        <div class="row">
-            <div class="col-12 text-center">
-                    <div class="fs-15 text-uppercase text-dark-gray fw-600">All our efforts are made possible only because of your support. <a href="demo-charity-causes.html" class="text-decoration-line-bottom text-dark-gray text-dark-gray-hover fw-700">See all causes</a></div>
-            </div>
-        </div>
+
+                                <!-- Tree Plantation - 15 Jan 2026 -->
+                                <div class="col-lg-4 col-md-6 mb-30px event-card-item col-event card-item" data-year="2026" data-month="01"
+                                    data-date="15">
+                                    <div
+                                        class="box-shadow-quadruple-large h-100 box-shadow-quadruple-large-hover services-box-style-03 last-paragraph-no-margin border-radius-4px overflow-hidden">
+                                        <div class="position-relative">
+                                            <a href="demo-charity-blog-single-simple.html"><img src="image/planting.jpg"
+                                                    style="width: 100%; height: 250px; object-fit: cover; object-position: center; display: block;"
+                                                    alt=""></a>
+                                            <a href="demo-charity-stories.html"
+                                                class="btn btn-small btn-rounded btn-base-color text-dark-gray btn-box-shadow ps-15px pe-15px pt-5px pb-5px lh-16 ls-0px fw-700 position-absolute right-25px top-25px">
+                                                Mumbai</a>
+                                        </div>
+                                        <div class="bg-white">
+                                            <div class="ps-50px pe-50px pt-20px pb-30px xl-ps-20px xl-pe-20px text-center">
+                                                <a href="demo-charity-blog-single-simple.html"
+                                                    class="d-inline-block fs-20 fw-500 text-dark-gray text-dark-gray-hover mb-5px alt-font">Tree
+                                                    Plantation</a>
+                                                <p class="line-clamp-3">Volunteers planted saplings in local areas to promote a greener environment.</p>
+                                                <div class="row mt-30px">
+                                                    <div class="col-6 text-start">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">15
+                                                                Jan 2026</span></div>
+                                                    </div>
+                                                    <div class="col-6 text-end">
+                                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-xl-inline-block d-block">09:00
+                                                                am</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="border-top border-color-extra-medium-gray pt-15px pb-20px text-center">
+                                                <a href="event-detail2.php?id=treePlantationProgram"
+                                                    class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray">
+                                                    <span>
+                                                        <span class="btn-text">Explore more</span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- End of Event Grid -->
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12 text-center">
+                                    <div class="fs-15 text-uppercase text-dark-gray fw-600">All our efforts are made possible only because of your support. <a href="demo-charity-causes.html" class="text-decoration-line-bottom text-dark-gray text-dark-gray-hover fw-700">See all causes</a></div>
+                                </div>
+                            </div>
     </section>
     <!-- end section -->
 
 
 
 
-<script>
-document.addEventListener('DOMContentLoaded', () => {
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
 
-    /* =======================
-       CREATE YEAR FILTERS
-    ======================= */
-    const yearContainer = document.getElementById('year-filter-container');
-    const currentYear = new Date().getFullYear();
+            /* =======================
+               CREATE YEAR FILTERS
+            ======================= */
+            const yearContainer = document.getElementById('year-filter-container');
+            const currentYear = new Date().getFullYear();
 
-    function addYearRadio(value, label, checked = false, secondary = false) {
-        const id = `year-${value}`;
+            function addYearRadio(value, label, checked = false, secondary = false) {
+                const id = `year-${value}`;
 
-        const input = document.createElement('input');
-        input.type = 'radio';
-        input.name = 'event-year';
-        input.value = value;
-        input.id = id;
-        input.className = 'btn-check year-filter';
-        input.autocomplete = 'off';
-        if (checked) input.checked = true;
+                const input = document.createElement('input');
+                input.type = 'radio';
+                input.name = 'event-year';
+                input.value = value;
+                input.id = id;
+                input.className = 'btn-check year-filter';
+                input.autocomplete = 'off';
+                if (checked) input.checked = true;
 
-        const lbl = document.createElement('label');
-        lbl.htmlFor = id;
-        lbl.className = `btn ${secondary ? 'btn-outline-secondary' : 'btn-outline-danger'} rounded-pill`;
-        lbl.innerText = label;
+                const lbl = document.createElement('label');
+                lbl.htmlFor = id;
+                lbl.className = `btn ${secondary ? 'btn-outline-secondary' : 'btn-outline-danger'} rounded-pill`;
+                lbl.innerText = label;
 
-        yearContainer.appendChild(input);
-        yearContainer.appendChild(lbl);
-    }
+                yearContainer.appendChild(input);
+                yearContainer.appendChild(lbl);
+            }
 
-    // Past & current years
-    // years.forEach((y, i) => addYearRadio(String(y), String(y), i === 1));
+            // Past & current years
+            // years.forEach((y, i) => addYearRadio(String(y), String(y), i === 1));
 
-    for (let y = currentYear - 3; y <= currentYear; y++) {
-        addYearRadio(String(y), String(y), y === currentYear);
-    }
+            for (let y = currentYear - 3; y <= currentYear; y++) {
+                addYearRadio(String(y), String(y), y === currentYear);
+            }
 
-    // Upcoming
-    addYearRadio('upcoming', 'Upcoming');
+            // Upcoming
+            addYearRadio('upcoming', 'Upcoming');
 
-    // All
-    addYearRadio('all', 'All', false, true);
+            // All
+            addYearRadio('all', 'All', false, true);
 
-    /* =======================
-       FILTERING LOGIC
-    ======================= */
+            /* =======================
+               FILTERING LOGIC
+            ======================= */
 
-    const eventCards = [...document.querySelectorAll('.event-card-item')];
-    const yearRadios = () =>
-        document.querySelector('input[name="event-year"]:checked')?.value || 'all';
-    const monthRadios = () =>
-        document.querySelector('input[name="event-month"]:checked')?.value || 'all';
-    const keywordInput = document.getElementById('keyword-input');
+            const eventCards = [...document.querySelectorAll('.event-card-item')];
+            const yearRadios = () =>
+                document.querySelector('input[name="event-year"]:checked')?.value || 'all';
+            const monthRadios = () =>
+                document.querySelector('input[name="event-month"]:checked')?.value || 'all';
+            const keywordInput = document.getElementById('keyword-input');
 
-    function isUpcoming(card) {
-        return card.dataset.year === 'upcoming';
-    }
+            function isUpcoming(card) {
+                return card.dataset.year === 'upcoming';
+            }
 
-    function matchesYear(card, year) {
-        if (year === 'all') return true;
-        if (year === 'upcoming') return isUpcoming(card);
-        return card.dataset.year === year;
-    }
+            function matchesYear(card, year) {
+                if (year === 'all') return true;
+                if (year === 'upcoming') return isUpcoming(card);
+                return card.dataset.year === year;
+            }
 
-    function matchesMonth(card, month) {
-        if (month === 'all') return true;
-        if (isUpcoming(card)) return false;
-        return card.dataset.month === month;
-    }
+            function matchesMonth(card, month) {
+                if (month === 'all') return true;
+                if (isUpcoming(card)) return false;
+                return card.dataset.month === month;
+            }
 
-    function matchesKeyword(card, keyword) {
-        if (!keyword) return true;
-        return (card.dataset.keywords || '').toLowerCase().includes(keyword);
-    }
+            function matchesKeyword(card, keyword) {
+                if (!keyword) return true;
+                return (card.dataset.keywords || '').toLowerCase().includes(keyword);
+            }
 
-    function applyFilter() {
-        const year = yearRadios();
-        const month = monthRadios();
-        const keyword = keywordInput?.value.trim().toLowerCase() || '';
-        let visible = 0;
+            function applyFilter() {
+                const year = yearRadios();
+                const month = monthRadios();
+                const keyword = keywordInput?.value.trim().toLowerCase() || '';
+                let visible = 0;
 
-        eventCards.forEach(card => {
-            const show =
-                matchesYear(card, year) &&
-                matchesMonth(card, month) &&
-                matchesKeyword(card, keyword);
+                eventCards.forEach(card => {
+                    const show =
+                        matchesYear(card, year) &&
+                        matchesMonth(card, month) &&
+                        matchesKeyword(card, keyword);
 
-            card.style.display = show ? '' : 'none';
-            if (show) visible++;
-        });
+                    card.style.display = show ? '' : 'none';
+                    if (show) visible++;
+                });
 
-        toggleNoResults(visible);
-    }
+                toggleNoResults(visible);
+            }
 
-    function toggleNoResults(count) {
-        let msg = document.getElementById('no-events-message');
-        if (!msg) {
-            msg = document.createElement('div');
-            msg.id = 'no-events-message';
-            msg.className = 'col-12 text-center mt-4';
-            msg.innerHTML = '<p class="fs-16 text-muted">No events found.</p>';
-            document.querySelector('.content-side')?.appendChild(msg);
-        }
-        msg.style.display = count === 0 ? 'block' : 'none';
-    }
+            function toggleNoResults(count) {
+                let msg = document.getElementById('no-events-message');
+                if (!msg) {
+                    msg = document.createElement('div');
+                    msg.id = 'no-events-message';
+                    msg.className = 'col-12 text-center mt-4';
+                    msg.innerHTML = '<p class="fs-16 text-muted">No events found.</p>';
+                    document.querySelector('.content-side')?.appendChild(msg);
+                }
+                msg.style.display = count === 0 ? 'block' : 'none';
+            }
 
-    document.addEventListener('change', e => {
-        if (e.target.matches('.year-filter, .month-filter')) {
+            document.addEventListener('change', e => {
+                if (e.target.matches('.year-filter, .month-filter')) {
+                    applyFilter();
+                }
+            });
+
+            document.getElementById('apply-keyword-search-btn')
+                ?.addEventListener('click', applyFilter);
+
+            document.getElementById('close-search-bar-btn')
+                ?.addEventListener('click', () => {
+                    keywordInput.value = '';
+                    applyFilter();
+                });
+
             applyFilter();
-        }
-    });
-
-    document.getElementById('apply-keyword-search-btn')
-        ?.addEventListener('click', applyFilter);
-
-    document.getElementById('close-search-bar-btn')
-        ?.addEventListener('click', () => {
-            keywordInput.value = '';
-            applyFilter();
         });
-
-    applyFilter();
-});
-</script>
+    </script>
 
 
     <section class="cover-background">
@@ -1351,7 +1359,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </svg>
         </div>
     </section>
-    <?php include('footer.php') ;?>
+    <?php include('footer.php'); ?>
     <!-- end footer -->
     <div class="scroll-progress d-none d-xxl-block">
         <a href="#" class="scroll-top" aria-label="scroll">
@@ -1364,4 +1372,5 @@ document.addEventListener('DOMContentLoaded', () => {
     <script type="text/javascript" src="js/vendors.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
+
 </html>

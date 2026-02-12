@@ -1,4 +1,4 @@
-﻿<nav style="" class="navbar navbar-expand-lg header-light fixed-top border-bottom border-color-transparent-dark-very-light header-reverse background-position-left-top bg-white">
+﻿<nav class="navbar navbar-expand-lg header-light fixed-top border-bottom border-color-transparent-dark-very-light header-reverse background-position-left-top bg-white">
     <div class="container-fluid justify-content-lg-start">
         <div class="col-auto">
             <a class="navbar-brand" href="./">
