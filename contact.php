@@ -89,7 +89,7 @@
                                 </div>
                                 <div class="feature-box-content">
                                     <span>Feel free to get in touch?</span>
-                                    <span class="d-block fw-500 fs-19"><a href="tel:+919220082211" class="text-dark-gray text-dark-gray-hover">+91 92200 82211</a></span>
+                                    <span class="d-block fw-500 fs-19"><a href="tel:+919820982126" class="text-dark-gray text-dark-gray-hover">+91 98209 82126</a></span>
                                 </div>
                             </div>
                         </div>

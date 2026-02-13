@@ -81,17 +81,14 @@
                         <a href="#" class="nav-link">Projects</a>
                         <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink_Projects" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink_Projects">
-
-                            
-                            <li><a href="event-detail2.php?id=womenEmpowermentSHG">Women Empowerment</a></li>
-                            <li><a href="event-detail2.php?id=treePlantationProgram">Tree Plantation</a></li>
-
-                            <li class="nav-item dropdown simple-dropdown">
+                       
                             <li class="nav-item dropdown simple-dropdown">
                                 <a href="#" class="nav-link ">Campaign</a>
                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink_SHG" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink_SHG">
                                     
+                                    <li><a href="event-detail2.php?id=womenEmpowermentSHG">Women Empowerment</a></li>
+                                    <li><a href="event-detail2.php?id=treePlantationProgram">Tree Plantation</a></li>
                                     <li><a href="project.php?id=ambulanceProject">Ambulance</a></li>
                                     <li><a href="project.php?id=grainDistribution">Grain Distribution</a></li>
                                     <li><a href="project.php?id=scholarshipProgramme">Scholarship</a></li>

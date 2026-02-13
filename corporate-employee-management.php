@@ -22,6 +22,42 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="demos/charity/charity.css" />
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #apply-now {
+            scroll-margin-top: 30px;
+            /* Adds a  gap at the top after scrolling */
+        }
+
+        .apply {
+            background-color: #427deb;
+            /* Blue background */
+            color: white;
+            /* White text */
+            /* border: black; */
+            /* Remove default border */
+            padding: 10px 20px;
+            /* Space around text */
+            border-radius: 5px;
+            /* Rounded corners */
+            cursor: pointer;
+            /* Change cursor to pointer on hover */
+            font-size: 16px;
+
+            border: 2px solid #99c4e6;
+        }
+
+        .apply:hover {
+            background-color: #0056b3;
+            color: white;
+            /* Darker blue on hover */
+        }
+    </style>
+
 </head>
 
 <body data-mobile-nav-style="classic">
@@ -84,14 +120,17 @@
                     <div class="bg-base-color fw-600 text-dark text-uppercase ps-20px pe-20px fs-12 border-radius-100px d-inline-block mb-15px">Corporate Employee Management</div>
                     <h4 class="alt-font text-dark-gray fw-600 ls-minus-1px">Corporate Employee Management Collaboration Application Form</h4>
                     <p class="w-100 mb-40px sm-mb-20px">Welcome to the Paarvedan Foundation's Corporate Employee Management Collaboration Program! We are thrilled to explore opportunities to work with corporations in enhancing employee engagement, welfare, and community impact. To initiate the collaboration process, kindly complete this comprehensive form and upload the necessary documents to express your corporate entity's interest in collaborating with Paarvedan Foundation.</p>
-                    <a href="donate.php" class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white">Donate Now<span class="bg-white"><i class="fa-solid fa-arrow-right color-paarvedan"></i></span></a>
+                    <a href="donate.php" class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white me-5">Donate Now<span class="bg-white"><i class="fa-solid fa-arrow-right color-paarvedan"></i></span></a>
+                    <a href="javascript:void(0)" class="btn btn-large btn-round-edge with-rounded apply" onclick="document.getElementById('apply-now').scrollIntoView({behavior: 'smooth'})">Apply now<span class="bg-white text-black"><i class="fa-solid fa-arrow-down color-paarvedan"></i></span></a>
+
+
                 </div>
             </div>
         </div>
     </section>
     <!-- end section -->
     <!-- start section -->
-    <section class="bg-gradient-very-light-gray">
+    <section class="bg-gradient-very-light-gray" id="apply-now">
         <div class="container">
             <div class="row g-0 justify-content-center">
                 <div class="col-lg-8">
@@ -345,7 +384,7 @@
             </div>
         </div>
     </section>
-    <?php include('footer.php') ;?>
+    <?php include('footer.php'); ?>
     <!-- end footer -->
     <div class="scroll-progress d-none d-xxl-block">
         <a href="#" class="scroll-top" aria-label="scroll">
@@ -416,69 +455,69 @@
         });
     </script> -->
 
-<script>
-    console.log("--- Forced Script Started ---");
+    <script>
+        console.log("--- Forced Script Started ---");
 
-    document.addEventListener("DOMContentLoaded", function() {
-        const btn = document.getElementById('mainSubmitBtn');
-        const form = document.getElementById('myForm');
+        document.addEventListener("DOMContentLoaded", function() {
+            const btn = document.getElementById('mainSubmitBtn');
+            const form = document.getElementById('myForm');
 
-        if (btn) {
-            console.log("✅ Submit Button found!");
+            if (btn) {
+                console.log("✅ Submit Button found!");
 
-            btn.addEventListener('click', async function(e) {
-                // Hum manually trigger kar rahe hain, isliye normal submit ko rokenge
-                e.preventDefault();
-                
-                console.log("Button clicked! Starting manual validation...");
+                btn.addEventListener('click', async function(e) {
+                    // Hum manually trigger kar rahe hain, isliye normal submit ko rokenge
+                    e.preventDefault();
 
-                // 1. Basic Validation Check
-                if (!form.checkValidity()) {
-                    alert("Please fill all required fields correctly.");
-                    form.reportValidity(); // Ye browser ka error popup dikhayega
-                    return;
-                }
+                    console.log("Button clicked! Starting manual validation...");
 
-                console.log("Validation passed! Collecting data...");
-
-                // 2. Button UI Change
-                const originalText = btn.innerText;
-                btn.disabled = true;
-                btn.innerText = "Sending...";
-
-                // 3. Prepare Data
-                const formData = new FormData(form);
-
-                try {
-                    console.log("Attempting fetch to Backend...");
-                    const response = await fetch('http://localhost:5000/api/forms/corporate', {
-                        method: "POST",
-                        body: formData
-                    });
-
-                    console.log("Fetch call finished. Status:", response.status);
-
-                    const data = await response.json();
-                    
-                    if (data.success) {
-                        alert("Success: " + data.message);
-                        form.reset();
-                    } else {
-                        alert("Message: " + data.message);
+                    // 1. Basic Validation Check
+                    if (!form.checkValidity()) {
+                        alert("Please fill all required fields correctly.");
+                        form.reportValidity(); // Ye browser ka error popup dikhayega
+                        return;
                     }
-                } catch (error) {
-                    console.error("Network/Fetch Error:", error);
-                    alert("Network Error: Backend server check karein (Port 5000).");
-                } finally {
-                    btn.disabled = false;
-                    btn.innerText = originalText;
-                }
-            });
-        } else {
-            console.error("❌ Button with ID 'mainSubmitBtn' not found!");
-        }
-    });
-</script>
+
+                    console.log("Validation passed! Collecting data...");
+
+                    // 2. Button UI Change
+                    const originalText = btn.innerText;
+                    btn.disabled = true;
+                    btn.innerText = "Sending...";
+
+                    // 3. Prepare Data
+                    const formData = new FormData(form);
+
+                    try {
+                        console.log("Attempting fetch to Backend...");
+                        const response = await fetch('http://localhost:5000/api/forms/corporate', {
+                            method: "POST",
+                            body: formData
+                        });
+
+                        console.log("Fetch call finished. Status:", response.status);
+
+                        const data = await response.json();
+
+                        if (data.success) {
+                            alert("Success: " + data.message);
+                            form.reset();
+                        } else {
+                            alert("Message: " + data.message);
+                        }
+                    } catch (error) {
+                        console.error("Network/Fetch Error:", error);
+                        alert("Network Error: Backend server check karein (Port 5000).");
+                    } finally {
+                        btn.disabled = false;
+                        btn.innerText = originalText;
+                    }
+                });
+            } else {
+                console.error("❌ Button with ID 'mainSubmitBtn' not found!");
+            }
+        });
+    </script>
 
 
 

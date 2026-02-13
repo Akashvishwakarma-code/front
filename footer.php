@@ -117,12 +117,8 @@
                         </div>
                         <div class="widget-content">
                             <ul class="links-list clearfix">
-                                                       
-                                <li><i class="fa-solid fa-angle-right"></i><a href="event-detail2.php?id=womenEmpowermentSHG" class="text-white">Women Empowerment
-                                    </a></li>
-                                
-                                <li><i class="fa-solid fa-angle-right"></i><a href="event-detail2.php?id=treePlantationProgram" class="text-white">Tree Plantation
-                                    </a></li>
+
+
 
 
                                 <li class="dropdown mb-2">
@@ -139,6 +135,13 @@
 
                                     <ul class="dropdown-menu bg-dark border-0 shadow"
                                         aria-labelledby="navbarDropdownMenuLink_SHG">
+
+                                        <li><a class="dropdown-item text-white"href="event-detail2.php?id=womenEmpowermentSHG" class="text-white">Women Empowerment
+                                            </a></li>
+
+                                        <li><a class="dropdown-item text-white" href="event-detail2.php?id=treePlantationProgram" class="text-white">Tree Plantation
+                                            </a></li>
+
                                         <li>
                                             <a class="dropdown-item text-white" href="project.php?id=ambulanceProject">
                                                 Ambulance
@@ -156,7 +159,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                
+
 
 
                             </ul>

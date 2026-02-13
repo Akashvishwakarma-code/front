@@ -22,6 +22,41 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="demos/charity/charity.css" />
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #apply-now {
+            scroll-margin-top: 30px;
+            /* Adds a  gap at the top after scrolling */
+        }
+
+        .apply {
+            background-color: #427deb;
+            /* Blue background */
+            color: white;
+            /* White text */
+            /* border: black; */
+            /* Remove default border */
+            padding: 10px 20px;
+            /* Space around text */
+            border-radius: 5px;
+            /* Rounded corners */
+            cursor: pointer;
+            /* Change cursor to pointer on hover */
+            font-size: 16px;
+
+            border: 2px solid #99c4e6;
+        }
+
+        .apply:hover {
+            background-color: #0056b3;
+            color: white;
+            /* Darker blue on hover */
+        }
+    </style>
 </head>
 
 <body data-mobile-nav-style="classic">
@@ -85,7 +120,9 @@
                     <div class="bg-base-color fw-600 text-dark text-uppercase ps-20px pe-20px fs-12 border-radius-100px d-inline-block mb-15px">Become a Changemaker</div>
                     <h4 class="alt-font text-dark-gray fw-600">Empower Lives Through Volunteering</h4>
                     <p class="w-100">Join us in making a difference! At Paarvedan, we believe in the power of collective action, and your contribution as a volunteer can create a lasting impact. Explore our diverse volunteer opportunities that align with your passion and skills. Whether it's community outreach, fundraising, or administrative support, there's a meaningful role waiting for you. Together, let's build a better world and inspire positive change. Join the Paarvedan volunteer community today!</p>
-                    <a href="donate.php" class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white">Donate Now<span class="bg-white"><i class="fa-solid fa-arrow-right color-paarvedan"></i></span></a>
+                    <a href="donate.php" class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white me-5">Donate Now<span class="bg-white"><i class="fa-solid fa-arrow-right color-paarvedan"></i></span></a>
+                    <a href="javascript:void(0)" class="btn btn-large btn-round-edge with-rounded apply" onclick="document.getElementById('apply-now').scrollIntoView({behavior: 'smooth'})">Apply now<span class="bg-white text-black"><i class="fa-solid fa-arrow-down color-paarvedan"></i></span></a>
+
                 </div>
             </div>
         </div>
@@ -114,7 +151,7 @@
     <!-- end section -->
 
     <!-- start section -->
-    <section class="bg-gradient-very-light-gray">
+    <section class="bg-gradient-very-light-gray" id="apply-now">
         <div class="container">
             <div class="row g-0 justify-content-center">
                 <div class="col-lg-8">
