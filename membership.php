@@ -45,7 +45,7 @@
     <!-- start page title -->
     <section class="page-title-separate-breadcrumbs bg-dark-gray ipad-top-space-margin cover-background bg-dark-gray"
         style="background-image: url(image/p8n.jpg )">
-        <div class="opacity-full-dark bg-gradient-dark-transparent" ></div>
+        <div class="opacity-full-dark bg-gradient-dark-transparent"></div>
         <div class="container position-relative">
             <div class="row flex-column flex-lg-row justify-content-center align-items-lg-end extra-very-small-screen">
                 <div class="col-xxl-8 col-md-7 position-relative page-title-large md-mb-30px sm-mb-20px">
@@ -78,9 +78,18 @@
     <section class="background-position-center-top">
         <div class="container">
             <div class="row align-items-center justify-content-center">
-                <div class="col-lg-12 order-lg-3 text-center">
-                    <h6 class="alt-font text-dark-gray fw-600">Paarvedan Foundation Membership Opportunities</h6>
-                    <p class="w-100">Welcome to Paarvedan Foundation! Your dedication to social responsibility is invaluable to us. Join hands with us by becoming a member and contributing to positive and sustainable change. Our membership program offers a range of options to suit your commitment level. Choose a membership category below and be a part of our mission.</p>
+                <div class="col-lg-12 order-lg-3 text-center" data-anime='{ "opacity": [0, 1], "translateY": [30, 0], "duration": 600, "delay": 100, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <h3 class="alt-font text-dark-gray fw-600">Membership Opportunities</h3>
+                    <h6 class="alt-font text-dark-gray fw-600">Be A Part Of Change</h6>
+                    <p>At <strong>Paarvedan Foundation</strong>, we believe meaningful change begins with collective responsibility. </p>
+
+                    <p class="w-100">By becoming a member, you support initiatives focused on <strong>sustainable impact and social
+                            good</strong>. Our membership options are designed to suit varying levels of involvement, allowing you
+                        to contribute in a way that aligns with your purpose.  Your dedication to social responsibility is invaluable to us. 
+                        Join hands with us by becoming a member and contributing to positive and sustainable change. 
+                        Our membership program offers a range of options to suit your commitment level. 
+                        </p>
+                    <p>Explore our membership categories and join us in creating lasting change.</p>
                 </div>
             </div>
         </div>
@@ -94,7 +103,7 @@
                     <div class="row row-cols-1 row-cols-md-3 justify-content-center"
                         data-anime='{ "el": "childs", "translateY": [30, 0], "perspective": [1200,1200], "scale": [1.05, 1], "rotateY": [-30, 0], "opacity": [0,1], "duration": 800, "delay": 100, "staggervalue": 200, "easing": "easeOutQuad" }'>
 
-                          <!-- 8. Free Member -->
+                        <!-- 8. Free Member -->
 
                         <div class="col mb-30px">
                             <div class="bg-white h-100 box-shadow-quadruple-large box-shadow-quadruple-large-hover border-radius-6px p-45px xl-p-25px text-center position-relative">
@@ -108,7 +117,7 @@
                                 <a href="#" class="btn btn-link btn-hover-animation-switch btn-large fw-700 text-alt-color d-table d-lg-inline-block xl-mb-15px md-mx-auto">
                                     <span>
                                         <a href="#form" class="btn-text">Apply Now<a>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </span>
                                 </a>
                             </div>
@@ -124,9 +133,9 @@
                                     <li>Invitations to volunteer opportunities</li>
                                 </ul>
                                 <a href="#" class="btn btn-link btn-hover-animation-switch btn-large fw-700 text-alt-color d-table d-lg-inline-block xl-mb-15px md-mx-auto">
-                                     <span>
+                                    <span>
                                         <a href="#form" class="btn-text">Apply Now<a>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </span>
                                 </a>
                             </div>
@@ -143,9 +152,9 @@
                                     <li>Quarterly newsletter subscription</li>
                                 </ul>
                                 <a href="#" class="btn btn-link btn-hover-animation-switch btn-large fw-700 text-alt-color d-table d-lg-inline-block xl-mb-15px md-mx-auto">
-                                     <span>
+                                    <span>
                                         <a href="#form" class="btn-text">Apply Now<a>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </span>
                                 </a>
                             </div>
@@ -162,9 +171,9 @@
                                     <li>Recognition on our website</li>
                                 </ul>
                                 <a href="#" class="btn btn-link btn-hover-animation-switch btn-large fw-700 text-alt-color d-table d-lg-inline-block xl-mb-15px md-mx-auto">
-                                     <span>
+                                    <span>
                                         <a href="#form" class="btn-text">Apply Now<a>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </span>
                                 </a>
                             </div>
@@ -181,9 +190,9 @@
                                     <li>Priority registration for events</li>
                                 </ul>
                                 <a href="#" class="btn btn-link btn-hover-animation-switch btn-large fw-700 text-alt-color d-table d-lg-inline-block xl-mb-15px md-mx-auto">
-                                     <span>
+                                    <span>
                                         <a href="#form" class="btn-text">Apply Now<a>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </span>
                                 </a>
                             </div>
@@ -201,9 +210,9 @@
                                     <li>Invitations to family-friendly events</li>
                                 </ul>
                                 <a href="#" class="btn btn-link btn-hover-animation-switch btn-large fw-700 text-alt-color d-table d-lg-inline-block xl-mb-15px md-mx-auto">
-                                     <span>
+                                    <span>
                                         <a href="#form" class="btn-text">Apply Now<a>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </span>
                                 </a>
                             </div>
@@ -222,7 +231,7 @@
                                 <a href="#" class="btn btn-link btn-hover-animation-switch btn-large fw-700 text-alt-color d-table d-lg-inline-block xl-mb-15px md-mx-auto">
                                     <span>
                                         <a href="#form" class="btn-text">Apply Now<a>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </span>
                                 </a>
                             </div>
@@ -241,7 +250,7 @@
                                 <a href="#" class="btn btn-link btn-hover-animation-switch btn-large fw-700 text-alt-color d-table d-lg-inline-block xl-mb-15px md-mx-auto">
                                     <span>
                                         <a href="#form" class="btn-text">Apply Now<a>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </span>
                                 </a>
                             </div>
@@ -260,12 +269,12 @@
                                 <a href="#" class="btn btn-link btn-hover-animation-switch btn-large fw-700 text-alt-color d-table d-lg-inline-block xl-mb-15px md-mx-auto">
                                     <span>
                                         <a href="#form" class="btn-text">Apply Now<a>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </span>
                                 </a>
                             </div>
                         </div>
-                      
+
                     </div>
 
                 </div>
@@ -284,7 +293,7 @@
                         <form id="myForm" enctype="multipart/form-data">
 
                             <!-- Section: Personal Information -->
-                            <div class="col-12" id ="form">
+                            <div class="col-12" id="form">
                                 <p class="fw-bold text-dark m-0">Personal Information:</p>
                                 <hr class="w-25 border-top border-danger border-4 m-0 mb-3 rounded">
                             </div>
@@ -522,7 +531,7 @@
             </div>
         </div>
     </section>
-    <?php include('footer.php') ;?>
+    <?php include('footer.php'); ?>
     <!-- end footer -->
     <!-- start scroll progress -->
     <div class="scroll-progress d-none d-xxl-block">
@@ -536,71 +545,73 @@
     <script type="text/javascript" src="js/vendors.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const form = document.getElementById('myForm');
-        const btn = document.getElementById('mainSubmitBtn');
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const form = document.getElementById('myForm');
+            const btn = document.getElementById('mainSubmitBtn');
 
-        if (btn) {
-            btn.addEventListener('click', async function(e) {
-                e.preventDefault();
-                
-                if (!form.checkValidity()) {
-                    form.reportValidity();
-                    return;
-                }
+            if (btn) {
+                btn.addEventListener('click', async function(e) {
+                    e.preventDefault();
 
-                const originalText = btn.innerText;
-                btn.disabled = true;
-                btn.innerText = "Submitting...";
-
-                // --- HAR EK FIELD SE VALUE NIKAL KAR OBJECT BANANA ---
-                const dataObj = {
-                    name: form.querySelector('[name="name"]')?.value || null,
-                    email: form.querySelector('[name="email"]')?.value || null,
-                    phone: form.querySelector('[name="phone"]')?.value || null,
-                    address: form.querySelector('[name="address"]')?.value || null,
-                    availability: form.querySelector('[name="availability"]')?.value || null,
-                    volunteerInterest: form.querySelector('[name="volunteerInterest"]')?.value || null,
-                    skillsExperience: form.querySelector('[name="skillsExperience"]')?.value || null,
-                    motivationVolunteers: form.querySelector('[name="motivationVolunteers"]')?.value || null,
-                    previousExp: form.querySelector('[name="previousExp"]')?.value || null,
-                    reference: form.querySelector('[name="reference"]')?.value || null,
-                    emergencyNo: form.querySelector('[name="emergencyNo"]')?.value || null,
-                    howDidYouHear: form.querySelector('[name="howDidYouHear"]')?.value || null,
-                    choosePlan: form.querySelector('[name="choosePlan"]')?.value || null,
-                    // Checkbox ke liye thoda alag logic (true/false ya value)
-                    terms_condition: form.querySelector('[name="terms_condition"]')?.checked ? 1 : 0
-                };
-
-                console.log("Sending all fields to backend:", dataObj);
-
-                try {
-                    const response = await fetch('http://localhost:5000/api/forms/membership', {
-                        method: "POST",
-                        headers: { "Content-Type": "application/json" },
-                        body: JSON.stringify(dataObj)
-                    });
-
-                    const data = await response.json();
-                    
-                    if (data.success) {
-                        alert("Membership Submitted Successfully!");
-                        form.reset();
-                    } else {
-                        alert("Error: " + data.message);
+                    if (!form.checkValidity()) {
+                        form.reportValidity();
+                        return;
                     }
-                } catch (error) {
-                    console.error("Fetch Error:", error);
-                    alert("Network Error: Backend check karein.");
-                } finally {
-                    btn.disabled = false;
-                    btn.innerText = originalText;
-                }
-            });
-        }
-    });
-</script>
+
+                    const originalText = btn.innerText;
+                    btn.disabled = true;
+                    btn.innerText = "Submitting...";
+
+                    // --- HAR EK FIELD SE VALUE NIKAL KAR OBJECT BANANA ---
+                    const dataObj = {
+                        name: form.querySelector('[name="name"]')?.value || null,
+                        email: form.querySelector('[name="email"]')?.value || null,
+                        phone: form.querySelector('[name="phone"]')?.value || null,
+                        address: form.querySelector('[name="address"]')?.value || null,
+                        availability: form.querySelector('[name="availability"]')?.value || null,
+                        volunteerInterest: form.querySelector('[name="volunteerInterest"]')?.value || null,
+                        skillsExperience: form.querySelector('[name="skillsExperience"]')?.value || null,
+                        motivationVolunteers: form.querySelector('[name="motivationVolunteers"]')?.value || null,
+                        previousExp: form.querySelector('[name="previousExp"]')?.value || null,
+                        reference: form.querySelector('[name="reference"]')?.value || null,
+                        emergencyNo: form.querySelector('[name="emergencyNo"]')?.value || null,
+                        howDidYouHear: form.querySelector('[name="howDidYouHear"]')?.value || null,
+                        choosePlan: form.querySelector('[name="choosePlan"]')?.value || null,
+                        // Checkbox ke liye thoda alag logic (true/false ya value)
+                        terms_condition: form.querySelector('[name="terms_condition"]')?.checked ? 1 : 0
+                    };
+
+                    console.log("Sending all fields to backend:", dataObj);
+
+                    try {
+                        const response = await fetch('http://localhost:5000/api/forms/membership', {
+                            method: "POST",
+                            headers: {
+                                "Content-Type": "application/json"
+                            },
+                            body: JSON.stringify(dataObj)
+                        });
+
+                        const data = await response.json();
+
+                        if (data.success) {
+                            alert("Membership Submitted Successfully!");
+                            form.reset();
+                        } else {
+                            alert("Error: " + data.message);
+                        }
+                    } catch (error) {
+                        console.error("Fetch Error:", error);
+                        alert("Network Error: Backend check karein.");
+                    } finally {
+                        btn.disabled = false;
+                        btn.innerText = originalText;
+                    }
+                });
+            }
+        });
+    </script>
 
 </body>
 

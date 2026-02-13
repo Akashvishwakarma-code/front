@@ -89,109 +89,142 @@
         </div>
     </section>
     <!-- end section -->
+
+    <section class="background-position-center-top pb-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 lg-ps-40px md-ps-15px" data-anime='{ "opacity": [0, 1], "translateY": [30, 0], "duration": 600, "delay": 100, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <h4 class="alt-font text-dark-gray">Collaborating for Sustainable Social Impact </h4>
+                    <p class="w-100 sm-mb-20px">We partner with government CSR initiatives to drive scalable, measurable and inclusive
+                        development. By aligning purpose with policy, we create programs that deliver real outcomes
+                        across education, healthcare, environmental sustainability and community development. </p>
+                    <p class="w-100 mb-40px sm-mb-20px">This collaboration brings together resources, expertise and reach; ensuring social responsibility
+                        efforts translate into long-term community impact.</p>
+                </div>
+            </div>
+    </section>
+
+
     <!-- start section -->
-    <section>
+    <section class="background-position-center-top pb-0 pt-2">
         <div class="container">
             <!-- start list style -->
             <div class="row align-items-center">
                 <div class="col-lg-12 lg-ps-40px md-ps-15px" data-anime='{ "el": "childs", "opacity": [0, 1], "translateY": [30, 0], "duration": 600, "delay": 100, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <h4 class="alt-font text-dark-gray highlight-separator-small">Objectives of Collaboration</h4>
+                    <h4 class="alt-font text-dark-gray highlight-separator-small">Our Approach</h4>
                     <!-- start list style -->
-                    <ol class="p-0 m-0 list-style-01 text-dark-gray fw-500">
-                        <li class="fs-24 alt-font">1. Aligning Goals and Objectives:</li>
+                    <ol class="p-0 m-0 list-style-01 text-dark-gray fw-100">
+                        <li class="fs-20 alt-font">1. Aligned Vision, Greater Impact :</li>
                     </ol>
                     <ul class="list-style-04">
-                        <li>Identify common goals between Paarvedan Foundation and government CSR initiatives.</li>
-                        <li>Align objectives to maximize impact in areas such as education, healthcare, environmental sustainability, and community development.</li>
+                        <p>We work closely with government bodies to identify shared priorities and design CSR initiatives
+                            that maximise social and economic value.</p>
+                        <!-- <li>Align objectives to maximize impact in areas such as education, healthcare, environmental sustainability, and community development.</li> -->
                     </ul>
                     <!-- end list style -->
                     <!-- start list style -->
                     <ol start="2" class="p-0 m-0 list-style-01 text-dark-gray fw-500">
-                        <li class="fs-24 alt-font">2. Optimizing Resource Allocation:</li>
+                        <li class="fs-20 alt-font">2. Efficient Resource Utilisation:</li>
                     </ol>
                     <ul class="list-style-04">
-                        <li>Pooling financial, human, and technological resources to enhance efficiency.</li>
-                        <li>Streamlining efforts to avoid duplication and ensure a comprehensive approach to societal development.</li>
+                        <p>By pooling financial, human and technological resources, we reduce duplication and improve
+                            efficiency; allowing initiatives to scale faster and further.</p>
+                        <!-- <li>Pooling financial, human, and technological resources to enhance efficiency.</li>
+                        <li>Streamlining efforts to avoid duplication and ensure a comprehensive approach to societal development.</li> -->
                     </ul>
                     <!-- end list style -->
                     <!-- start list style -->
                     <ol class="p-0 m-0 list-style-01 text-dark-gray fw-500">
-                        <li class="fs-24 alt-font">3. Geographical Reach:</li>
+                        <li class="fs-20 alt-font">3. Expanded Reach :</li>
                     </ol>
                     <ul class="list-style-04">
-                        <li>Expanding the reach of both entities by combining networks and infrastructure.</li>
-                        <li>Targeting underserved and marginalized communities to address disparities and foster inclusive growth.</li>
+                        <p>Our combined networks enable deeper penetration into <strong>underserved and marginalised
+                                communities</strong> , promoting inclusive and balanced growth.</p>
+                        <!-- <li>Expanding the reach of both entities by combining networks and infrastructure.</li>
+                        <li>Targeting underserved and marginalized communities to address disparities and foster inclusive growth.</li> -->
                     </ul>
                     <!-- end list style -->
                     <!-- start list style -->
                     <ol class="p-0 m-0 list-style-01 text-dark-gray fw-500">
-                        <li class="fs-24 alt-font">4. Knowledge Sharing and Capacity Building:</li>
+                        <li class="fs-20 alt-font">4. Data-Driven & Community-Led:</li>
                     </ol>
                     <ul class="list-style-04">
-                        <li>Collaborating on research and data-driven initiatives to understand community needs.</li>
-                        <li>Facilitating knowledge exchange programs and capacity-building initiatives to empower local communities.</li>
+                        <p>Every initiative is guided by research, on-ground insights and community participation to ensure
+                            relevance, accountability and sustainability.
+                        </p>
+                        <!-- <li>Collaborating on research and data-driven initiatives to understand community needs.</li>
+                        <li>Facilitating knowledge exchange programs and capacity-building initiatives to empower local communities.</li> -->
                     </ul>
                     <!-- end list style -->
                     <!-- start list style -->
                     <ol class="p-0 m-0 list-style-01 text-dark-gray fw-500">
-                        <li class="fs-24 alt-font">5. Innovative Solutions:</li>
+                        <li class="fs-20 alt-font">5. Built for the Long Term:</li>
                     </ol>
                     <ul class="list-style-04">
-                        <li>Encouraging innovation through joint projects and initiatives that address evolving societal challenges.</li>
-                        <li>Promoting sustainable and scalable solutions for long-term impact.</li>
+                        <p>We focus on solutions that are <strong>innovative, adaptable and scalable</strong>, creating impact that lasts
+                            beyond project timelines.</p>
+                        <!-- <li>Encouraging innovation through joint projects and initiatives that address evolving societal challenges.</li>
+                        <li>Promoting sustainable and scalable solutions for long-term impact.</li> -->
                     </ul>
                     <!-- end list style -->
                 </div>
-                <div class="col-lg-12 lg-ps-40px md-ps-15px" data-anime='{ "el": "childs", "opacity": [0, 1], "translateY": [30, 0], "duration": 600, "delay": 100, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <h4 class="alt-font text-dark-gray highlight-separator-small">Implementation Strategies</h4>
+                <div class="col-lg-12 lg-ps-40px md-ps-15px pt-4" data-anime='{ "el": "childs", "opacity": [0, 1], "translateY": [30, 0], "duration": 600, "delay": 100, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <h4 class="alt-font text-dark-gray highlight-separator-small">Implementation Approach</h4>
 
                     <!-- start list style -->
                     <ol class="p-0 m-0 list-style-01 text-dark-gray fw-500">
-                        <li class="fs-24 alt-font">1. Joint Program Development:</li>
+                        <li class="fs-20 alt-font">1. Joint CSR Programs:</li>
                     </ol>
                     <ul class="list-style-04">
-                        <li>Co-create and implement CSR programs that leverage the strengths of both the Paarvedan Foundation and government agencies.</li>
-                        <li>Ensure flexibility to adapt to changing community needs and evolving priorities.</li>
+                        <p>Co-create flexible, impact-driven initiatives with government partners.</p>
+                        <!-- <li>Co-create and implement CSR programs that leverage the strengths of both the Paarvedan Foundation and government agencies.</li>
+                        <li>Ensure flexibility to adapt to changing community needs and evolving priorities.</li> -->
                     </ul>
                     <!-- end list style -->
 
                     <!-- start list style -->
                     <ol class="p-0 m-0 list-style-01 text-dark-gray fw-500">
-                        <li class="fs-24 alt-font">2. Stakeholder Engagement:</li>
+                        <li class="fs-20 alt-font">2. Community & Stakeholder Engagement:</li>
                     </ol>
                     <ul class="list-style-04">
-                        <li>Engage with local communities, NGOs, and other stakeholders to ensure inclusivity and community participation.</li>
-                        <li>Foster open communication channels to gather feedback and assess the effectiveness of implemented programs.</li>
+                        <p> Work closely with communities, NGOs and
+                            partners for inclusive execution. </p>
+                        <!-- <li>Engage with local communities, NGOs, and other stakeholders to ensure inclusivity and community participation.</li>
+                        <li>Foster open communication channels to gather feedback and assess the effectiveness of implemented programs.</li> -->
                     </ul>
                     <!-- end list style -->
 
                     <!-- start list style -->
                     <ol class="p-0 m-0 list-style-01 text-dark-gray fw-500">
-                        <li class="fs-24 alt-font">3. Monitoring and Evaluation:</li>
+                        <li class="fs-20 alt-font">3. Impact Tracking:</li>
                     </ol>
                     <ul class="list-style-04">
-                        <li>Establish a robust monitoring and evaluation framework to assess the impact of collaborative initiatives.</li>
-                        <li>Regularly review progress and make data-driven adjustments to enhance program effectiveness.</li>
+                        <p>Measure outcomes, review progress and optimise using data.</p>
+                        <!-- <li>Establish a robust monitoring and evaluation framework to assess the impact of collaborative initiatives.</li>
+                        <li>Regularly review progress and make data-driven adjustments to enhance program effectiveness.</li> -->
                     </ul>
                     <!-- end list style -->
 
                     <!-- start list style -->
                     <ol class="p-0 m-0 list-style-01 text-dark-gray fw-500">
-                        <li class="fs-24 alt-font">4. Advocacy and Policy Support:</li>
+                        <li class="fs-20 alt-font">4. Policy & Advocacy Support:</li>
                     </ol>
                     <ul class="list-style-04">
-                        <li>Collaborate on advocating for policies that promote sustainable development and social welfare.</li>
-                        <li>Share insights and recommendations with policymakers to influence positive change at a systemic level.</li>
+                        <p> Enable sustainable development through aligned policy
+                            action.</p>
+                        <!-- <li>Collaborate on advocating for policies that promote sustainable development and social welfare.</li>
+                        <li>Share insights and recommendations with policymakers to influence positive change at a systemic level.</li> -->
                     </ul>
                     <!-- end list style -->
 
                     <!-- start list style -->
                     <ol class="p-0 m-0 list-style-01 text-dark-gray fw-500">
-                        <li class="fs-24 alt-font">5. Public Awareness and Education:</li>
+                        <li class="fs-20 alt-font">5. Awareness & Participation:</li>
                     </ol>
                     <ul class="list-style-04">
-                        <li>Jointly conduct awareness campaigns to educate the public about the collaborative efforts and their impact.</li>
-                        <li>Empower communities to take an active role in the initiatives and promote a sense of ownership.</li>
+                        <p>Build awareness and empower communities to lead change</p>
+                        <!-- <li>Jointly conduct awareness campaigns to educate the public about the collaborative efforts and their impact.</li>
+                        <li>Empower communities to take an active role in the initiatives and promote a sense of ownership.</li> -->
                     </ul>
                     <!-- end list style -->
                 </div>
@@ -289,7 +322,7 @@
             </div>
         </div>
     </section>
-    <?php include('footer.php') ;?>
+    <?php include('footer.php'); ?>
     <!-- end footer -->
     <div class="scroll-progress d-none d-xxl-block">
         <a href="#" class="scroll-top" aria-label="scroll">

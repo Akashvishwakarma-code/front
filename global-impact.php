@@ -85,14 +85,25 @@
                     <p class="w-100 mb-40px sm-mb-20px">Welcome to the Paarvedan Foundation, where we believe in the power of collaboration to drive positive change on a global scale. Our commitment to social responsibility and sustainable development has led us to explore exciting opportunities for collaboration with esteemed foreign funding organizations in the realm of Corporate Social Responsibility (CSR).</p>
                     <a href="donate.php" class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white">Donate Now<span class="bg-white"><i class="fa-solid fa-arrow-right color-paarvedan"></i></span></a>
                 </div>
-                <div class="col-lg-10 text-center pt-60px" data-anime='{ "el": "childs", "willchange": "transform", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 600, "delay": 100, "easing": "easeOutCirc" }'>
-                    <h4 class="alt-font text-dark-gray fw-600 ls-minus-1px">Our Vision for Global Collaboration</h4>
-                    <p class="w-100">At the Paarvedan Foundation, we recognize the immense impact that can be achieved when organizations join forces to address pressing societal challenges. We are eager to partner with leading foreign funders to combine resources, expertise, and networks, creating a synergy that transcends borders and brings about sustainable solutions.</p>
-                </div>
+
             </div>
         </div>
     </section>
     <!-- end section -->
+
+    <section class="background-position-center-top pb-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 lg-ps-40px md-ps-15px" data-anime='{ "opacity": [0, 1], "translateY": [30, 0], "duration": 600, "delay": 100, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <h4 class="alt-font text-dark-gray highlight-separator-small">Creating Sustainable Change Beyond Borders</h4>
+                    <p class="w-100 sm-mb-20px">We believe meaningful impact is built through collaboration. Our Global Impact initiatives focus
+                        on strategic partnerships with international funding organizations and CSR institutions to
+                        deliver scalable, sustainable solutions worldwide.</p>
+                    <p class="w-100 mb-40px sm-mb-20px">By aligning global resources with local execution, we turn intent into measurable social impact
+                        across communities and regions.</p>
+                </div>
+            </div>
+    </section>
 
     <!-- start section -->
     <section class="pt-30px">
@@ -100,7 +111,7 @@
             <!-- start list style -->
             <div class="row align-items-center">
                 <div class="col-lg-12 lg-ps-40px md-ps-15px" data-anime='{ "el": "childs", "opacity": [0, 1], "translateY": [30, 0], "duration": 600, "delay": 100, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <h4 class="alt-font text-dark-gray highlight-separator-small">Objectives of Collaboration</h4>
+                    <h4 class="alt-font text-dark-gray highlight-separator-small">Our Vision</h4>
                     <!-- start list style -->
                     <ol class="p-0 m-0 list-style-01 text-dark-gray fw-500">
                         <li class="fs-24 alt-font">1. Aligning Goals and Objectives:</li>
@@ -294,7 +305,7 @@
             </div>
         </div>
     </section>
-    <?php include('footer.php') ;?>
+    <?php include('footer.php'); ?>
     <!-- end footer -->
     <!-- start scroll progress -->
     <div class="scroll-progress d-none d-xxl-block">
