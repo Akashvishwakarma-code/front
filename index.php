@@ -437,10 +437,10 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-6 text-start">
-                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">Goal:</span> ₹0</div>
+                                    <div class="col-8 text-start">
+                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">Goal:</span>₹3,25,00,000</div>
                                     </div>
-                                    <div class="col-6 text-end">
+                                    <div class="col-4 text-end">
                                         <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">Raised:</span> ₹0</div>
                                     </div>
                                 </div>
@@ -478,7 +478,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-6 text-start">
-                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">Goal:</span> ₹0</div>
+                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">Goal:</span> ₹2,08,000</div>
                                     </div>
                                     <div class="col-6 text-end">
                                         <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">Raised:</span> ₹0</div>
@@ -518,7 +518,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-6 text-start">
-                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">Goal:</span> ₹0</div>
+                                        <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">Goal:</span> ₹3,20,000</div>
                                     </div>
                                     <div class="col-6 text-end">
                                         <div class="fs-15 lh-normal"><span class="fw-500 text-dark-gray d-block d-xl-inline-block">Raised:</span> ₹0</div>
