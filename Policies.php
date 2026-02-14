@@ -216,7 +216,7 @@
                         </ul>
                         <div class="mt-30px d-flex align-items-center">
                             <span class="bg-paarvedan-light ps-20px pe-20px pt-5px pb-5px border-radius-30px fs-13 fw-600 me-15px"><i class="feather icon-feather-target text-paarvedan me-5px"></i> SDG 16.10</span>
-                            <a href="#" class="btn btn-outline-paarvedan btn-sm">Read full policy <i class="feather icon-feather-arrow-right ms-5px"></i></a>
+                            <!-- <a href="#" class="btn btn-outline-paarvedan btn-sm">Read full policy <i class="feather icon-feather-arrow-right ms-5px"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -247,7 +247,7 @@
                             <li><i class="feather icon-feather-check-circle"></i> <strong>Data Backup:</strong> Critical data must be stored on approved cloud services with automatic backup.</li>
                         </ul>
                         <div class="mt-30px">
-                            <a href="#" class="btn btn-outline-paarvedan btn-sm">Read full policy <i class="feather icon-feather-arrow-right ms-5px"></i></a>
+                            <!-- <a href="#" class="btn btn-outline-paarvedan btn-sm">Read full policy <i class="feather icon-feather-arrow-right ms-5px"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -278,7 +278,7 @@
                         </ul>
                         <div class="mt-30px d-flex align-items-center">
                             <span class="bg-paarvedan-light ps-20px pe-20px pt-5px pb-5px border-radius-30px fs-13 fw-600 me-15px"><i class="feather icon-feather-target text-paarvedan me-5px"></i> SDG 16.5</span>
-                            <a href="#" class="btn btn-outline-paarvedan btn-sm">Read full policy <i class="feather icon-feather-arrow-right ms-5px"></i></a>
+                            <!-- <a href="#" class="btn btn-outline-paarvedan btn-sm">Read full policy <i class="feather icon-feather-arrow-right ms-5px"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -308,7 +308,7 @@
                             <li><i class="feather icon-feather-check-circle"></i> <strong>Engagement:</strong> Respond professionally; do not engage in arguments; report inappropriate content.</li>
                         </ul>
                         <div class="mt-30px">
-                            <a href="#" class="btn btn-outline-paarvedan btn-sm">Read full policy <i class="feather icon-feather-arrow-right ms-5px"></i></a>
+                            <!-- <a href="#" class="btn btn-outline-paarvedan btn-sm">Read full policy <i class="feather icon-feather-arrow-right ms-5px"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -340,7 +340,7 @@
                         </ul>
                         <div class="mt-30px d-flex flex-wrap align-items-center">
                             <span class="bg-paarvedan-light ps-20px pe-20px pt-5px pb-5px border-radius-30px fs-13 fw-600 me-15px"><i class="feather icon-feather-target text-paarvedan me-5px"></i> SDG 13, 15</span>
-                            <a href="#" class="btn btn-outline-paarvedan btn-sm">Read full policy <i class="feather icon-feather-arrow-right ms-5px"></i></a>
+                            <!-- <a href="#" class="btn btn-outline-paarvedan btn-sm">Read full policy <i class="feather icon-feather-arrow-right ms-5px"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -362,7 +362,7 @@
                             <div class="col-lg-4 text-center text-lg-end mt-30px mt-lg-0">
                                 <div class="stat-number-paarvedan">100%</div>
                                 <span class="fs-14 fw-600">Commitment to transparency</span>
-                                <a href="#" class="btn btn-paarvedan btn-sm mt-20px d-inline-block">Download all policies (PDF)</a>
+                                <!-- <a href="#" class="btn btn-paarvedan btn-sm mt-20px d-inline-block">Download all policies (PDF)</a> -->
                             </div>
                         </div>
                     </div>
@@ -377,8 +377,8 @@
                         <h3 class="fw-700 fs-36 text-white mb-15px">Our policies are living documents — shaped by your feedback.</h3>
                         <p class="fs-18 text-white opacity-7 mb-30px">If you have questions or suggestions regarding any policy, please write to our Policy Officer.</p>
                         <div class="d-flex flex-wrap align-items-center justify-content-center">
-                            <a href="#" class="btn bg-white text-paarvedan fw-700 me-20px mb-15px border-radius-40px ps-35px pe-35px pt-12px pb-12px"><i class="feather icon-feather-mail me-5px"></i> Contact Policy Officer</a>
-                            <a href="#" class="btn btn-outline-white fw-700 mb-15px border-radius-40px ps-35px pe-35px pt-12px pb-12px"><i class="feather icon-feather-download me-5px"></i> Download policy summary</a>
+                            <a href="contact.php" class="btn bg-white text-paarvedan fw-700 me-20px mb-15px border-radius-40px ps-35px pe-35px pt-12px pb-12px"><i class="feather icon-feather-mail me-5px"></i> Contact Us</a>
+                            <!-- <a href="#" class="btn btn-outline-white fw-700 mb-15px border-radius-40px ps-35px pe-35px pt-12px pb-12px"><i class="feather icon-feather-download me-5px"></i> Download policy summary</a> -->
                         </div>
                     </div>
                 </div>
