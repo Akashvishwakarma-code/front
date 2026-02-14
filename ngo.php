@@ -123,7 +123,7 @@
                     <h4 class="alt-font text-dark-gray fw-600">Make a Difference with Every Role</h4>
                     <p class="w-100">Welcome to the Paarvedan Foundation's NGO Collaboration Program! We are delighted to explore opportunities to collaborate with impactful NGOs dedicated to positive societal change. To initiate the collaboration process, kindly complete this comprehensive form and upload the necessary documents. This ensures a thorough understanding of your NGO's mission, objectives, and the ability to fulfill the required governmental regulations for collaboration.</p>
                     <a href="donate.php" class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white me-5">Donate Now<span class="bg-white"><i class="fa-solid fa-arrow-right color-paarvedan"></i></span></a>
-                    <a href="javascript:void(0)" class="btn btn-large btn-round-edge with-rounded apply" onclick="document.getElementById('apply-now').scrollIntoView({behavior: 'smooth'})">Apply now<span class="bg-white text-black"><i class="fa-solid fa-arrow-down color-paarvedan"></i></span></a>
+                    <a href="javascript:void(0)"  class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white me-5" onclick="document.getElementById('apply-now').scrollIntoView({behavior: 'smooth'})">Apply now<span class="bg-white text-black"><i class="fa-solid fa-arrow-down color-paarvedan"></i></span></a>
 
                 </div>
             </div>
