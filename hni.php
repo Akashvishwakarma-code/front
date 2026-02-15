@@ -199,8 +199,12 @@
                     <p class="w-100">Your philanthropy has the power to create a legacy of impact that extends beyond your lifetime. Paarvedan Foundation invites you to be a catalyst for change, to leverage your resources for a world where everyone has the chance to thrive and succeed.</p>
                     <h6 class="alt-font text-medium-black fw-600 ls-minus-1px">Contact Us</h6>
                     <div style="text-align:center;">
-                    <a href="contact.php" style="padding:10px 20px;margin-bottom: 20px;;background:#24A0ED;box-shadow:0,0,0,0.5;color:white;text-decoration:none;border-radius:5px;display:inline-block;">
-                        Contact Us
+                        <a href="contact.php" class="btn btn-small bg-button-alt-paarvedan btn-hover-animation-switch btn-round-edge btn-box-shadow fw-700 ls-0px btn-icon-left me-15px mb-15px">
+                        <span>
+                            <span class="btn-text">contact us</span>
+                            <span class="btn-icon"><i class="feather icon-feather-mail"></i></span>
+                            <span class="btn-icon"><i class="feather icon-feather-mail"></i></span>
+                        </span>
                     </a>
                     </div>
 
@@ -300,7 +304,7 @@
             </div>
         </div>
     </section>
-     <?php include('footer.php') ;?>
+    <?php include('footer.php'); ?>
     <!-- end footer -->
     <div class="scroll-progress d-none d-xxl-block">
         <a href="#" class="scroll-top" aria-label="scroll">

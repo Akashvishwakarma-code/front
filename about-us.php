@@ -920,7 +920,7 @@ inspire the work of Paarvedan Foundation.</p>
                     <div class="card team-card h-100 border-0 shadow-sm overflow-hidden">
                         <figure class="image-box position-relative overflow-hidden">
                             <!-- Placeholder image path -->
-                            <img loading="lazy" src="image/treamdummy.png" alt="Arun Chouhan - Co-Founder" class="img-fluid w-100 team-image">
+                            <img loading="lazy" src="image/member1.png" alt="Arun Chouhan - Co-Founder" class="img-fluid w-100 team-image">
                         </figure>
                         <div class="card-body text-center p-3">
                             <span class="designation text-muted d-block mb-1 fs-6">Co-Founder</span>
@@ -941,7 +941,7 @@ inspire the work of Paarvedan Foundation.</p>
                 <div class="team-col flex-shrink-0" style="width: 280px;">
                     <div class="card team-card h-100 border-0 shadow-sm overflow-hidden">
                         <figure class="image-box position-relative overflow-hidden">
-                            <img loading="lazy" src="image/treamdummy.png" alt="Bindubala Chouhan - Team Member" class="img-fluid w-100 team-image">
+                            <img loading="lazy" src="image/member2.png" alt="Bindubala Chouhan - Team Member" class="img-fluid w-100 team-image">
                         </figure>
                         <div class="card-body text-center p-3">
                             <span class="designation text-muted d-block mb-1 fs-6">Team Member</span>
@@ -960,7 +960,7 @@ inspire the work of Paarvedan Foundation.</p>
                 <div class="team-col flex-shrink-0" style="width: 280px;">
                     <div class="card team-card h-100 border-0 shadow-sm overflow-hidden">
                         <figure class="image-box position-relative overflow-hidden">
-                            <img loading="lazy" src="image/treamdummy.png" alt="Salmen Khan - Team Member" class="img-fluid w-100 team-image">
+                            <img loading="lazy" src="image/member3.png" alt="Salmen Khan - Team Member" class="img-fluid w-100 team-image">
                         </figure>
                         <div class="card-body text-center p-3">
                             <span class="designation text-muted d-block mb-1 fs-6">Team Member</span>
@@ -979,7 +979,7 @@ inspire the work of Paarvedan Foundation.</p>
                 <div class="team-col flex-shrink-0" style="width: 280px;">
                     <div class="card team-card h-100 border-0 shadow-sm overflow-hidden">
                         <figure class="image-box position-relative overflow-hidden">
-                            <img loading="lazy" src="image/treamdummy.png" alt="Mayur Gita - Team Member" class="img-fluid w-100 team-image">
+                            <img loading="lazy" src="image/member4.png" alt="Mayur Gita - Team Member" class="img-fluid w-100 team-image">
                         </figure>
                         <div class="card-body text-center p-3">
                             <span class="designation text-muted d-block mb-1 fs-6">Team Member</span>
@@ -998,7 +998,7 @@ inspire the work of Paarvedan Foundation.</p>
                 <div class="team-col flex-shrink-0" style="width: 280px;">
                     <div class="card team-card h-100 border-0 shadow-sm overflow-hidden">
                         <figure class="image-box position-relative overflow-hidden">
-                            <img loading="lazy" src="image/treamdummy.png" alt="Anita Rana - Team Member" class="img-fluid w-100 team-image">
+                            <img loading="lazy" src="image/member5.png" alt="Anita Rana - Team Member" class="img-fluid w-100 team-image">
                         </figure>
                         <div class="card-body text-center p-3">
                             <span class="designation text-muted d-block mb-1 fs-6">Team Member</span>
@@ -1017,7 +1017,7 @@ inspire the work of Paarvedan Foundation.</p>
                 <div class="team-col flex-shrink-0" style="width: 280px;">
                     <div class="card team-card h-100 border-0 shadow-sm overflow-hidden">
                         <figure class="image-box position-relative overflow-hidden">
-                            <img loading="lazy" src="image/treamdummy.png" alt="Ashish Jain - Team Member" class="img-fluid w-100 team-image">
+                            <img loading="lazy" src="image/member6.png" alt="Ashish Jain - Team Member" class="img-fluid w-100 team-image">
                         </figure>
                         <div class="card-body text-center p-3">
                             <span class="designation text-muted d-block mb-1 fs-6">Team Member</span>
@@ -1036,7 +1036,7 @@ inspire the work of Paarvedan Foundation.</p>
                 <div class="team-col flex-shrink-0" style="width: 280px;">
                     <div class="card team-card h-100 border-0 shadow-sm overflow-hidden">
                         <figure class="image-box position-relative overflow-hidden">
-                            <img loading="lazy" src="image/treamdummy.png" alt="Talha Choudhary - Team Member" class="img-fluid w-100 team-image">
+                            <img loading="lazy" src="image/member7.png" alt="Talha Choudhary - Team Member" class="img-fluid w-100 team-image">
                         </figure>
                         <div class="card-body text-center p-3">
                             <span class="designation text-muted d-block mb-1 fs-6">Team Member</span>
@@ -1055,7 +1055,7 @@ inspire the work of Paarvedan Foundation.</p>
                 <div class="team-col flex-shrink-0" style="width: 280px;">
                     <div class="card team-card h-100 border-0 shadow-sm overflow-hidden">
                         <figure class="image-box position-relative overflow-hidden">
-                            <img loading="lazy" src="image/treamdummy.png" alt="Saqib Ghatte - Team Member" class="img-fluid w-100 team-image">
+                            <img loading="lazy" src="image/member8.png" alt="Saqib Ghatte - Team Member" class="img-fluid w-100 team-image">
                         </figure>
                         <div class="card-body text-center p-3">
                             <span class="designation text-muted d-block mb-1 fs-6">Team Member</span>

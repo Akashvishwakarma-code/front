@@ -56,6 +56,59 @@
             color: white;
             /* Darker blue on hover */
         }
+
+        .use-cases {
+            padding: 0px 20px;
+            text-align: center;
+            
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+            
+        }
+
+        .card {
+            background: #fff;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+        }
+
+        .card img {
+            width: 100px;
+            margin-bottom: 20px;
+
+            margin: 0 auto 20px auto;
+            display: block;
+            
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 15px;
+            color: #000;
+            font-weight: 600;
+            text-decoration: none;
+        }
     </style>
 </head>
 
@@ -128,6 +181,29 @@
         </div>
     </section>
     <!-- end section -->
+
+    <section class="use-cases mt-0">
+        <div class="container" data-anime='{ "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+            <h2 class="alt-font text-dark-gray fw-600 fs-40">Curated experience for every purpose</h2>
+            <div class="cards">
+                <div class="card"> 
+                    <img src="https://cdn.prod.website-files.com/62dadf7d66e2fb7047b69c6d/64a52ae1de4c0c8877d9b3a2_conferences%20illo.webp" alt="Conferences">
+                    <h3>Conferences</h3>
+                    <p>Bring social impact to corporate events by adding volunteering to your agenda.</p> <a href="javascript:void(0)" onclick="document.getElementById('apply-now').scrollIntoView({behavior: 'smooth'})">Explore →</a>
+                </div>
+                <div class="card"> <img src="https://cdn.prod.website-files.com/62dadf7d66e2fb7047b69c6d/64a52ae22aee09a10fa2ef40_intern%20onboarding%20illo.webp" alt="Intern Onboarding">
+                    <h3>Intern Onboarding</h3>
+                    <p>Boost intern experience with rewarding volunteering opportunities.</p> <a href="javascript:void(0)" onclick="document.getElementById('apply-now').scrollIntoView({behavior: 'smooth'})">Explore →</a>
+                </div>
+                <div class="card"> <img src="https://cdn.prod.website-files.com/62dadf7d66e2fb7047b69c6d/64a52ae193d09813cbe6df43_team%20meetup.webp" alt="Team Meetups">
+                    <h3>Team Meetups</h3>
+                    <p>Bond over real impact with hosted experiences that inspire collaboration.</p> <a href="javascript:void(0)" onclick="document.getElementById('apply-now').scrollIntoView({behavior: 'smooth'})">Explore →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- start section -->
     <section class="background-position-center-top">
         <div class="container">
@@ -535,7 +611,7 @@
     </section>
 
     <!-- start footer -->
-   <?php include('footer.php') ;?>
+    <?php include('footer.php'); ?>
     <!-- end footer -->
     <div class="scroll-progress d-none d-xxl-block">
         <a href="#" class="scroll-top" aria-label="scroll">

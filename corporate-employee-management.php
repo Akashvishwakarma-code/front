@@ -56,6 +56,60 @@
             color: white;
             /* Darker blue on hover */
         }
+
+
+        .how-it-works{
+            padding: 0px 20px;
+        }
+
+        .how-it-works h3 {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .timeline::before {
+            content: "";
+            position: absolute;
+            left: 20px;
+            top: 0;
+            width: 3px;
+            height: 100%;
+            background: #e5e7eb;
+        }
+
+        .step {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        .step-icon {
+            min-width: 40px;
+            height: 40px;
+            background: #ff6b35;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            z-index: 1;
+        }
+
+        .step-content h4 {
+            margin-bottom: 8px;
+        }
+
+        .step-content p {
+            color: #555;
+        }
     </style>
 
 </head>
@@ -129,6 +183,57 @@
         </div>
     </section>
     <!-- end section -->
+
+    <section class="how-it-works">
+        <div class="container" data-anime='{ "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+            <h3 class="alt-font text-dark-gray fw-500 ls-minus-1px">How does it work?</h3>
+
+            <div class="timeline">
+
+                <div class="step">
+                    <div class="step-icon">1</div>
+                    <div class="step-content">
+                        <h4>Client Outreach</h4>
+                        <p>Corporate partners reach out with their objectives, preferences, and focus areas for a volunteer project.</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-icon">2</div>
+                    <div class="step-content">
+                        <h4>Project Scoping</h4>
+                        <p>We match client preferences with a suitable nonprofit and volunteer activity and scope out the project.</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-icon">3</div>
+                    <div class="step-content">
+                        <h4>Organization & Execution</h4>
+                        <p>The volunteer project is organized and hosted with all necessary materials and support provided.</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-icon">4</div>
+                    <div class="step-content">
+                        <h4>Completion & Delivery</h4>
+                        <p>Once completed, the volunteer output is delivered to the nonprofit partner.</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-icon">5</div>
+                    <div class="step-content">
+                        <h4>Reporting & Feedback</h4>
+                        <p>A detailed impact report is shared based on feedback from the nonprofit and volunteers.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <!-- start section -->
     <section class="bg-gradient-very-light-gray" id="apply-now">
         <div class="container">
