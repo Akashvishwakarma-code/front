@@ -305,7 +305,7 @@
         </div>
         <div class="container footer-dark text-center text-sm-start position-relative">
             <div class="row mb-5 sm-mb-7 xs-mb-30px">
-                <!-- start footer column --
+                <-- start footer column --
                 <div class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column last-paragraph-no-margin md-mb-40px xs-mb-30px">
                     <a href="#" class="footer-logo mb-15px d-inline-block">
                         <img src="image/pf-logo.png" data-at2x="image/pf-logo.png" alt="">
@@ -320,7 +320,7 @@
                         </ul>
                     </div>
                 </div>
-                <!-- end footer column -->
+                <-- end footer column -->
 <!-- start footer column --
                 <div class="col-lg-2 col-md-4 col-sm-6 ps-4 last-paragraph-no-margin md-mb-40px xs-mb-30px">
                     <span class="fw-600 fs-18 d-block alternative-paarvedan mb-10px">Quick Links</span>
@@ -331,7 +331,7 @@
                         <li><a href="#" class="text-white">Contact Us</a></li>
                     </ul>
                 </div>
-                <!-- end footer column -->
+                <-- end footer column -->
 <!-- start footer column --
                 <div class="col-lg-4 col-md-4 col-sm-6 last-paragraph-no-margin xs-mb-30px">
                     <span class="fw-500 fs-18 d-block text-white mb-10px">Help</span>
@@ -340,7 +340,7 @@
                     <span class="lh-26 d-block alternative-paarvedan fw-600">Support</span>
                     <a href="mailto:support@paarvedanfoundation.org" class="text-white text-decoration-line-bottom">support@paarvedanfoundation.org</a>
                 </div>
-                <!-- end footer column -->
+                <-- end footer column -->
 <!-- start footer column --
                 <div class="col-lg-3 col-md-12 col-sm-6 text-md-center text-lg-start">
                     <span class="fs-18 fw-500 d-block text-white mb-20px">Subscribe to our newsletter!</span>
@@ -363,10 +363,10 @@
                         </div>
                     </div>
                 </div>
-                <!-- end footer column --
+                <-- end footer column --
             </div>
             <div class="row align-items-center footer-bottom border-top border-color-transparent-white-light pt-30px g-0">
-                <!-- start footer menu --
+                <-- start footer menu --
                 <div class="col-xl-7 ps-0 text-center text-xl-start lg-mb-10px">
                     <ul class="footer-navbar fs-16 lh-normal">
                         <li class="nav-item active"><a href="#" class="nav-link ps-0">Home</a></li>
@@ -378,12 +378,12 @@
                         <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
                     </ul>
                 </div>
-                <!-- end footer menu -->
+                <-- end footer menu -->
 <!-- start copyright --
                 <div class="col-xl-5 last-paragraph-no-margin text-center text-xl-end">
                     <p class="fs-16 text-white">&copy; 2025 | <a href="" class="alternative-paarvedan fw-500">Paarvedan Foundation</a>. All Rights Reserved </p>
                 </div>
-                <!-- start copyright --
+                <-- start copyright --
             </div>
         </div>
     </footer> -->
