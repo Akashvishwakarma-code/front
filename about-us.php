@@ -22,8 +22,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="demos/charity/charity.css" />
-    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/clients/client-2/assets/css/client-2.css">
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/clients/client-2/assets/css/client-2.css">
 </head>
 
 <body data-mobile-nav-style="classic">
@@ -34,7 +33,7 @@
                 <div class="row h-42px align-items-center justify-content-center">
                     <div class="col-auto text-center">
                         <span class="bg-button-paarvedan ps-15px pe-15px d-inline-block align-middle fs-10 text-uppercase border-radius-4px fw-700 me-15px lh-26">Success stories</span>
-                        <div class=" d-inline-block align-middle fs-12 text-white text-uppercase fw-500">Fight for a worthy cause to save the world. <a href="#" class="text-decoration-line-bottom text-white">Read stories</a></div>
+                        <div class=" d-inline-block align-middle fs-12 text-white text-uppercase fw-500">Fight for right cause for save the world. <a href="#" class="text-decoration-line-bottom text-white">Read stories</a></div>
                     </div>
                 </div>
             </div>
@@ -566,7 +565,7 @@ inspire the work of Paarvedan Foundation.</p>
         </div>
         <div class="container footer-dark text-center text-sm-start position-relative">
             <div class="row mb-5 sm-mb-7 xs-mb-30px">
-                <!-- start footer column 
+                 start footer column 
                 <div class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column last-paragraph-no-margin md-mb-40px xs-mb-30px">
                     <a href="#" class="footer-logo mb-15px d-inline-block">
                         <img src="image/pf-logo.png" data-at2x="image/pf-logo.png" alt="">
@@ -581,7 +580,7 @@ inspire the work of Paarvedan Foundation.</p>
                         </ul>
                     </div>
                 </div>
-                <!-- end footer column -->
+                 end footer column -->
                 <!-- start footer column 
                 <div class="col-lg-2 col-md-4 col-sm-6 ps-4 last-paragraph-no-margin md-mb-40px xs-mb-30px">
                     <span class="fw-600 fs-18 d-block alternative-paarvedan mb-10px">Quick Links</span>
@@ -592,7 +591,7 @@ inspire the work of Paarvedan Foundation.</p>
                         <li><a href="#" class="text-white">Contact Us</a></li>
                     </ul>
                 </div>
-                <!-- end footer column -->
+                 end footer column -->
                 <!-- start footer column --
                 <div class="col-lg-4 col-md-4 col-sm-6 last-paragraph-no-margin xs-mb-30px">
                     <span class="fw-500 fs-18 d-block text-white mb-10px">Need help?</span>
@@ -601,7 +600,7 @@ inspire the work of Paarvedan Foundation.</p>
                     <span class="lh-26 d-block alternative-paarvedan fw-600">Need support?</span>
                     <a href="mailto:support@paarvedanfoundation.org" class="text-white text-decoration-line-bottom">support@paarvedanfoundation.org</a>
                 </div>
-                <!-- end footer column -->
+                 end footer column -->
                 <!-- start footer column --
                 <div class="col-lg-3 col-md-12 col-sm-6 text-md-center text-lg-start">
                     <span class="fs-18 fw-500 d-block text-white mb-20px">Subscribe our newsletter</span>
@@ -624,10 +623,10 @@ inspire the work of Paarvedan Foundation.</p>
                         </div>
                     </div>
                 </div>
-                <!-- end footer column --
+                 end footer column --
             </div>
             <div class="row align-items-center footer-bottom border-top border-color-transparent-white-light pt-30px g-0">
-                <!-- start footer menu --
+                 start footer menu --
                 <div class="col-xl-7 ps-0 text-center text-xl-start lg-mb-10px">
                     <ul class="footer-navbar fs-16 lh-normal">
                         <li class="nav-item active"><a href="#" class="nav-link ps-0">Home</a></li>
@@ -639,12 +638,12 @@ inspire the work of Paarvedan Foundation.</p>
                         <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
                     </ul>
                 </div>
-                <!-- end footer menu -->
+                 end footer menu -->
                 <!-- start copyright --
                 <div class="col-xl-5 last-paragraph-no-margin text-center text-xl-end">
                     <p class="fs-16 text-white">&copy; 2025 | <a href="" class="alternative-paarvedan fw-500">Paarvedan Foundation</a>. All Rights Reserved </p>
                 </div>
-                <!-- start copyright --
+                start copyright --
             </div>
         </div>
     </footer> -->
@@ -792,9 +791,9 @@ inspire the work of Paarvedan Foundation.</p>
   <div class="container" id="partner">
     <div class="row justify-content-md-center">
       <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-        <h2 class="fs-6 text-secondary mb-2 text-uppercase text-center">Our Patners</h2>
-        <h2 class="mb-4 display-5 text-center">Trusted by over 17+ Patners.</h2>
-        <p class="fs-5 text-secondary mb-5 text-center">Our Patners are our top priority, and we are committed to providing them with the highest level of service.</p>
+        <h2 class="fs-6 text-secondary mb-2 text-uppercase text-center">Our Partners</h2>
+        <h2 class="mb-4 display-5 text-center">Trusted by over 17+ Partners.</h2>
+        <p class="fs-5 text-secondary mb-5 text-center">Our Partners are our top priority, and we are committed to providing them with the highest level of service.</p>
         <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
       </div>
     </div>
@@ -1119,6 +1118,7 @@ inspire the work of Paarvedan Foundation.</p>
 }
 .social-links a {
     transition: color 0.2s ease;
+   
 }
 .social-links a:hover i {
     color: var(--scroll-nav-hover) !important; 
@@ -1336,3 +1336,9 @@ document.addEventListener('DOMContentLoaded', function() {
 </body>
 
 </html>
+<style>
+    /* Remove underline from all site links */
+.navbar a, .footer a, .content-area a:not(.btn) {
+    text-decoration: none !important;
+}
+    </style>
