@@ -183,8 +183,8 @@
     <!-- end section -->
 
     <section class="use-cases mt-0">
-        <div class="container">
-            <h2>Curated experience for every purpose</h2>
+        <div class="container" data-anime='{ "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+            <h2 class="alt-font text-dark-gray fw-600 fs-40">Curated experience for every purpose</h2>
             <div class="cards">
                 <div class="card"> 
                     <img src="https://cdn.prod.website-files.com/62dadf7d66e2fb7047b69c6d/64a52ae1de4c0c8877d9b3a2_conferences%20illo.webp" alt="Conferences">
