@@ -174,7 +174,7 @@
                     <h4 class="alt-font text-dark-gray fw-600">Empower Lives Through Volunteering</h4>
                     <p class="w-100">Join us in making a difference! At Paarvedan, we believe in the power of collective action, and your contribution as a volunteer can create a lasting impact. Explore our diverse volunteer opportunities that align with your passion and skills. Whether it's community outreach, fundraising, or administrative support, there's a meaningful role waiting for you. Together, let's build a better world and inspire positive change. Join the Paarvedan volunteer community today!</p>
                     <a href="donate.php" class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white me-5">Donate Now<span class="bg-white"><i class="fa-solid fa-arrow-right color-paarvedan"></i></span></a>
-                    <a href="javascript:void(0)" class="btn btn-large btn-round-edge with-rounded apply" onclick="document.getElementById('apply-now').scrollIntoView({behavior: 'smooth'})">Apply now<span class="bg-white text-black"><i class="fa-solid fa-arrow-down color-paarvedan"></i></span></a>
+                    <a href="javascript:void(0)" class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white me-5" onclick="document.getElementById('apply-now').scrollIntoView({behavior: 'smooth'})">Apply now<span class="bg-white text-black"><i class="fa-solid fa-arrow-down color-paarvedan"></i></span></a>
 
                 </div>
             </div>
