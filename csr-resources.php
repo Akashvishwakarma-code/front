@@ -86,7 +86,17 @@
                     <a href="donate.php" class="btn btn-large btn-round-edge with-rounded bg-gradient-paarvedan text-white">Donate Now<span class="bg-white"><i class="fa-solid fa-arrow-right color-paarvedan"></i></span></a>
                 </div>
                 <div class="col-lg-12 text-center pt-50px" data-anime='{ "el": "childs", "willchange": "transform", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 600, "delay": 100, "easing": "easeOutCirc" }'>
-                    <p class="w-100">Whether you are just embarking on your CSR journey or looking to enhance your existing programs, our resources offer valuable insights to guide your efforts. Discover practical guides on sustainable business practices, ethical considerations, and community engagement strategies. Stay updated on regulatory changes and industry benchmarks, ensuring your CSR initiatives align with global standards. Our resource center also features success stories from organizations that have implemented impactful CSR programs, providing inspiration and practical lessons. From environmental sustainability to social inclusivity, find resources tailored to div erse CSR focus areas. Empower your team with the knowledge needed to foster positive change within your company and the communities you serve. Explore our CSR Resources to navigate the ever-evolving landscape of corporate responsibility and elevate your organization's commitment to making a difference.</p>
+                    <p class="w-100">In an increasingly complex Corporate Social Responsibility (CSR) ecosystem, organizations
+                        need reliable, up-to-date resources to design and implement high-impact CSR programs. Our
+                        CSR Resources section is a comprehensive knowledge platform offering expert insights, CSR
+                        reports, best-practice guides, regulatory updates and real-world case studies to support
+                        effective CSR strategy and compliance. Designed for corporates, CSR partners and
+                        development stakeholders, our resources cover key focus areas such as sustainable
+                        development, environmental sustainability, social inclusion, community development,
+                        ethical governance and CSR compliance. Whether you are initiating CSR initiatives or
+                        optimising existing programs, our curated content helps align corporate responsibility efforts with
+                        national and global standards, enabling organizations to drive measurable social impact and
+                        long-term value.</p>
                 </div>
             </div>
         </div>
@@ -180,7 +190,7 @@
             </div>
         </div>
     </section>
-    <?php include('footer.php') ;?>
+    <?php include('footer.php'); ?>
     <!-- end footer -->
     <!-- start scroll progress -->
     <div class="scroll-progress d-none d-xxl-block">
