@@ -148,6 +148,39 @@
             }
         }
 
+
+        .steps-section {
+            padding: 80px 0;
+        }
+
+        .step-number {
+            font-size: 80px;
+            font-weight: 700;
+            line-height: 1;
+        }
+
+        .step-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .step-description {
+            font-size: 15px;
+        }
+
+        .arrow {
+            font-size: 30px;
+            font-weight: 300;
+        }
+
+        /* Hide arrows on mobile */
+        @media (max-width: 991px) {
+            .arrow-col {
+                display: none;
+            }
+        }
+
     </style>
 
 
@@ -273,8 +306,70 @@
         </div>
     </section>
 
+<section class="steps-section text-center pb-0">
+    <div class="container">
+        
+        <h2 class="mb-5">
+            Plan your outdoor team experience in 4 simple steps
+        </h2>
+
+        <div class="row align-items-start justify-content-center">
+
+            <!-- Step 1 -->
+            <div class="col-lg-2 col-md-6 mb-5">
+                <div class="step-number">1</div>
+                <div class="step-title">Share your requirements</div>
+                <div class="step-description">
+                    Get a curated catalog aligned to your cause(s) delivered to your inbox.
+                </div>
+            </div>
+
+            <div class="col-lg-1 d-flex align-items-center justify-content-center arrow-col">
+                <div class="arrow">→</div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="col-lg-2 col-md-6 mb-5">
+                <div class="step-number">2</div>
+                <div class="step-title">Set your impact date</div>
+                <div class="step-description">
+                    Select a date, location, and mode of engagement of your choice.
+                </div>
+            </div>
+
+            <div class="col-lg-1 d-flex align-items-center justify-content-center arrow-col">
+                <div class="arrow">→</div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="col-lg-2 col-md-6 mb-5">
+                <div class="step-number">3</div>
+                <div class="step-title">Join and volunteer</div>
+                <div class="step-description">
+                    Join the event, moderated by a host, and have fun with your team.
+                </div>
+            </div>
+
+            <div class="col-lg-1 d-flex align-items-center justify-content-center arrow-col">
+                <div class="arrow">→</div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="col-lg-2 col-md-6 mb-5">
+                <div class="step-number">4</div>
+                <div class="step-title">Inspire with storytelling</div>
+                <div class="step-description">
+                    Share your story with your audience. Get post-event goodies and impact reports.
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
     <!-- start section -->
-    <section class="bg-gradient-very-light-gray pt-0" id="apply-now">
+    <section class="bg-gradient-very-light-gray" id="apply-now">
         <div class="container">
             <div class="row g-0 justify-content-center">
                 <div class="col-lg-8">
