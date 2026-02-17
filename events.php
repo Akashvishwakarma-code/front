@@ -1345,6 +1345,19 @@
             }
 
             document.addEventListener('change', e => {
+
+                // If year changes
+                if (e.target.matches('.year-filter')) {
+
+                    // If "all" year selected → select month "all"
+                    if (e.target.value === 'all') {
+                        const allMonthRadio = document.querySelector('input[name="event-month"][value="all"]');
+                        if (allMonthRadio) {
+                            allMonthRadio.checked = true;
+                        }
+                    }
+                }
+
                 if (e.target.matches('.year-filter, .month-filter')) {
                     applyFilter();
                 }
