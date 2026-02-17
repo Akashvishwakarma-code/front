@@ -36,10 +36,11 @@
                     <p class="lh-28 text-white">Together We Make A Difference.</p>
                     <div class="elements-social social-text-style-01 mt-9 xs-mt-15px">
                         <ul class="large-icon light fw-500">
-                            <li><a class="facebook" href="https://www.facebook.com/paarvedan.foundation" target="_blank"><i class="fa-brands fa-facebook-f"></i><span></span></a></li>
+                            <li><a class="facebook" href="https://www.facebook.com/61552641201467/about" target="_blank"><i class="fa-brands fa-facebook-f"></i><span></span></a></li>
                             <li><a class="twitter" href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i><span></span></a></li>
-                            <li><a class="instagram" href="http://www.instagram.com/@paarvedan.foundation" target="_blank"><i class="fa-brands fa-instagram"><span></span></i></a></li>
-                            <li><a class="linkedin" href="http://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"><span></span></i></a></li>
+                            <li><a class="instagram" href="https://www.instagram.com/paarvedan.foundation" target="_blank"><i class="fa-brands fa-instagram"><span></span></i></a></li>
+                            <li><a class="linkedin" href="https://www.linkedin.com/company/paarvedan-foundation/" target="_blank"><i class="fa-brands fa-linkedin-in"><span></span></i></a></li>
+                            <li><a class="YouTube" href="https://www.youtube.com/@paarvedanfoundation" target="_blank"><i class="fa-brands fa-youtube"><span></span></i></a></li>
                         </ul>
                     </div>
                 </div>
