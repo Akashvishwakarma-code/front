@@ -58,57 +58,101 @@
         }
 
 
-        .how-it-works{
-            padding: 0px 20px;
+        
+       
+
+        
+
+        
+        .how-it-works {
+            padding: 100px 20px;
+            background: #f8f9fa;
+            text-align: center;
         }
 
         .how-it-works h3 {
-            text-align: center;
-            margin-bottom: 60px;
+            font-size: 42px;
+            font-weight: 600;
+            margin-bottom: 70px;
         }
 
         .timeline {
+            display: flex;
+            align-items: flex-start;
             position: relative;
-            max-width: 800px;
+            max-width: 1000px;
             margin: 0 auto;
+            gap: 10px;
+            /* subtle spacing control */
         }
 
+        /* Stronger center line */
         .timeline::before {
             content: "";
             position: absolute;
-            left: 20px;
-            top: 0;
-            width: 3px;
-            height: 100%;
-            background: #e5e7eb;
+            top: 30px;
+            /* exactly half of 60px circle */
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: #dcdcdc;
+            z-index: 0;
         }
 
         .step {
-            display: flex;
-            gap: 20px;
-            margin-bottom: 40px;
             position: relative;
+            flex: 1;
+            z-index: 1;
         }
 
         .step-icon {
-            min-width: 40px;
-            height: 40px;
-            background: #ff6b35;
-            color: #fff;
+            width: 60px;
+            height: 60px;
+            min-width: 60px;
+            background: linear-gradient(135deg, #427deb, #6a9cff);
+            color: white;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-weight: bold;
-            z-index: 1;
+            margin: 0 auto 20px auto;
+            font-weight: 600;
+            font-size: 18px;
+            box-shadow: 0 8px 20px rgba(66, 125, 235, 0.25);
+            aspect-ratio: 1 / 1;
+        }
+
+        .step-content {
+            max-width: 200px;
+            margin: auto;
         }
 
         .step-content h4 {
+            font-size: 16px;
+            font-weight: 600;
             margin-bottom: 8px;
+            white-space: normal;
+            /* allow wrapping */
+            line-height: 1.4;
         }
 
-        .step-content p {
-            color: #555;
+
+        
+
+        @media (max-width: 992px) {
+            .timeline {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .timeline::before {
+                display: none;
+            }
+
+            .step {
+                width: 100%;
+                margin-bottom: 50px;
+            }
         }
     </style>
 
@@ -193,7 +237,7 @@
                 <div class="step">
                     <div class="step-icon">1</div>
                     <div class="step-content">
-                        <h4>Client Outreach</h4>
+                        <h4 class="alt-font">Client Outreach</h4>
                         <p>Corporate partners reach out with their objectives, preferences, and focus areas for a volunteer project.</p>
                     </div>
                 </div>
@@ -201,7 +245,7 @@
                 <div class="step">
                     <div class="step-icon">2</div>
                     <div class="step-content">
-                        <h4>Project Scoping</h4>
+                        <h4 class="alt-font">Project Scoping</h4>
                         <p>We match client preferences with a suitable nonprofit and volunteer activity and scope out the project.</p>
                     </div>
                 </div>
@@ -209,7 +253,7 @@
                 <div class="step">
                     <div class="step-icon">3</div>
                     <div class="step-content">
-                        <h4>Organization & Execution</h4>
+                        <h4 class="alt-font">Organization & Execution</h4>
                         <p>The volunteer project is organized and hosted with all necessary materials and support provided.</p>
                     </div>
                 </div>
@@ -217,7 +261,7 @@
                 <div class="step">
                     <div class="step-icon">4</div>
                     <div class="step-content">
-                        <h4>Completion & Delivery</h4>
+                        <h4 class="alt-font">Completion & Delivery</h4>
                         <p>Once completed, the volunteer output is delivered to the nonprofit partner.</p>
                     </div>
                 </div>
@@ -225,7 +269,7 @@
                 <div class="step">
                     <div class="step-icon">5</div>
                     <div class="step-content">
-                        <h4>Reporting & Feedback</h4>
+                        <h4 class="alt-font">Reporting & Feedback</h4>
                         <p>A detailed impact report is shared based on feedback from the nonprofit and volunteers.</p>
                     </div>
                 </div>
@@ -235,7 +279,7 @@
     </section>
 
     <!-- start section -->
-    <section class="bg-gradient-very-light-gray" id="apply-now">
+    <section class="bg-gradient-very-light-gray pt-0" id="apply-now">
         <div class="container">
             <div class="row g-0 justify-content-center">
                 <div class="col-lg-8">

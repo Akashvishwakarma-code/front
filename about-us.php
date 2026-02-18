@@ -940,7 +940,7 @@ inspire the work of Paarvedan Foundation.</p>
                 <div class="team-col flex-shrink-0" style="width: 280px;">
                     <div class="card team-card h-100 border-0 shadow-sm overflow-hidden">
                         <figure class="image-box position-relative overflow-hidden">
-                            <img loading="lazy" src="image/member2.png" alt="Bindubala Chouhan - Team Member" class="img-fluid w-100 team-image">
+                            <img loading="lazy" src="image\gmember1.png" alt="Bindubala Chouhan - Team Member" class="img-fluid w-100 team-image">
                         </figure>
                         <div class="card-body text-center p-3">
                             <span class="designation text-muted d-block mb-1 fs-6">Team Member</span>
@@ -955,15 +955,15 @@ inspire the work of Paarvedan Foundation.</p>
                     </div>
                 </div>
 
-                <!-- Team Member 3: Salmen Khan -->
+                <!-- Team Member 3: Vishwas Kumar -->
                 <div class="team-col flex-shrink-0" style="width: 280px;">
                     <div class="card team-card h-100 border-0 shadow-sm overflow-hidden">
                         <figure class="image-box position-relative overflow-hidden">
-                            <img loading="lazy" src="image/member3.png" alt="Salmen Khan - Team Member" class="img-fluid w-100 team-image">
+                            <img loading="lazy" src="image/member3.png" alt="vishwas kumar - Team Member" class="img-fluid w-100 team-image">
                         </figure>
                         <div class="card-body text-center p-3">
                             <span class="designation text-muted d-block mb-1 fs-6">Team Member</span>
-                            <h3 class="fw-700 fs-5 text-dark-gray">Salmen Khan</h3>
+                            <h3 class="fw-700 fs-5 text-dark-gray">Vishwas kumar</h3>
                             <ul class="list-unstyled d-flex justify-content-center gap-3 mt-3 social-links">
                                 <li><a href="#"><i class="fab fa-facebook-f text-primary"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter text-primary"></i></a></li>
@@ -974,15 +974,15 @@ inspire the work of Paarvedan Foundation.</p>
                     </div>
                 </div>
 
-                <!-- Team Member 4: Mayur Gita -->
+                <!-- Team Member 4: Akash vishwakarma -->
                 <div class="team-col flex-shrink-0" style="width: 280px;">
                     <div class="card team-card h-100 border-0 shadow-sm overflow-hidden">
                         <figure class="image-box position-relative overflow-hidden">
-                            <img loading="lazy" src="image/member4.png" alt="Mayur Gita - Team Member" class="img-fluid w-100 team-image">
+                            <img loading="lazy" src="image/member4.png" alt="Akash vishwakarma - Team Member" class="img-fluid w-100 team-image">
                         </figure>
                         <div class="card-body text-center p-3">
                             <span class="designation text-muted d-block mb-1 fs-6">Team Member</span>
-                            <h3 class="fw-700 fs-5 text-dark-gray">Mayur Gita</h3>
+                            <h3 class="fw-700 fs-5 text-dark-gray">Akash vishwakarma</h3>
                             <ul class="list-unstyled d-flex justify-content-center gap-3 mt-3 social-links">
                                 <li><a href="#"><i class="fab fa-facebook-f text-primary"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter text-primary"></i></a></li>
@@ -997,7 +997,7 @@ inspire the work of Paarvedan Foundation.</p>
                 <div class="team-col flex-shrink-0" style="width: 280px;">
                     <div class="card team-card h-100 border-0 shadow-sm overflow-hidden">
                         <figure class="image-box position-relative overflow-hidden">
-                            <img loading="lazy" src="image/member5.png" alt="Anita Rana - Team Member" class="img-fluid w-100 team-image">
+                            <img loading="lazy" src="image/gmember2.png" alt="Anita Rana - Team Member" class="img-fluid w-100 team-image">
                         </figure>
                         <div class="card-body text-center p-3">
                             <span class="designation text-muted d-block mb-1 fs-6">Team Member</span>
@@ -1031,15 +1031,15 @@ inspire the work of Paarvedan Foundation.</p>
                     </div>
                 </div>
                 
-                <!-- Team Member 7: Talha Choudhary -->
+                <!-- Team Member 7: sujal -->
                 <div class="team-col flex-shrink-0" style="width: 280px;">
                     <div class="card team-card h-100 border-0 shadow-sm overflow-hidden">
                         <figure class="image-box position-relative overflow-hidden">
-                            <img loading="lazy" src="image/member7.png" alt="Talha Choudhary - Team Member" class="img-fluid w-100 team-image">
+                            <img loading="lazy" src="image/member7.png" alt="sujal - Team Member" class="img-fluid w-100 team-image">
                         </figure>
                         <div class="card-body text-center p-3">
                             <span class="designation text-muted d-block mb-1 fs-6">Team Member</span>
-                            <h3 class="fw-700 fs-5 text-dark-gray">Talha Choudhary</h3>
+                            <h3 class="fw-700 fs-5 text-dark-gray">sujal</h3>
                             <ul class="list-unstyled d-flex justify-content-center gap-3 mt-3 social-links">
                                 <li><a href="#"><i class="fab fa-facebook-f text-primary"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter text-primary"></i></a></li>
@@ -1050,15 +1050,15 @@ inspire the work of Paarvedan Foundation.</p>
                     </div>
                 </div>
 
-                <!-- Team Member 8: Saqib Ghatte -->
+                <!-- Team Member 8: priyanshu -->
                 <div class="team-col flex-shrink-0" style="width: 280px;">
                     <div class="card team-card h-100 border-0 shadow-sm overflow-hidden">
                         <figure class="image-box position-relative overflow-hidden">
-                            <img loading="lazy" src="image/member8.png" alt="Saqib Ghatte - Team Member" class="img-fluid w-100 team-image">
+                            <img loading="lazy" src="image/member8.png" alt="priyanshu - Team Member" class="img-fluid w-100 team-image">
                         </figure>
                         <div class="card-body text-center p-3">
                             <span class="designation text-muted d-block mb-1 fs-6">Team Member</span>
-                            <h3 class="fw-700 fs-5 text-dark-gray">Saqib Ghatte</h3>
+                            <h3 class="fw-700 fs-5 text-dark-gray">priyanshu</h3>
                             <ul class="list-unstyled d-flex justify-content-center gap-3 mt-3 social-links">
                                 <li><a href="#"><i class="fab fa-facebook-f text-primary"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter text-primary"></i></a></li>

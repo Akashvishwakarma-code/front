@@ -145,7 +145,7 @@
                     </h1>
                 </div>
                 <div class="col-xxl-4 col-lg-5 col-md-7 col-sm-9 last-paragraph-no-margin" data-anime='{ "opacity": [0, 1], "delay": 500, "easing": "easeOutQuad" }'>
-                    <p class="text-white opacity-8">Events we held by which we provide so many things to needy people and also help powering children education.</p>
+                    <p class="text-white opacity-8">Handpicked team activities for your next celebration.</p>
                 </div>
             </div>
         </div>
@@ -1345,6 +1345,19 @@
             }
 
             document.addEventListener('change', e => {
+
+                // If year changes
+                if (e.target.matches('.year-filter')) {
+
+                    // If "all" year selected → select month "all"
+                    if (e.target.value === 'all') {
+                        const allMonthRadio = document.querySelector('input[name="event-month"][value="all"]');
+                        if (allMonthRadio) {
+                            allMonthRadio.checked = true;
+                        }
+                    }
+                }
+
                 if (e.target.matches('.year-filter, .month-filter')) {
                     applyFilter();
                 }

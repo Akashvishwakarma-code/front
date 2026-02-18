@@ -57,57 +57,128 @@
             /* Darker blue on hover */
         }
 
-        .how-it-works{
-            padding: 0px 20px;
+        .how-it-works {
+            padding: 100px 20px;
+            background: #f8f9fa;
+            text-align: center;
         }
 
         .how-it-works h3 {
-            text-align: center;
-            margin-bottom: 60px;
+            font-size: 42px;
+            font-weight: 600;
+            margin-bottom: 70px;
         }
 
         .timeline {
+            display: flex;
+            align-items: flex-start;
             position: relative;
-            max-width: 800px;
+            max-width: 1000px;
             margin: 0 auto;
+            gap: 10px;
+            /* subtle spacing control */
         }
 
+        /* Stronger center line */
         .timeline::before {
             content: "";
             position: absolute;
-            left: 20px;
-            top: 0;
-            width: 3px;
-            height: 100%;
-            background: #e5e7eb;
+            top: 30px;
+            /* exactly half of 60px circle */
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: #dcdcdc;
+            z-index: 0;
         }
 
         .step {
-            display: flex;
-            gap: 20px;
-            margin-bottom: 40px;
             position: relative;
+            flex: 1;
+            z-index: 1;
         }
 
         .step-icon {
-            min-width: 40px;
-            height: 40px;
-            background: #ff6b35;
-            color: #fff;
+            width: 60px;
+            height: 60px;
+            min-width: 60px;
+            background: linear-gradient(135deg, #427deb, #6a9cff);
+            color: white;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-weight: bold;
-            z-index: 1;
+            margin: 0 auto 20px auto;
+            font-weight: 600;
+            font-size: 18px;
+            box-shadow: 0 8px 20px rgba(66, 125, 235, 0.25);
+            aspect-ratio: 1 / 1;
+        }
+
+        .step-content {
+            max-width: 200px;
+            margin: auto;
         }
 
         .step-content h4 {
+            font-size: 16px;
+            font-weight: 600;
             margin-bottom: 8px;
+            white-space: normal;
+            /* allow wrapping */
+            line-height: 1.4;
         }
 
-        .step-content p {
-            color: #555;
+
+        
+
+        @media (max-width: 992px) {
+            .timeline {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .timeline::before {
+                display: none;
+            }
+
+            .step {
+                width: 100%;
+                margin-bottom: 50px;
+            }
+        }
+
+
+        .steps-section {
+            padding: 80px 0;
+        }
+
+        .step-number {
+            font-size: 80px;
+            font-weight: 700;
+            line-height: 1;
+        }
+
+        .step-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .step-description {
+            font-size: 15px;
+        }
+
+        .arrow {
+            font-size: 30px;
+            font-weight: 300;
+        }
+
+        /* Hide arrows on mobile */
+        @media (max-width: 991px) {
+            .arrow-col {
+                display: none;
+            }
         }
 
     </style>
@@ -194,7 +265,7 @@
                 <div class="step">
                     <div class="step-icon">1</div>
                     <div class="step-content">
-                        <h4>Client Outreach</h4>
+                        <h4 class="alt-font">Client Outreach</h4>
                         <p>Corporate partners reach out with their objectives, preferences, and focus areas for a volunteer project.</p>
                     </div>
                 </div>
@@ -202,7 +273,7 @@
                 <div class="step">
                     <div class="step-icon">2</div>
                     <div class="step-content">
-                        <h4>Project Scoping</h4>
+                        <h4 class="alt-font">Project Scoping</h4>
                         <p>We match client preferences with a suitable nonprofit and volunteer activity and scope out the project.</p>
                     </div>
                 </div>
@@ -210,7 +281,7 @@
                 <div class="step">
                     <div class="step-icon">3</div>
                     <div class="step-content">
-                        <h4>Organization & Execution</h4>
+                        <h4 class="alt-font">Organization & Execution</h4>
                         <p>The volunteer project is organized and hosted with all necessary materials and support provided.</p>
                     </div>
                 </div>
@@ -218,7 +289,7 @@
                 <div class="step">
                     <div class="step-icon">4</div>
                     <div class="step-content">
-                        <h4>Completion & Delivery</h4>
+                        <h4 class="alt-font">Completion & Delivery</h4>
                         <p>Once completed, the volunteer output is delivered to the nonprofit partner.</p>
                     </div>
                 </div>
@@ -226,7 +297,7 @@
                 <div class="step">
                     <div class="step-icon">5</div>
                     <div class="step-content">
-                        <h4>Reporting & Feedback</h4>
+                        <h4 class="alt-font">Reporting & Feedback</h4>
                         <p>A detailed impact report is shared based on feedback from the nonprofit and volunteers.</p>
                     </div>
                 </div>
@@ -234,6 +305,68 @@
             </div>
         </div>
     </section>
+
+<section class="steps-section text-center pb-0">
+    <div class="container">
+        
+        <h2 class="mb-5">
+            Plan your outdoor team experience in 4 simple steps
+        </h2>
+
+        <div class="row align-items-start justify-content-center">
+
+            <!-- Step 1 -->
+            <div class="col-lg-2 col-md-6 mb-5">
+                <div class="step-number">1</div>
+                <div class="step-title">Share your requirements</div>
+                <div class="step-description">
+                    Get a curated catalog aligned to your cause(s) delivered to your inbox.
+                </div>
+            </div>
+
+            <div class="col-lg-1 d-flex align-items-center justify-content-center arrow-col">
+                <div class="arrow">→</div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="col-lg-2 col-md-6 mb-5">
+                <div class="step-number">2</div>
+                <div class="step-title">Set your impact date</div>
+                <div class="step-description">
+                    Select a date, location, and mode of engagement of your choice.
+                </div>
+            </div>
+
+            <div class="col-lg-1 d-flex align-items-center justify-content-center arrow-col">
+                <div class="arrow">→</div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="col-lg-2 col-md-6 mb-5">
+                <div class="step-number">3</div>
+                <div class="step-title">Join and volunteer</div>
+                <div class="step-description">
+                    Join the event, moderated by a host, and have fun with your team.
+                </div>
+            </div>
+
+            <div class="col-lg-1 d-flex align-items-center justify-content-center arrow-col">
+                <div class="arrow">→</div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="col-lg-2 col-md-6 mb-5">
+                <div class="step-number">4</div>
+                <div class="step-title">Inspire with storytelling</div>
+                <div class="step-description">
+                    Share your story with your audience. Get post-event goodies and impact reports.
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 
     <!-- start section -->
     <section class="bg-gradient-very-light-gray" id="apply-now">
